@@ -11,6 +11,8 @@ description: "An explanation of OBL from a user's perspective."
 collections:
   authors:
     output: true
+  obl_cases:
+    output: true
 
 defaults:
   - scope:
@@ -18,6 +20,11 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+  - scope:
+      path: ""
+      type: "obl_cases"
+    values:
+      layout: "obl_case"
   - scope:
       path: ""
     values:

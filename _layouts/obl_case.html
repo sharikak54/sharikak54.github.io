@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="backLink">
+	<a href="/cases.html"><-- Back</a>
+</div>
+
+<h1>{{ page.name }}</h1>
+<h2>
+	Type: {{ page.type }} 
+	{% if page.nickname %} - AKA {{ page.nickname }} {% endif %}
+</h2>
+
+{{ content }}
