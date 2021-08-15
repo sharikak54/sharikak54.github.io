@@ -1,1 +1,24 @@
-theme: jekyll-theme-midnight
+# theme
+remote_theme: pages-themes/midnight@v0.2.0
+plugins:
+- jekyll-remote-theme
+
+title: "OBL: An Intuitive Guide"
+description: "An explanation of OBL from a user's perspective."
+
+# site
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
