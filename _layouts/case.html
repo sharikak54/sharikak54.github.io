@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="backLink">
+	<a href="/cases.html"><-- Up</a>
+</div>
+
+<h1>{{ page.name }}</h1>
+<h2>
+	Faces: <a href="/faces/{{page.top}}">{{ page.top }}</a>
+	{% if page.top != page.bot %} / <a href="faces/{{page.bot}}">{{ page.bot }}</a> {% endif %}
+</h2>
+
+{{ content }}

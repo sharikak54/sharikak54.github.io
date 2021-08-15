@@ -4,9 +4,9 @@ title: OBL Cases
 <h1>OBL Cases</h1>
 
 <ul>
-  {% for obl_case in site.obl_cases %}
+  {% for case in site.cases %}
     <li>
-      <h2><a href="{{ obl_case.url }}">{{ obl_case.name }}</a></h2>
+      <h2><a href="{{ case.url }}">{{ case.name }}</a></h2>
     </li>
   {% endfor %}
 </ul>

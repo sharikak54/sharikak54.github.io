@@ -1,0 +1,16 @@
+---
+title: OBL Faces
+---
+<h1>OBL Faces</h1>
+
+<p>
+	Single square faces with mnemonics for memorization.
+</p>
+
+<ul>
+  {% for face in site.faces %}
+    <li>
+      <h2><a href="{{ face.url }}">{{ face.name }}</a></h2>
+    </li>
+  {% endfor %}
+</ul>
