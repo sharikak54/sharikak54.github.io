@@ -7,8 +7,8 @@ layout: default
 
 <h1>{{ page.name }}</h1>
 <h2>
-  Face(s): <a href="/faces/{{page.top}}">{{page.top_lr}} {{ page.top }}</a>
-  {% if page.top != page.bot %} / <a href="/faces/{{page.bot}}">{{page.bot_lr}} {{ page.bot }}</a> {% endif %}
+  Face(s): <a href="/faces/{{page.top | downcase}}">{{page.top_lr}} {{ page.top }}</a>
+  {% if page.top != page.bot %} / <a href="/faces/{{page.bot | downcase}}">{{page.bot_lr}} {{ page.bot }}</a> {% endif %}
 </h2>
 
 {{ content }}
