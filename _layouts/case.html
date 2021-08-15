@@ -2,13 +2,36 @@
 layout: default
 ---
 <div class="backLink">
-	<a href="/cases.html"><-- Up</a>
+  <a href="/cases.html"><-- Up</a>
 </div>
 
 <h1>{{ page.name }}</h1>
 <h2>
-	Faces: <a href="/faces/{{page.top}}">{{ page.top }}</a>
-	{% if page.top != page.bot %} / <a href="faces/{{page.bot}}">{{ page.bot }}</a> {% endif %}
+  Face(s): <a href="/faces/{{page.top}}">{{page.top_lr}} {{ page.top }}</a>
+  {% if page.top != page.bot %} / <a href="faces/{{page.bot}}">{{page.bot_lr}} {{ page.bot }}</a> {% endif %}
 </h2>
 
 {{ content }}
+
+<div>
+  <h3>Best alg</h3>
+  {{page.default_alg.alg}}
+  <br>
+  {{page.default_alg.description}}
+  <br>
+  (TODO embed interactable hereish, depending on mobile or not)
+</div>
+<br>
+
+{% if page.other_algs %}
+<div>
+  <h3>Other algs</h3>
+  {% for alg in page.other_algs %}
+    <div>
+      {{alg.alg}}
+      <br>
+      {{alg.description}}
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
