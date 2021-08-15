@@ -13,4 +13,4 @@ other_algs:
     description: This one's very different and terrible.
 ---
 
-This one's doubly cute, because it has two <a href="faces/snoopy">Snoopy</a>s.
+This one's doubly cute, because it has two <a href="/faces/snoopy">Snoopy</a>s.
