@@ -1,5 +1,6 @@
 ---
 name: Whale
+short_name: whale
 type: 1E1C
 ---
 

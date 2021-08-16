@@ -12,3 +12,7 @@ layout: default
 </h2>
 
 {{ content }}
+
+{% if page.short_name %}
+	<img class="face_image" src="/assets/images/{{page.short_name}}.jpg">
+{% endif %}

@@ -1,5 +1,6 @@
 ---
 name: Pinwheel
+short_name: pinwheel
 type: 2E2C
 ---
 

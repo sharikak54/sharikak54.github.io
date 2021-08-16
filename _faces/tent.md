@@ -1,5 +1,6 @@
 ---
 name: Tent
+short_name: tent
 nickname: Quarter / Pair
 type: 1E1C
 ---
