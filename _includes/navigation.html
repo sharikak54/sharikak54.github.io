@@ -1,12 +1,16 @@
-<nav>
+<ul>
   {% for item in site.data.navigation %}
+  <li>
     <a href="{{ item.link }}" 
 			{% if page.url == item.link %}
 				class="currentPageLink"
-				{% else %}
-				class="otherPageLink"
 			{% endif %}>
       {{ item.name }}
     </a>
+  </li>
   {% endfor %}
-</nav>
+
+  <li class="title">
+    {{ site.title | default: site.github.repository_name }}
+  </li>
+</ul>

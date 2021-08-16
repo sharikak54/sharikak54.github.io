@@ -4,4 +4,4 @@ title: About
 ---
 # About page
 
-This page tells you a little bit about me.
+This will tell you how to use the site.  Should we call it a "Roadmap"?  A "Start Here" page?

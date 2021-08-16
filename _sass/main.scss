@@ -1,10 +1,31 @@
+// Overwrite theme
+div.wrapper {
+	margin-top: 70px;
+}
+body section {
+	padding-top: 0px;
+	padding-bottom: 40px;
+}
 
-.currentPageLink {
+body #header nav {
+	background: inherit;
+}
+
+#header nav ul li a.currentPageLink {
   color: #ffcc00;
 	font-weight: bold;
 }
-.otherPageLink {
-	color: #ffcc0090;
+
+
+// Custom CSS
+
+div.announcement {
+	width: 100%;
+	background-color: blue;
+	color: gainsboro;
+	padding: 5px;
+	font-size: 20px;
+	text-align: center;
 }
 
 
