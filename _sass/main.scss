@@ -28,8 +28,72 @@ div.announcement {
 	text-align: center;
 }
 
-
-
 .backLink {
 	margin-bottom: 60px;
+}
+
+.clicker-wrapper {
+	position: relative;
+}
+div.clicker {
+	cursor: pointer;
+	position: absolute;
+	height: 200px;
+	width: 200px;
+
+	background: 
+	linear-gradient(
+		15deg, rgba(255,255,255,0) 49.5%, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 50.5%
+	),
+	linear-gradient(
+		-15deg, rgba(255,255,255,0) 49.5%, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 50.5%
+	),
+	linear-gradient(
+		75deg, rgba(255,255,255,0) 49.5%, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 50.5%
+	),
+	linear-gradient(
+		-75deg, rgba(255,255,255,0) 49.5%, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 50.5%
+	),
+	linear-gradient(white, white);
+}
+
+.clicker .section {
+	position: absolute;
+	color: black;
+	pointer-events: none;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.clicker .section0 {
+	left: 80px;
+	top: 175px;
+}
+.clicker .section1 {
+	left: 15px;
+	top: 150px;
+}
+.clicker .section2 {
+	left: 15px;
+	top: 90px;
+}
+.clicker .section3 {
+	left: 15px;
+	top: 30px;
+}
+.clicker .section4 {
+	left: 80px;
+	top: 5px;
+}
+.clicker .section5 {
+	left: 150px;
+	top: 30px;
+}
+.clicker .section6 {
+	left: 150px;
+	top: 90px;
+}
+.clicker .section7 {
+	left: 150px;
+	top: 170px;
 }
