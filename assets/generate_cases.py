@@ -33,16 +33,19 @@ for filename in filenames:
     'short_name': short_name,
     'nickname': nickname,
     'obl_type': obl_type,
+    'LR': has_lr,
     'lr': has_lr
   }
 
-  if (face['lr']):
+  if (face['LR']):
     lface = face.copy()
-    lface['short_name'] = "l" + face['short_name']
-    lface['lr'] = "Left"
+    lface['lr_short_name'] = "l" + face['short_name']
+    lface['LR'] = "Left"
+    lface['lr'] = "l"
     rface = face.copy()
-    rface['short_name'] = "r" + face['short_name']
-    rface['lr'] = "Right"
+    rface['lr_short_name'] = "r" + face['short_name']
+    rface['LR'] = "Right"
+    rface['lr'] = "r"
     insert = [lface, rface]
   else:
     insert = [face]
@@ -55,36 +58,47 @@ for filename in filenames:
 for obl_type in obl_types.keys():
   # print("\n### " + obl_type)
   for top_face in obl_types[obl_type]:
+    print(top_face)
     for bot_face in obl_types[obl_type]:
-      top_face_name = top_face['name']
-      bot_face_name = bot_face['name']
+      top_name = top_face['name']
+      bot_name = bot_face['name']
+      top_short_name = top_face['short_name']
+      bot_short_name = bot_face['short_name']
       case = {
-        'short_name': top_face['short_name'] + "_" + bot_face['short_name'],
         'top': top_face['name'],
+        'top_short_name': top_short_name,
         'top_lr': False,
         'bot': bot_face['name'],
+        'bot_short_name': bot_short_name,
         'bot_lr': False,
         'type': obl_type
       }
 
       # LR stuff
-      if (top_face['lr']):
-        case['top_lr'] = top_face['lr']
-        top_face_name = top_face['lr'] + " " + top_face['name']
-      if (bot_face['lr']):
-        case['bot_lr'] = bot_face['lr']
-        bot_face_name = bot_face['lr'] + " " + bot_face['name']
-      case['name'] = top_face_name + " / " + bot_face_name
+      if (top_face['LR']):
+        case['top_lr'] = top_face['LR']
+        top_name = top_face['LR'] + " " + top_face['name']
+        top_short_name = top_face['lr'] + top_face['short_name']
+      if (bot_face['LR']):
+        case['bot_lr'] = bot_face['LR']
+        bot_name = bot_face['LR'] + " " + bot_face['name']
+        bot_short_name = bot_face['lr'] + bot_face['short_name']
+
+      case['name'] = top_name + " / " + bot_name
+      case['short_name'] = top_short_name + "_" + bot_short_name
 
       print(case)
       filename = CASE_DIR + case['short_name'] + ".md"
 
       contents = "---\n"
       contents += "name: {}\n".format(case['name'])
+      contents += "short_name: {}\n".format(case['short_name'])
       contents += "top: {}\n".format(case['top'])
+      contents += "top_short_name: {}\n".format(case['top_short_name'])
       if case['top_lr']:
         contents += "top_lr: {}\n".format(case['top_lr'])
       contents += "bot: {}\n".format(case['bot'])
+      contents += "bot_short_name: {}\n".format(case['bot_short_name'])
       if case['bot_lr']:
         contents += "bot_lr: {}\n".format(case['bot_lr'])
       contents += "\n"

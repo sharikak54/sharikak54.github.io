@@ -1,8 +1,11 @@
 ---
 name: Left Kite / Left Kite
+short_name: lkite_lkite
 top: Kite
+top_short_name: kite
 top_lr: Left
 bot: Kite
+bot_short_name: kite
 bot_lr: Left
 
 default_alg:

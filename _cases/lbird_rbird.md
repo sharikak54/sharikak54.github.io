@@ -1,8 +1,11 @@
 ---
 name: Left Bird / Right Bird
+short_name: lbird_rbird
 top: Bird
+top_short_name: bird
 top_lr: Left
 bot: Bird
+bot_short_name: bird
 bot_lr: Right
 
 default_alg:

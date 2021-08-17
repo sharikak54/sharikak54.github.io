@@ -1,8 +1,11 @@
 ---
 name: Right Zero / Right Zero
+short_name: rzero_rzero
 top: Zero
+top_short_name: zero
 top_lr: Right
 bot: Zero
+bot_short_name: zero
 bot_lr: Right
 
 default_alg:

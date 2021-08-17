@@ -1,8 +1,11 @@
 ---
 name: Right Bird / Seashell
+short_name: rbird_seashell
 top: Bird
+top_short_name: bird
 top_lr: Right
 bot: Seashell
+bot_short_name: seashell
 
 default_alg:
   alg: "0,0/"

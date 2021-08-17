@@ -1,8 +1,11 @@
 ---
 name: Right Bird / Right Scottish Terrier
+short_name: rbird_rscottie
 top: Bird
+top_short_name: bird
 top_lr: Right
 bot: Scottish Terrier
+bot_short_name: scottie
 bot_lr: Right
 
 default_alg:

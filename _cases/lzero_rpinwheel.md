@@ -1,8 +1,11 @@
 ---
 name: Left Zero / Right Pinwheel
+short_name: lzero_rpinwheel
 top: Zero
+top_short_name: zero
 top_lr: Left
 bot: Pinwheel
+bot_short_name: pinwheel
 bot_lr: Right
 
 default_alg:

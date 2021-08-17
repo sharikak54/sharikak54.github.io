@@ -1,8 +1,11 @@
 ---
 name: Left Spilled Paint Can / Left Snoopy
+short_name: lspill_lsnoopy
 top: Spilled Paint Can
+top_short_name: spill
 top_lr: Left
 bot: Snoopy
+bot_short_name: snoopy
 bot_lr: Left
 
 default_alg:

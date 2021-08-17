@@ -1,8 +1,11 @@
 ---
 name: Right Pinwheel / Right Kite
+short_name: rpinwheel_rkite
 top: Pinwheel
+top_short_name: pinwheel
 top_lr: Right
 bot: Kite
+bot_short_name: kite
 bot_lr: Right
 
 default_alg:

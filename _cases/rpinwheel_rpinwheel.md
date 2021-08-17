@@ -1,8 +1,11 @@
 ---
 name: Right Pinwheel / Right Pinwheel
+short_name: rpinwheel_rpinwheel
 top: Pinwheel
+top_short_name: pinwheel
 top_lr: Right
 bot: Pinwheel
+bot_short_name: pinwheel
 bot_lr: Right
 
 default_alg:

@@ -1,8 +1,11 @@
 ---
 name: Right Red Baron / Left Red Baron
+short_name: rbaron_lbaron
 top: Red Baron
+top_short_name: baron
 top_lr: Right
 bot: Red Baron
+bot_short_name: baron
 bot_lr: Left
 
 default_alg:

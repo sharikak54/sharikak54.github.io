@@ -1,8 +1,11 @@
 ---
 name: Left Satellite Dish / Right Satellite Dish
+short_name: ldish_rdish
 top: Satellite Dish
+top_short_name: dish
 top_lr: Left
 bot: Satellite Dish
+bot_short_name: dish
 bot_lr: Right
 
 default_alg:

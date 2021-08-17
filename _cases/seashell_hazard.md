@@ -1,7 +1,10 @@
 ---
 name: Seashell / Hazard
+short_name: seashell_hazard
 top: Seashell
+top_short_name: seashell
 bot: Hazard
+bot_short_name: hazard
 
 default_alg:
   alg: "0,0/"

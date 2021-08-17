@@ -1,8 +1,11 @@
 ---
 name: Left Zero / Left Zero
+short_name: lzero_lzero
 top: Zero
+top_short_name: zero
 top_lr: Left
 bot: Zero
+bot_short_name: zero
 bot_lr: Left
 
 default_alg:

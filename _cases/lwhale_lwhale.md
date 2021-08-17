@@ -1,8 +1,11 @@
 ---
 name: Left Whale / Left Whale
+short_name: lwhale_lwhale
 top: Whale
+top_short_name: whale
 top_lr: Left
 bot: Whale
+bot_short_name: whale
 bot_lr: Left
 
 default_alg:

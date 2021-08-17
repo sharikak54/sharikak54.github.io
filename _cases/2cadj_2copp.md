@@ -1,8 +1,8 @@
 ---
-name: 2C Opposite / 2C Opposite
-short_name: 2copp_2copp
-top: 2C Opposite
-top_short_name: 2copp
+name: 2C Adjacent / 2C Opposite
+short_name: 2cadj_2copp
+top: 2C Adjacent
+top_short_name: 2cadj
 bot: 2C Opposite
 bot_short_name: 2copp
 

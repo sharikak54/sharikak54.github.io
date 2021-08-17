@@ -1,8 +1,11 @@
 ---
 name: Right Tent / Right Whale
+short_name: rtent_rwhale
 top: Tent
+top_short_name: tent
 top_lr: Right
 bot: Whale
+bot_short_name: whale
 bot_lr: Right
 
 default_alg:

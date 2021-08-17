@@ -1,7 +1,10 @@
 ---
 name: Gem / Gem
+short_name: gem_gem
 top: Gem
+top_short_name: gem
 bot: Gem
+bot_short_name: gem
 
 default_alg:
   alg: "0,0/"
