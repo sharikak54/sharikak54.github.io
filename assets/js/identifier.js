@@ -24,9 +24,9 @@ function onClickClicker(e) {
 
 function toggleColor(sectionNum) {
   const $section = $("#clicker1").find("div.section.section" + sectionNum);
-  const was_white = $section.text() === "white";
-  $section.text(was_white ? "yellow" : "white")
-    .css("color", was_white ? "gold" : "");
+  const was_top = $section.text() === "top";
+  $section.text(was_top ? "bottom" : "top")
+    .css("color", was_top ? "gold" : "");
 }
 
 const line0 = Math.atan(Math.PI/12);
