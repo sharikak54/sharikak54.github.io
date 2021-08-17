@@ -14,5 +14,11 @@ layout: default
 {{ content }}
 
 {% if page.short_name %}
-	<img class="face_image" src="/assets/images/{{page.short_name}}.jpg">
+	{% assign image_path = page.short_name | prepend: '/assets/images/' | append: ".jpg" %}
+	{% assign file_exists = site.static_files | where: "path", image_path  %}
+	{% if file_exists.size != 0 %}
+		<img class="face_image" src="{{image_path}}">
+	{% else %}
+		<div><i>Sorry, no image exists.</i></div>
+	{% endif %}
 {% endif %}
