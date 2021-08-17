@@ -1,6 +1,8 @@
 from os import listdir
 from os.path import isfile, join
 
+return false
+
 FACE_DIR = "../_faces/"
 CASE_DIR = "../_cases/"
 
