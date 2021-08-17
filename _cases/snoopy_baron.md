@@ -1,5 +1,5 @@
 ---
-name: Snoopy/Baron
+name: Snoopy / Baron
 top: Snoopy
 top_lr: Left
 bot: Baron
