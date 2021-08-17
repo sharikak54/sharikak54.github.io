@@ -1,6 +1,6 @@
 ---
-name: Moth / Moth
-short_name: moth_moth
+name: Swapped Moth
+short_name: moth_moth_swapped
 top: Moth
 top_short_name: moth
 bot: Moth
@@ -17,5 +17,5 @@ other_algs:
 
 Description TODO
 
-Two moths that are the same color.  Distinguished from the <a href="moth_moth_swapped.html">different-colored moth case</a>.
+Two differently-colored moths.  Distinguished from the <a href="moth_moth.html">double-moth case</a>.
 

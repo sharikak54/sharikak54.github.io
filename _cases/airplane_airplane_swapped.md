@@ -1,6 +1,6 @@
 ---
-name: Airplane / Airplane
-short_name: airplane_airplane
+name: Swapped Airplane
+short_name: airplane_airplane_swapped
 top: Airplane
 top_short_name: airplane
 bot: Airplane
@@ -17,5 +17,5 @@ other_algs:
 
 Description TODO
 
-Two airplanes that are the same color.  Distinguished from the <a href="airplane_airplane_swapped.html">different-colored airplane case</a>.
+Two differently-colored airplanes.  Distinguished from the <a href="airplane_airplane.html">double-airplane case</a>.
 

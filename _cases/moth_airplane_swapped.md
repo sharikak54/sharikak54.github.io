@@ -1,6 +1,6 @@
 ---
-name: Moth / Airplane
-short_name: moth_airplane
+name: Swapped Moth / Airplane
+short_name: moth_airplane_swapped
 top: Moth
 top_short_name: moth
 bot: Airplane
@@ -17,5 +17,5 @@ other_algs:
 
 Description TODO
 
-A moth and airplane that are the same color.  Distinguished from the <a href="moth_airplane_swapped.html">different-color moth/airplane case</a>.
+A moth and airplane that are different colors.  Distinguished from the <a href="moth_airplane.html">same-color moth/airplane case</a>.
 
