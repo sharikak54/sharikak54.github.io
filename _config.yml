@@ -8,6 +8,8 @@ description: "An explanation of OBL from a user's perspective."
 
 # site
 
+announcement: true
+
 collections:
   authors:
     output: true

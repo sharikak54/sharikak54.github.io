@@ -6,7 +6,7 @@ bot: Baron
 bot_lr: Left
 
 default_alg:
-  alg: "0,1/-1,0/6,6"
+  alg: "4,-3/-1,6"
   description: Will definitely solve this case.
 ---
 

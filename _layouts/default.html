@@ -22,22 +22,22 @@
 
     <div class="wrapper">
 
-      <div class="announcement">
-        {% include announcement.md %}
-      </div>
+      {% if site.announcement %}
+        <div class="announcement">
+          {% include announcement.md %}
+        </div>
+      {% endif %}
 
 			<section>
         {% if page.title == "Home" %}
-        <div id="title">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          <p>{{ site.description | default: site.github.project_tagline }}</p>
-					<hr>
-				</div>
+          <div id="title">
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+            <p>{{ site.description | default: site.github.project_tagline }}</p>
+            <hr>
+          </div>
         {% endif %}
 
-
         {{ content }}
-
 			</section>
 
       <section>

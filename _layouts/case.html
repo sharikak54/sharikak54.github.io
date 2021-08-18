@@ -21,7 +21,12 @@ layout: default
   <br>
   {{page.default_alg.description}}
   <br>
-  (TODO embed interactable hereish, depending on mobile or not)
+  <br>
+
+  <div>
+    {% assign title = page.name | prepend: 'OBL: ' %}
+    {% include squandb_embed.html title=title alg=page.default_alg.alg %}
+  </div>
 </div>
 <br>
 
