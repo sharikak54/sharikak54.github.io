@@ -1,5 +1,5 @@
 ---
-name: Swapped Moth
+name: Swapped Moth / Moth
 short_name: moth_moth_swapped
 top: Moth
 top_short_name: moth
