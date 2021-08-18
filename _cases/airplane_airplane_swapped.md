@@ -1,5 +1,5 @@
 ---
-name: Swapped Airplane
+name: Swapped Airplane / Airplane
 short_name: airplane_airplane_swapped
 top: Airplane
 top_short_name: airplane
