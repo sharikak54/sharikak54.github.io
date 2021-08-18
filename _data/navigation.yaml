@@ -1,10 +1,10 @@
 - name: Home
   link: /
 - name: Learn
-  link: /about.html
+  link: /start.html
   sublinks:
-    - name: About
-      link: /about.html
+    - name: Start
+      link: /start.html
     - name: Faces
       link: /faces.html
     - name: Cases
@@ -18,5 +18,5 @@
       link: /identifier.html
     - name: Trainer?
       link: /trainer.html
-- name: Staff
-  link: /staff.html
+- name: About
+  link: /about.html
