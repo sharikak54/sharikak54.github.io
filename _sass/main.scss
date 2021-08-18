@@ -1,4 +1,5 @@
 // Overwrite theme
+
 div.wrapper {
 	margin-top: 70px;
 }
@@ -16,8 +17,51 @@ body #header nav {
 	font-weight: bold;
 }
 
+// Dropdown from css-tricks.com
+
+nav li {
+  float: left;
+  padding: 0 4px;
+  position: relative;
+  text-decoration: none;
+}
+
+nav li:focus-within a {
+  outline: none;
+}
+
+nav ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  left: 0;
+  display: none;
+}
+
+nav ul li:hover > ul,
+nav ul li:focus-within > ul,
+nav ul li ul:hover,
+nav ul li ul:focus {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+	background: linear-gradient(#aaa1 0%, #aaa4 20%, #aaa8 60%);
+	border-radius: 0 0 5px 5px;
+}
+
+nav ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
 
 // Custom CSS
+
+body * {
+	transition-duration: 0.2s; // Joseph's buttery transitions
+}
 
 div.announcement {
 	width: 100%;

@@ -1,7 +1,10 @@
 from os import listdir
 from os.path import isfile, join
 
-return false
+# COMMENT THIS OUT TO RUN
+# WARNING: this script overwrites a ton of files,
+# make sure you know what you're doing
+quit()
 
 FACE_DIR = "../_faces/"
 CASE_DIR = "../_cases/"

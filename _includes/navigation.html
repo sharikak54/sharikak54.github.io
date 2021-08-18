@@ -7,6 +7,21 @@
 			{% endif %}>
       {{ item.name }}
     </a>
+
+    {% if item.sublinks %}
+      <ul class="dropdown" aria-label="submenu">
+        {% for subitem in item.sublinks %}
+          <li>
+            <a href="{{subitem.link}}"
+              {% if page.url == subitem.link %}
+                class="currentPageLink"
+              {% endif %}>
+              {{subitem.name}}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </li>
   {% endfor %}
 
