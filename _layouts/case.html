@@ -13,42 +13,74 @@ layout: default
   {% endif %}
 </h2>
 
+{{ content }}
+
+<!-- TODO quicklinks to different headers -->
+
+<h2>Recognition</h2>
+
+<div>image of faces here TBD</div>
+<br>
+
 <!-- 
   TODO both faces image near top
   https://cubiclealgdbimagegen.azurewebsites.net/generator?&stage=obl&puzzle=sq1&type=png&scheme=FFFFFF-FF0000-00FF00-EEEE00-FF00FF-0000FF&case=1,-1/-3,-3/1,-4/4,-2/2,-4/2,0/-2,4/1,-5/-3,0/-3,-3/5,4/6,0/6,0/
  -->
 
-{{ content }}
+{% if page.recognition %}
+  {{page.recognition}}
+  <br>
+  <br>
+{% endif %}
 
-<!-- 
-  TODO button to hide/show embeddable
-  TODO button to replace alg in embeddable
--->
+<h2>Algorithms</h2>
 
 <div>
-  <h3>Best alg</h3>
-  {{page.default_alg.alg}}
-  <br>
-  {{page.default_alg.description}}
-  <br>
-  <br>
+  <h3>Best Alg: {{page.default_alg.alg}}</h3>
+  <!-- 
+    TODO button to hide/show embeddable
+    TODO button to replace alg in embeddable
+  -->
+
+  {% if page.default_alg.description %}
+    {{page.default_alg.description}}
+  {% endif %}
 
   <div>
     {% assign title = page.name | prepend: 'OBL: ' %}
     {% include squandb_embed.html title=title alg=page.default_alg.alg %}
   </div>
-</div>
-<br>
+  <br>
+  <br>
 
-{% if page.other_algs %}
+</div>
+
+{% if page.mirror_algs %}
+<br>
 <div>
-  <h3>Other algs</h3>
-  {% for alg in page.other_algs %}
+  <h3>Color Mirror Algs</h3>
+  {% for alg in page.mirror_algs %}
     <div>
-      {{alg.alg}}
-      <br>
+      <b>{{alg.alg}}</b>:
       {{alg.description}}
     </div>
   {% endfor %}
 </div>
 {% endif %}
+
+{% if page.other_algs %}
+<br>
+<div>
+  <h3>Other Algs</h3>
+  {% for alg in page.other_algs %}
+    <div>
+      <b>{{alg.alg}}</b>:
+      {{alg.description}}
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<!-- TODO parents -->
+
+<!-- TODO calculate mirrors (top/bot, L/R, pseudo) -->
