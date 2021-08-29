@@ -7,13 +7,41 @@ bot: Kite
 bot_short_name: kite
 bot_lr: Left
 
+recognition: TODO
+
+# ALGORITHMS
 default_alg:
   alg: "0,0/"
   description: TODO
+mirror_algs:
+  -
+    alg: "0,0/"
+    description: TODO
 other_algs:
   -
     alg: "0,0/"
     description: TODO
+
+# RELATED CASES
+parents:
+  -
+    name: TODO
+    short_name: TODO
+mirrors:
+  -
+    type: top_bot
+    values: 
+      -
+        name: Left Kite / Moth
+        short_name: lkite_moth
+  -
+    type: lr
+    values: 
+      -
+        name: Moth / Right Kite
+        short_name: moth_rkite
+
+
 ---
 
 Description TODO

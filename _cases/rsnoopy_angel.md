@@ -7,13 +7,41 @@ top_lr: Right
 bot: Angel
 bot_short_name: angel
 
+recognition: TODO
+
+# ALGORITHMS
 default_alg:
   alg: "0,0/"
   description: TODO
+mirror_algs:
+  -
+    alg: "0,0/"
+    description: TODO
 other_algs:
   -
     alg: "0,0/"
     description: TODO
+
+# RELATED CASES
+parents:
+  -
+    name: TODO
+    short_name: TODO
+mirrors:
+  -
+    type: top_bot
+    values: 
+      -
+        name: Angel / Right Snoopy
+        short_name: angel_rsnoopy
+  -
+    type: lr
+    values: 
+      -
+        name: Left Snoopy / Angel
+        short_name: lsnoopy_angel
+
+
 ---
 
 Description TODO

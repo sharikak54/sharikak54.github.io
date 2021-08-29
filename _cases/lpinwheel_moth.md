@@ -7,13 +7,41 @@ top_lr: Left
 bot: Moth
 bot_short_name: moth
 
+recognition: TODO
+
+# ALGORITHMS
 default_alg:
   alg: "0,0/"
   description: TODO
+mirror_algs:
+  -
+    alg: "0,0/"
+    description: TODO
 other_algs:
   -
     alg: "0,0/"
     description: TODO
+
+# RELATED CASES
+parents:
+  -
+    name: TODO
+    short_name: TODO
+mirrors:
+  -
+    type: top_bot
+    values: 
+      -
+        name: Moth / Left Pinwheel
+        short_name: moth_lpinwheel
+  -
+    type: lr
+    values: 
+      -
+        name: Right Pinwheel / Moth
+        short_name: rpinwheel_moth
+
+
 ---
 
 Description TODO

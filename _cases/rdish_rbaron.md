@@ -8,13 +8,50 @@ bot: Red Baron
 bot_short_name: baron
 bot_lr: Right
 
+recognition: TODO
+
+# ALGORITHMS
 default_alg:
   alg: "0,0/"
   description: TODO
+mirror_algs:
+  -
+    alg: "0,0/"
+    description: TODO
 other_algs:
   -
     alg: "0,0/"
     description: TODO
+
+# RELATED CASES
+parents:
+  -
+    name: TODO
+    short_name: TODO
+mirrors:
+  -
+    type: top_bot
+    values: 
+      -
+        name: Right Red Baron / Right Satellite Dish
+        short_name: rbaron_rdish
+  -
+    type: lr
+    values: 
+      -
+        name: Left Satellite Dish / Left Red Baron
+        short_name: ldish_lbaron
+  -
+    type: pseudo
+    values: 
+      -
+        name: Left Satellite Dish / Right Red Baron
+        short_name: ldish_rbaron
+      -
+        name: Right Satellite Dish / Left Red Baron
+        short_name: rdish_lbaron
+
+
 ---
 
 Description TODO

@@ -6,16 +6,36 @@ top_short_name: moth
 bot: Airplane
 bot_short_name: airplane
 
+recognition: TODO
+
+# ALGORITHMS
 default_alg:
   alg: "0,0/"
   description: TODO
+mirror_algs:
+  -
+    alg: "0,0/"
+    description: TODO
 other_algs:
   -
     alg: "0,0/"
     description: TODO
+
+# RELATED CASES
+parents:
+  -
+    name: TODO
+    short_name: TODO
+mirrors:
+  -
+    type: top_bot
+    values: 
+      -
+        name: Airplane / Moth
+        short_name: airplane_moth
+
+
 ---
 
 Description TODO
-
-A moth and airplane that are the same color.  Distinguished from the <a href="moth_airplane_swapped.html">different-color moth/airplane case</a>.
 

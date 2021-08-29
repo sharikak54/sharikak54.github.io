@@ -7,13 +7,41 @@ top_lr: Left
 bot: Moth
 bot_short_name: moth
 
+recognition: TODO
+
+# ALGORITHMS
 default_alg:
   alg: "0,0/"
   description: TODO
+mirror_algs:
+  -
+    alg: "0,0/"
+    description: TODO
 other_algs:
   -
     alg: "0,0/"
     description: TODO
+
+# RELATED CASES
+parents:
+  -
+    name: TODO
+    short_name: TODO
+mirrors:
+  -
+    type: top_bot
+    values: 
+      -
+        name: Moth / Left Zero
+        short_name: moth_lzero
+  -
+    type: lr
+    values: 
+      -
+        name: Right Zero / Moth
+        short_name: rzero_moth
+
+
 ---
 
 Description TODO
