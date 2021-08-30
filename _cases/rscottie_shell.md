@@ -28,18 +28,14 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Shell / Right Scottish Terrier
-        short_name: shell_rscottie
-  -
-    type: lr
-    values: 
-      -
-        name: Left Scottish Terrier / Shell
-        short_name: lscottie_shell
+  top_bot:
+    -
+      name: Shell / Right Scottish Terrier
+      short_name: shell_rscottie
+  lr:
+    -
+      name: Left Scottish Terrier / Shell
+      short_name: lscottie_shell
 
 
 ---

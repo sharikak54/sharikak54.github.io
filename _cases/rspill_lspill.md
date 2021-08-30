@@ -29,21 +29,17 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: lr
-    values: 
-      -
-        name: Left Spilled Paint Can / Right Spilled Paint Can
-        short_name: lspill_rspill
-  -
-    type: pseudo
-    values: 
-      -
-        name: Left Spilled Paint Can / Left Spilled Paint Can
-        short_name: lspill_lspill
-      -
-        name: Right Spilled Paint Can / Right Spilled Paint Can
-        short_name: rspill_rspill
+  lr:
+    -
+      name: Left Spilled Paint Can / Right Spilled Paint Can
+      short_name: lspill_rspill
+  pseudo:
+    -
+      name: Left Spilled Paint Can / Left Spilled Paint Can
+      short_name: lspill_lspill
+    -
+      name: Right Spilled Paint Can / Right Spilled Paint Can
+      short_name: rspill_rspill
 
 
 ---

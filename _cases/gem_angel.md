@@ -27,12 +27,10 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Angel / Gem
-        short_name: angel_gem
+  top_bot:
+    -
+      name: Angel / Gem
+      short_name: angel_gem
 
 
 ---

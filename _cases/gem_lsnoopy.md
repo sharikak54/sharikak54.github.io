@@ -28,18 +28,14 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Left Snoopy / Gem
-        short_name: lsnoopy_gem
-  -
-    type: lr
-    values: 
-      -
-        name: Gem / Right Snoopy
-        short_name: gem_rsnoopy
+  top_bot:
+    -
+      name: Left Snoopy / Gem
+      short_name: lsnoopy_gem
+  lr:
+    -
+      name: Gem / Right Snoopy
+      short_name: gem_rsnoopy
 
 
 ---

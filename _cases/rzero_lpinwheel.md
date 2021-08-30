@@ -29,27 +29,21 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Left Pinwheel / Right Zero
-        short_name: lpinwheel_rzero
-  -
-    type: lr
-    values: 
-      -
-        name: Left Zero / Right Pinwheel
-        short_name: lzero_rpinwheel
-  -
-    type: pseudo
-    values: 
-      -
-        name: Left Zero / Left Pinwheel
-        short_name: lzero_lpinwheel
-      -
-        name: Right Zero / Right Pinwheel
-        short_name: rzero_rpinwheel
+  top_bot:
+    -
+      name: Left Pinwheel / Right Zero
+      short_name: lpinwheel_rzero
+  lr:
+    -
+      name: Left Zero / Right Pinwheel
+      short_name: lzero_rpinwheel
+  pseudo:
+    -
+      name: Left Zero / Left Pinwheel
+      short_name: lzero_lpinwheel
+    -
+      name: Right Zero / Right Pinwheel
+      short_name: rzero_rpinwheel
 
 
 ---

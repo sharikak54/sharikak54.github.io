@@ -27,12 +27,10 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: 2E Adjacent / 2E Opposite
-        short_name: 2eadj_2eopp
+  top_bot:
+    -
+      name: 2E Adjacent / 2E Opposite
+      short_name: 2eadj_2eopp
 
 
 ---

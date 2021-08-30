@@ -28,18 +28,14 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Left Kite / Airplane
-        short_name: lkite_airplane
-  -
-    type: lr
-    values: 
-      -
-        name: Airplane / Right Kite
-        short_name: airplane_rkite
+  top_bot:
+    -
+      name: Left Kite / Airplane
+      short_name: lkite_airplane
+  lr:
+    -
+      name: Airplane / Right Kite
+      short_name: airplane_rkite
 
 
 ---

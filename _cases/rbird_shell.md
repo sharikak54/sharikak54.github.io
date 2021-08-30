@@ -28,18 +28,14 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Shell / Right Bird
-        short_name: shell_rbird
-  -
-    type: lr
-    values: 
-      -
-        name: Left Bird / Shell
-        short_name: lbird_shell
+  top_bot:
+    -
+      name: Shell / Right Bird
+      short_name: shell_rbird
+  lr:
+    -
+      name: Left Bird / Shell
+      short_name: lbird_shell
 
 
 ---

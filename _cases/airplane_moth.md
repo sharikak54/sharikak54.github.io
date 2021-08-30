@@ -27,12 +27,10 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Moth / Airplane
-        short_name: moth_airplane
+  top_bot:
+    -
+      name: Moth / Airplane
+      short_name: moth_airplane
 
 
 ---

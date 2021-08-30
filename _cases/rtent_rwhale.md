@@ -29,27 +29,21 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Right Whale / Right Tent
-        short_name: rwhale_rtent
-  -
-    type: lr
-    values: 
-      -
-        name: Left Tent / Left Whale
-        short_name: ltent_lwhale
-  -
-    type: pseudo
-    values: 
-      -
-        name: Left Tent / Right Whale
-        short_name: ltent_rwhale
-      -
-        name: Right Tent / Left Whale
-        short_name: rtent_lwhale
+  top_bot:
+    -
+      name: Right Whale / Right Tent
+      short_name: rwhale_rtent
+  lr:
+    -
+      name: Left Tent / Left Whale
+      short_name: ltent_lwhale
+  pseudo:
+    -
+      name: Left Tent / Right Whale
+      short_name: ltent_rwhale
+    -
+      name: Right Tent / Left Whale
+      short_name: rtent_lwhale
 
 
 ---

@@ -1,11 +1,22 @@
 ---
 layout: default
 ---
-<div class="backLink">
-  <a href="/cases.html"><-- Up</a>
+<div class="pageNav">
+  <div class="backLink">
+    <a href="/cases.html"><-- Up</a>
+  </div>
+
+  <div class="quickLinks">
+    Jump to: 
+      <a href="#main">Title</a> - 
+      <a href="#algs">Algorithms</a> - 
+      <a href="#relatives">Related Cases</a>
+  </div>
 </div>
 
-<h1>{{ page.name }}</h1>
+
+
+<h1 id="main">{{ page.name }}</h1>
 <h2>
   Face(s): <a href="/faces/{{page.top_short_name}}">{{page.top_lr}} {{ page.top }}</a>
   {% if page.top != page.bot or page.top_lr != page.bot_lr %}
@@ -15,9 +26,7 @@ layout: default
 
 {{ content }}
 
-<!-- TODO quicklinks to different headers -->
-
-<h2>Recognition</h2>
+<h2 id="recognition">Recognition</h2>
 
 <div>image of faces here TBD</div>
 <br>
@@ -33,7 +42,7 @@ layout: default
   <br>
 {% endif %}
 
-<h2>Algorithms</h2>
+<h2 id="algs">Algorithms</h2>
 
 <div>
   <h3>Best Alg: {{page.default_alg.alg}}</h3>
@@ -81,6 +90,76 @@ layout: default
 </div>
 {% endif %}
 
-<!-- TODO parents -->
+<br>
+<br>
+<br>
 
-<!-- TODO calculate mirrors (top/bot, L/R, pseudo) -->
+
+
+<h2 id="relatives">Related Cases</h2>
+
+<div>
+  <h3>Parent Case(s)</h3>
+  Relatively useful cases that can be reached in one slice from this case.
+  <ul>
+    {% for case in page.parents %}
+      <li>
+        <a href="./{{case.short_name}}">{{case.name}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<br>
+<div>
+  <h3>Mirror(s)</h3>
+  {% if page.mirrors %}
+
+  {% if page.mirrors.top_bot %}
+    <div>
+      <b>Top/Bottom Mirror</b>:
+      When the top and bottom face are swapped directly.
+      <ul>
+        {% for mirror in page.mirrors.top_bot %}
+          <li>
+            <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  {% if page.mirrors.lr %}
+    <div>
+      <b>Left/Right Mirror</b>:
+      When the top and bottom face are swapped with their respective left/right mirrors.
+      <ul>
+        {% for mirror in page.mirrors.lr %}
+          <li>
+            <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  {% if page.mirrors.pseudo %}
+    <div>
+      <b>Pseudo Mirror(s)</b>:
+      When only one face is mirrored.  Not a real mirror, but it looks like one; don't be tricked!
+      <ul>
+        {% for mirror in page.mirrors.pseudo %}
+          <li>
+            <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+  {% else %}
+    <i>No mirrors found.</i>
+  {% endif %}
+</div>
+
+

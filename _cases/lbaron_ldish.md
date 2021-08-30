@@ -29,27 +29,21 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Left Satellite Dish / Left Red Baron
-        short_name: ldish_lbaron
-  -
-    type: lr
-    values: 
-      -
-        name: Right Red Baron / Right Satellite Dish
-        short_name: rbaron_rdish
-  -
-    type: pseudo
-    values: 
-      -
-        name: Right Red Baron / Left Satellite Dish
-        short_name: rbaron_ldish
-      -
-        name: Left Red Baron / Right Satellite Dish
-        short_name: lbaron_rdish
+  top_bot:
+    -
+      name: Left Satellite Dish / Left Red Baron
+      short_name: ldish_lbaron
+  lr:
+    -
+      name: Right Red Baron / Right Satellite Dish
+      short_name: rbaron_rdish
+  pseudo:
+    -
+      name: Right Red Baron / Left Satellite Dish
+      short_name: rbaron_ldish
+    -
+      name: Left Red Baron / Right Satellite Dish
+      short_name: lbaron_rdish
 
 
 ---

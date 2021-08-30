@@ -28,18 +28,14 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Hazard / Left Scottish Terrier
-        short_name: hazard_lscottie
-  -
-    type: lr
-    values: 
-      -
-        name: Right Scottish Terrier / Hazard
-        short_name: rscottie_hazard
+  top_bot:
+    -
+      name: Hazard / Left Scottish Terrier
+      short_name: hazard_lscottie
+  lr:
+    -
+      name: Right Scottish Terrier / Hazard
+      short_name: rscottie_hazard
 
 
 ---

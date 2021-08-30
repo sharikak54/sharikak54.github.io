@@ -29,27 +29,21 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Left Pinwheel / Right Kite
-        short_name: lpinwheel_rkite
-  -
-    type: lr
-    values: 
-      -
-        name: Left Kite / Right Pinwheel
-        short_name: lkite_rpinwheel
-  -
-    type: pseudo
-    values: 
-      -
-        name: Left Kite / Left Pinwheel
-        short_name: lkite_lpinwheel
-      -
-        name: Right Kite / Right Pinwheel
-        short_name: rkite_rpinwheel
+  top_bot:
+    -
+      name: Left Pinwheel / Right Kite
+      short_name: lpinwheel_rkite
+  lr:
+    -
+      name: Left Kite / Right Pinwheel
+      short_name: lkite_rpinwheel
+  pseudo:
+    -
+      name: Left Kite / Left Pinwheel
+      short_name: lkite_lpinwheel
+    -
+      name: Right Kite / Right Pinwheel
+      short_name: rkite_rpinwheel
 
 
 ---

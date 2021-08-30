@@ -29,21 +29,17 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: lr
-    values: 
-      -
-        name: Right Zero / Left Zero
-        short_name: rzero_lzero
-  -
-    type: pseudo
-    values: 
-      -
-        name: Right Zero / Right Zero
-        short_name: rzero_rzero
-      -
-        name: Left Zero / Left Zero
-        short_name: lzero_lzero
+  lr:
+    -
+      name: Right Zero / Left Zero
+      short_name: rzero_lzero
+  pseudo:
+    -
+      name: Right Zero / Right Zero
+      short_name: rzero_rzero
+    -
+      name: Left Zero / Left Zero
+      short_name: lzero_lzero
 
 
 ---

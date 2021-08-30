@@ -29,27 +29,21 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Right Spilled Paint Can / Right Snoopy
-        short_name: rspill_rsnoopy
-  -
-    type: lr
-    values: 
-      -
-        name: Left Snoopy / Left Spilled Paint Can
-        short_name: lsnoopy_lspill
-  -
-    type: pseudo
-    values: 
-      -
-        name: Left Snoopy / Right Spilled Paint Can
-        short_name: lsnoopy_rspill
-      -
-        name: Right Snoopy / Left Spilled Paint Can
-        short_name: rsnoopy_lspill
+  top_bot:
+    -
+      name: Right Spilled Paint Can / Right Snoopy
+      short_name: rspill_rsnoopy
+  lr:
+    -
+      name: Left Snoopy / Left Spilled Paint Can
+      short_name: lsnoopy_lspill
+  pseudo:
+    -
+      name: Left Snoopy / Right Spilled Paint Can
+      short_name: lsnoopy_rspill
+    -
+      name: Right Snoopy / Left Spilled Paint Can
+      short_name: rsnoopy_lspill
 
 
 ---

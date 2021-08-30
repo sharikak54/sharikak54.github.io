@@ -28,18 +28,14 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Left Spilled Paint Can / Angel
-        short_name: lspill_angel
-  -
-    type: lr
-    values: 
-      -
-        name: Angel / Right Spilled Paint Can
-        short_name: angel_rspill
+  top_bot:
+    -
+      name: Left Spilled Paint Can / Angel
+      short_name: lspill_angel
+  lr:
+    -
+      name: Angel / Right Spilled Paint Can
+      short_name: angel_rspill
 
 
 ---

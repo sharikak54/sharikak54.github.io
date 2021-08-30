@@ -29,21 +29,17 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: lr
-    values: 
-      -
-        name: Right Satellite Dish / Left Satellite Dish
-        short_name: rdish_ldish
-  -
-    type: pseudo
-    values: 
-      -
-        name: Right Satellite Dish / Right Satellite Dish
-        short_name: rdish_rdish
-      -
-        name: Left Satellite Dish / Left Satellite Dish
-        short_name: ldish_ldish
+  lr:
+    -
+      name: Right Satellite Dish / Left Satellite Dish
+      short_name: rdish_ldish
+  pseudo:
+    -
+      name: Right Satellite Dish / Right Satellite Dish
+      short_name: rdish_rdish
+    -
+      name: Left Satellite Dish / Left Satellite Dish
+      short_name: ldish_ldish
 
 
 ---

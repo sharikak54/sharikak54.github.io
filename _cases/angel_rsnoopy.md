@@ -28,18 +28,14 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Right Snoopy / Angel
-        short_name: rsnoopy_angel
-  -
-    type: lr
-    values: 
-      -
-        name: Angel / Left Snoopy
-        short_name: angel_lsnoopy
+  top_bot:
+    -
+      name: Right Snoopy / Angel
+      short_name: rsnoopy_angel
+  lr:
+    -
+      name: Angel / Left Snoopy
+      short_name: angel_lsnoopy
 
 
 ---

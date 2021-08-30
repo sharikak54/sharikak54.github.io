@@ -29,21 +29,17 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: lr
-    values: 
-      -
-        name: Right Snoopy / Right Snoopy
-        short_name: rsnoopy_rsnoopy
-  -
-    type: pseudo
-    values: 
-      -
-        name: Right Snoopy / Left Snoopy
-        short_name: rsnoopy_lsnoopy
-      -
-        name: Left Snoopy / Right Snoopy
-        short_name: lsnoopy_rsnoopy
+  lr:
+    -
+      name: Right Snoopy / Right Snoopy
+      short_name: rsnoopy_rsnoopy
+  pseudo:
+    -
+      name: Right Snoopy / Left Snoopy
+      short_name: rsnoopy_lsnoopy
+    -
+      name: Left Snoopy / Right Snoopy
+      short_name: lsnoopy_rsnoopy
 
 
 ---

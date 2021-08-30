@@ -29,21 +29,17 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: lr
-    values: 
-      -
-        name: Left Pinwheel / Left Pinwheel
-        short_name: lpinwheel_lpinwheel
-  -
-    type: pseudo
-    values: 
-      -
-        name: Left Pinwheel / Right Pinwheel
-        short_name: lpinwheel_rpinwheel
-      -
-        name: Right Pinwheel / Left Pinwheel
-        short_name: rpinwheel_lpinwheel
+  lr:
+    -
+      name: Left Pinwheel / Left Pinwheel
+      short_name: lpinwheel_lpinwheel
+  pseudo:
+    -
+      name: Left Pinwheel / Right Pinwheel
+      short_name: lpinwheel_rpinwheel
+    -
+      name: Right Pinwheel / Left Pinwheel
+      short_name: rpinwheel_lpinwheel
 
 
 ---

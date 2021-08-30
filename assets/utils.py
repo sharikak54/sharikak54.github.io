@@ -10,14 +10,11 @@ def getMirrorContents(mirrors):
   contents = "mirrors:\n"
 
   for mirror_type in mirrors:
-    contents += "  -\n"
-    contents += "    type: " + mirror_type + "\n"
-    contents += "    values: \n"
-
+    contents += "  " + mirror_type + ":\n"
     for mirror in mirrors[mirror_type]:
-      contents += "      -\n"
-      contents += "        name: " + mirror['name'] + "\n"
-      contents += "        short_name: " + mirror['short_name'] + "\n"
+      contents += "    -\n"
+      contents += "      name: " + mirror['name'] + "\n"
+      contents += "      short_name: " + mirror['short_name'] + "\n"
 
   contents += "\n"
 

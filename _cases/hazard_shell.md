@@ -27,12 +27,10 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Shell / Hazard
-        short_name: shell_hazard
+  top_bot:
+    -
+      name: Shell / Hazard
+      short_name: shell_hazard
 
 
 ---

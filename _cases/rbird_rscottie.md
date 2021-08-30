@@ -29,27 +29,21 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Right Scottish Terrier / Right Bird
-        short_name: rscottie_rbird
-  -
-    type: lr
-    values: 
-      -
-        name: Left Bird / Left Scottish Terrier
-        short_name: lbird_lscottie
-  -
-    type: pseudo
-    values: 
-      -
-        name: Left Bird / Right Scottish Terrier
-        short_name: lbird_rscottie
-      -
-        name: Right Bird / Left Scottish Terrier
-        short_name: rbird_lscottie
+  top_bot:
+    -
+      name: Right Scottish Terrier / Right Bird
+      short_name: rscottie_rbird
+  lr:
+    -
+      name: Left Bird / Left Scottish Terrier
+      short_name: lbird_lscottie
+  pseudo:
+    -
+      name: Left Bird / Right Scottish Terrier
+      short_name: lbird_rscottie
+    -
+      name: Right Bird / Left Scottish Terrier
+      short_name: rbird_lscottie
 
 
 ---

@@ -29,21 +29,17 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: lr
-    values: 
-      -
-        name: Right Bird / Left Bird
-        short_name: rbird_lbird
-  -
-    type: pseudo
-    values: 
-      -
-        name: Right Bird / Right Bird
-        short_name: rbird_rbird
-      -
-        name: Left Bird / Left Bird
-        short_name: lbird_lbird
+  lr:
+    -
+      name: Right Bird / Left Bird
+      short_name: rbird_lbird
+  pseudo:
+    -
+      name: Right Bird / Right Bird
+      short_name: rbird_rbird
+    -
+      name: Left Bird / Left Bird
+      short_name: lbird_lbird
 
 
 ---

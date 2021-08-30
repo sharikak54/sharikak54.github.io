@@ -28,18 +28,14 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Right Pinwheel / Moth
-        short_name: rpinwheel_moth
-  -
-    type: lr
-    values: 
-      -
-        name: Moth / Left Pinwheel
-        short_name: moth_lpinwheel
+  top_bot:
+    -
+      name: Right Pinwheel / Moth
+      short_name: rpinwheel_moth
+  lr:
+    -
+      name: Moth / Left Pinwheel
+      short_name: moth_lpinwheel
 
 
 ---

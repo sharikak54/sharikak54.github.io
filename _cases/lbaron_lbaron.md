@@ -29,21 +29,17 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: lr
-    values: 
-      -
-        name: Right Red Baron / Right Red Baron
-        short_name: rbaron_rbaron
-  -
-    type: pseudo
-    values: 
-      -
-        name: Right Red Baron / Left Red Baron
-        short_name: rbaron_lbaron
-      -
-        name: Left Red Baron / Right Red Baron
-        short_name: lbaron_rbaron
+  lr:
+    -
+      name: Right Red Baron / Right Red Baron
+      short_name: rbaron_rbaron
+  pseudo:
+    -
+      name: Right Red Baron / Left Red Baron
+      short_name: rbaron_lbaron
+    -
+      name: Left Red Baron / Right Red Baron
+      short_name: lbaron_rbaron
 
 
 ---

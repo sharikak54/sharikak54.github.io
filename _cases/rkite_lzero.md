@@ -29,27 +29,21 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Left Zero / Right Kite
-        short_name: lzero_rkite
-  -
-    type: lr
-    values: 
-      -
-        name: Left Kite / Right Zero
-        short_name: lkite_rzero
-  -
-    type: pseudo
-    values: 
-      -
-        name: Left Kite / Left Zero
-        short_name: lkite_lzero
-      -
-        name: Right Kite / Right Zero
-        short_name: rkite_rzero
+  top_bot:
+    -
+      name: Left Zero / Right Kite
+      short_name: lzero_rkite
+  lr:
+    -
+      name: Left Kite / Right Zero
+      short_name: lkite_rzero
+  pseudo:
+    -
+      name: Left Kite / Left Zero
+      short_name: lkite_lzero
+    -
+      name: Right Kite / Right Zero
+      short_name: rkite_rzero
 
 
 ---

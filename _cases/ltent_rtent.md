@@ -29,21 +29,17 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: lr
-    values: 
-      -
-        name: Right Tent / Left Tent
-        short_name: rtent_ltent
-  -
-    type: pseudo
-    values: 
-      -
-        name: Right Tent / Right Tent
-        short_name: rtent_rtent
-      -
-        name: Left Tent / Left Tent
-        short_name: ltent_ltent
+  lr:
+    -
+      name: Right Tent / Left Tent
+      short_name: rtent_ltent
+  pseudo:
+    -
+      name: Right Tent / Right Tent
+      short_name: rtent_rtent
+    -
+      name: Left Tent / Left Tent
+      short_name: ltent_ltent
 
 
 ---

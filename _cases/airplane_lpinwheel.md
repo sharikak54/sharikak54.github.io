@@ -28,18 +28,14 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Left Pinwheel / Airplane
-        short_name: lpinwheel_airplane
-  -
-    type: lr
-    values: 
-      -
-        name: Airplane / Right Pinwheel
-        short_name: airplane_rpinwheel
+  top_bot:
+    -
+      name: Left Pinwheel / Airplane
+      short_name: lpinwheel_airplane
+  lr:
+    -
+      name: Airplane / Right Pinwheel
+      short_name: airplane_rpinwheel
 
 
 ---

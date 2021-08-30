@@ -28,18 +28,14 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Left Zero / Moth
-        short_name: lzero_moth
-  -
-    type: lr
-    values: 
-      -
-        name: Moth / Right Zero
-        short_name: moth_rzero
+  top_bot:
+    -
+      name: Left Zero / Moth
+      short_name: lzero_moth
+  lr:
+    -
+      name: Moth / Right Zero
+      short_name: moth_rzero
 
 
 ---

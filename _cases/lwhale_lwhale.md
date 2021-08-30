@@ -29,21 +29,17 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: lr
-    values: 
-      -
-        name: Right Whale / Right Whale
-        short_name: rwhale_rwhale
-  -
-    type: pseudo
-    values: 
-      -
-        name: Right Whale / Left Whale
-        short_name: rwhale_lwhale
-      -
-        name: Left Whale / Right Whale
-        short_name: lwhale_rwhale
+  lr:
+    -
+      name: Right Whale / Right Whale
+      short_name: rwhale_rwhale
+  pseudo:
+    -
+      name: Right Whale / Left Whale
+      short_name: rwhale_lwhale
+    -
+      name: Left Whale / Right Whale
+      short_name: lwhale_rwhale
 
 
 ---

@@ -28,18 +28,14 @@ parents:
     name: TODO
     short_name: TODO
 mirrors:
-  -
-    type: top_bot
-    values: 
-      -
-        name: Gem / Right Spilled Paint Can
-        short_name: gem_rspill
-  -
-    type: lr
-    values: 
-      -
-        name: Left Spilled Paint Can / Gem
-        short_name: lspill_gem
+  top_bot:
+    -
+      name: Gem / Right Spilled Paint Can
+      short_name: gem_rspill
+  lr:
+    -
+      name: Left Spilled Paint Can / Gem
+      short_name: lspill_gem
 
 
 ---
