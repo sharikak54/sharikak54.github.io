@@ -12,7 +12,7 @@
     - name: Resources
       link: /resources.html
 - name: Tools
-  link: /identifier.html
+  link: /tools.html
   sublinks:
     - name: Identifier
       link: /identifier.html
