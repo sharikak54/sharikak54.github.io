@@ -5,4 +5,4 @@ nickname: Plane / Glider
 type: 2E2C
 ---
 
-TODO description
+Looks like an old-timey airplane from above, with fairly square wings.

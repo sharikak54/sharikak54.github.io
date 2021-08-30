@@ -4,4 +4,4 @@ short_name: angel
 type: 2E1C
 ---
 
-TODO description
+A simple angel icon with triangles for wings and a rounded dress.  (Imagine the haloed head right between the "wings".)

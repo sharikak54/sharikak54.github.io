@@ -5,4 +5,6 @@ type: 2E2C
 has_lr: true
 ---
 
-It's Zero the ghost dog from Nightmare Before Christmas!
+It's Zero the ghost dog from Nightmare Before Christmas!  His long thin face is the odd edge out, and his two flappy ears cover the odd corner.  His body takes up the edge/corner pair, with the edge of the pair acting as Zero's front leg.
+
+TODO Note: The picture below is actually the "Right" facing version of Zero.
