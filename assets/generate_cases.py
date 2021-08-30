@@ -5,7 +5,7 @@ from utils import flipLR, flipLeftRight, getMirrorContents
 # COMMENT THIS OUT TO RUN
 # WARNING: this script overwrites a ton of files,
 # make sure you know what you're doing
-quit()
+# quit()
 
 FACE_DIR = "../_faces/"
 CASE_DIR = "../_cases/"
