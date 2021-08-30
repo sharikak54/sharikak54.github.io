@@ -26,4 +26,4 @@ Okay, I hear you saying that 80 cases is still a lot.  That may be true, but hea
 
 
 ## Start learning!
-Go to the [Start page](/start.html) to learn more.
+Go to the [Start page](/start) to learn more.
