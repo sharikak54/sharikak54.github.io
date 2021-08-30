@@ -3,9 +3,9 @@ title: "Face: {{ page.name }}"
 layout: default
 ---
 <div class="pageNav">
-  <div class="backLink">
-    <a href="/faces.html"><-- Up</a>
-  </div>
+  <a class="backLink" href="/faces.html">
+    <div ><-- Up</div>
+  </a>
 </div>
 
 <h1>{{ page.name }}</h1>
@@ -21,6 +21,11 @@ layout: default
 	{% assign file_exists = site.static_files | where: "path", image_path  %}
 	{% if file_exists.size != 0 %}
 		<img class="face_image" src="{{image_path}}">
+		{% if page.has_lr %}
+			<p>
+				The "Left" version of this case is pictured.
+			</p>
+		{% endif %}
 	{% else %}
 		<div><i>Sorry, no image exists.</i></div>
 	{% endif %}

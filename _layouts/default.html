@@ -31,16 +31,16 @@
 			<section>
         {% if page.backLink %}
           <div class="pageNav">
-            <div class="backLink">
-              <a href="{{ page.backLink.url }}">
+            <a class="backLink" href="{{ page.backLink.url }}">
+              <div>
                 <-- 
                 {% if page.backLink.name %} 
                   {{ page.backLink.name }}
                 {% else %}
                   Up
                 {% endif %}
-              </a>
-            </div>
+              </div>
+            </a>
           </div>
         {% endif %}
 
