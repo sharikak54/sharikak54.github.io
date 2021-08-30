@@ -1,9 +1,9 @@
 ---
-name: Shell / Left Scottish Terrier
+name: Shell / Left Scottie
 short_name: shell_lscottie
 top: Shell
 top_short_name: shell
-bot: Scottish Terrier
+bot: Scottie
 bot_short_name: scottie
 bot_lr: Left
 
@@ -11,7 +11,7 @@ recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -30,11 +30,11 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Left Scottish Terrier / Shell
+      name: Left Scottie / Shell
       short_name: lscottie_shell
   lr:
     -
-      name: Shell / Right Scottish Terrier
+      name: Shell / Right Scottie
       short_name: shell_rscottie
 
 

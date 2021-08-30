@@ -1,17 +1,17 @@
 ---
-name: Airplane / Right Kite
-short_name: airplane_rkite
-top: Airplane
-top_short_name: airplane
-bot: Kite
-bot_short_name: kite
+name: Plane / Right Pinwheel
+short_name: plane_rpinwheel
+top: Plane
+top_short_name: plane
+bot: Pinwheel
+bot_short_name: pinwheel
 bot_lr: Right
 
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -30,12 +30,12 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Right Kite / Airplane
-      short_name: rkite_airplane
+      name: Right Pinwheel / Plane
+      short_name: rpinwheel_plane
   lr:
     -
-      name: Airplane / Left Kite
-      short_name: airplane_lkite
+      name: Plane / Left Pinwheel
+      short_name: plane_lpinwheel
 
 
 ---

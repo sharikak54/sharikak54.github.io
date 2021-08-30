@@ -1,10 +1,10 @@
 ---
-name: Left Spilled Paint Can / Left Spilled Paint Can
+name: Left Spill / Left Spill
 short_name: lspill_lspill
-top: Spilled Paint Can
+top: Spill
 top_short_name: spill
 top_lr: Left
-bot: Spilled Paint Can
+bot: Spill
 bot_short_name: spill
 bot_lr: Left
 
@@ -12,7 +12,7 @@ recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -31,14 +31,14 @@ parents:
 mirrors:
   lr:
     -
-      name: Right Spilled Paint Can / Right Spilled Paint Can
+      name: Right Spill / Right Spill
       short_name: rspill_rspill
   pseudo:
     -
-      name: Right Spilled Paint Can / Left Spilled Paint Can
+      name: Right Spill / Left Spill
       short_name: rspill_lspill
     -
-      name: Left Spilled Paint Can / Right Spilled Paint Can
+      name: Left Spill / Right Spill
       short_name: lspill_rspill
 
 

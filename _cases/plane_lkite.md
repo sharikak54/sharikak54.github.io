@@ -1,17 +1,17 @@
 ---
-name: Left Zero / Airplane
-short_name: lzero_airplane
-top: Zero
-top_short_name: zero
-top_lr: Left
-bot: Airplane
-bot_short_name: airplane
+name: Plane / Left Kite
+short_name: plane_lkite
+top: Plane
+top_short_name: plane
+bot: Kite
+bot_short_name: kite
+bot_lr: Left
 
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -30,12 +30,12 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Airplane / Left Zero
-      short_name: airplane_lzero
+      name: Left Kite / Plane
+      short_name: lkite_plane
   lr:
     -
-      name: Right Zero / Airplane
-      short_name: rzero_airplane
+      name: Plane / Right Kite
+      short_name: plane_rkite
 
 
 ---

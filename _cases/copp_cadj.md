@@ -1,17 +1,16 @@
 ---
-name: Airplane / Left Zero
-short_name: airplane_lzero
-top: Airplane
-top_short_name: airplane
-bot: Zero
-bot_short_name: zero
-bot_lr: Left
+name: Copp / Cadj
+short_name: copp_cadj
+top: Copp
+top_short_name: copp
+bot: Cadj
+bot_short_name: cadj
 
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -30,12 +29,8 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Left Zero / Airplane
-      short_name: lzero_airplane
-  lr:
-    -
-      name: Airplane / Right Zero
-      short_name: airplane_rzero
+      name: Cadj / Copp
+      short_name: cadj_copp
 
 
 ---

@@ -1,16 +1,16 @@
 ---
-name: 2E Adjacent / 2E Adjacent
-short_name: 2eadj_2eadj
-top: 2E Adjacent
-top_short_name: 2eadj
-bot: 2E Adjacent
-bot_short_name: 2eadj
+name: Eadj / Eopp
+short_name: eadj_eopp
+top: Eadj
+top_short_name: eadj
+bot: Eopp
+bot_short_name: eopp
 
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -26,6 +26,13 @@ parents:
   -
     name: TODO
     short_name: TODO
+mirrors:
+  top_bot:
+    -
+      name: Eopp / Eadj
+      short_name: eopp_eadj
+
+
 ---
 
 Description TODO

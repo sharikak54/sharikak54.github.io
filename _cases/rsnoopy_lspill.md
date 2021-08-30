@@ -1,10 +1,10 @@
 ---
-name: Right Snoopy / Left Spilled Paint Can
+name: Right Snoopy / Left Spill
 short_name: rsnoopy_lspill
 top: Snoopy
 top_short_name: snoopy
 top_lr: Right
-bot: Spilled Paint Can
+bot: Spill
 bot_short_name: spill
 bot_lr: Left
 
@@ -12,7 +12,7 @@ recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -31,18 +31,18 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Left Spilled Paint Can / Right Snoopy
+      name: Left Spill / Right Snoopy
       short_name: lspill_rsnoopy
   lr:
     -
-      name: Left Snoopy / Right Spilled Paint Can
+      name: Left Snoopy / Right Spill
       short_name: lsnoopy_rspill
   pseudo:
     -
-      name: Left Snoopy / Left Spilled Paint Can
+      name: Left Snoopy / Left Spill
       short_name: lsnoopy_lspill
     -
-      name: Right Snoopy / Right Spilled Paint Can
+      name: Right Snoopy / Right Spill
       short_name: rsnoopy_rspill
 
 

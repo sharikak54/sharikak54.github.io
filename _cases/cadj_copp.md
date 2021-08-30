@@ -1,16 +1,16 @@
 ---
-name: 2E Opposite / 2E Opposite
-short_name: 2eopp_2eopp
-top: 2E Opposite
-top_short_name: 2eopp
-bot: 2E Opposite
-bot_short_name: 2eopp
+name: Cadj / Copp
+short_name: cadj_copp
+top: Cadj
+top_short_name: cadj
+bot: Copp
+bot_short_name: copp
 
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -26,6 +26,13 @@ parents:
   -
     name: TODO
     short_name: TODO
+mirrors:
+  top_bot:
+    -
+      name: Copp / Cadj
+      short_name: copp_cadj
+
+
 ---
 
 Description TODO

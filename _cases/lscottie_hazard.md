@@ -1,7 +1,7 @@
 ---
-name: Left Scottish Terrier / Hazard
+name: Left Scottie / Hazard
 short_name: lscottie_hazard
-top: Scottish Terrier
+top: Scottie
 top_short_name: scottie
 top_lr: Left
 bot: Hazard
@@ -11,7 +11,7 @@ recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -30,11 +30,11 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Hazard / Left Scottish Terrier
+      name: Hazard / Left Scottie
       short_name: hazard_lscottie
   lr:
     -
-      name: Right Scottish Terrier / Hazard
+      name: Right Scottie / Hazard
       short_name: rscottie_hazard
 
 

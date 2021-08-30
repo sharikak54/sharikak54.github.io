@@ -1,16 +1,17 @@
 ---
-name: Moth / Airplane
-short_name: moth_airplane
-top: Moth
-top_short_name: moth
-bot: Airplane
-bot_short_name: airplane
+name: Right Kite / Plane
+short_name: rkite_plane
+top: Kite
+top_short_name: kite
+top_lr: Right
+bot: Plane
+bot_short_name: plane
 
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -29,8 +30,12 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Airplane / Moth
-      short_name: airplane_moth
+      name: Plane / Right Kite
+      short_name: plane_rkite
+  lr:
+    -
+      name: Left Kite / Plane
+      short_name: lkite_plane
 
 
 ---

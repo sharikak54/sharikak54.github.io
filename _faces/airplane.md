@@ -1,7 +1,7 @@
 ---
-name: Airplane
-short_name: airplane
-nickname: Plane / Glider
+name: Plane
+short_name: plane
+nickname: Airplane / Glider
 type: 2E2C
 ---
 

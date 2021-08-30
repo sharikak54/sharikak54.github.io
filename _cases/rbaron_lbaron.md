@@ -1,10 +1,10 @@
 ---
-name: Right Red Baron / Left Red Baron
+name: Right Baron / Left Baron
 short_name: rbaron_lbaron
-top: Red Baron
+top: Baron
 top_short_name: baron
 top_lr: Right
-bot: Red Baron
+bot: Baron
 bot_short_name: baron
 bot_lr: Left
 
@@ -12,7 +12,7 @@ recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -31,14 +31,14 @@ parents:
 mirrors:
   lr:
     -
-      name: Left Red Baron / Right Red Baron
+      name: Left Baron / Right Baron
       short_name: lbaron_rbaron
   pseudo:
     -
-      name: Left Red Baron / Left Red Baron
+      name: Left Baron / Left Baron
       short_name: lbaron_lbaron
     -
-      name: Right Red Baron / Right Red Baron
+      name: Right Baron / Right Baron
       short_name: rbaron_rbaron
 
 

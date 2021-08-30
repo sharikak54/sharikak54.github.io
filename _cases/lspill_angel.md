@@ -1,7 +1,7 @@
 ---
-name: Left Spilled Paint Can / Angel
+name: Left Spill / Angel
 short_name: lspill_angel
-top: Spilled Paint Can
+top: Spill
 top_short_name: spill
 top_lr: Left
 bot: Angel
@@ -11,7 +11,7 @@ recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -30,11 +30,11 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Angel / Left Spilled Paint Can
+      name: Angel / Left Spill
       short_name: angel_lspill
   lr:
     -
-      name: Right Spilled Paint Can / Angel
+      name: Right Spill / Angel
       short_name: rspill_angel
 
 

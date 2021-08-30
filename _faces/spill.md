@@ -1,7 +1,7 @@
 ---
-name: Spilled Paint Can
+name: Spill
 short_name: spill
-nickname: Spill
+nickname: Spilled Paint Can
 type: 2E1C
 has_lr: true
 ---

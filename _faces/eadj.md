@@ -1,7 +1,7 @@
 ---
-name: 2E Adjacent
-short_name: 2eadj
-nickname: 2E Adj / Eadj
+name: Eadj
+short_name: eadj
+nickname: 2E Adjacent / 2E Adj
 type: 2E
 ---
 

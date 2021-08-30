@@ -1,16 +1,16 @@
 ---
-name: Airplane / Airplane
-short_name: airplane_airplane
-top: Airplane
-top_short_name: airplane
-bot: Airplane
-bot_short_name: airplane
+name: Eopp / Eadj
+short_name: eopp_eadj
+top: Eopp
+top_short_name: eopp
+bot: Eadj
+bot_short_name: eadj
 
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -26,6 +26,13 @@ parents:
   -
     name: TODO
     short_name: TODO
+mirrors:
+  top_bot:
+    -
+      name: Eadj / Eopp
+      short_name: eadj_eopp
+
+
 ---
 
 Description TODO

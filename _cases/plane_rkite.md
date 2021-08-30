@@ -1,16 +1,17 @@
 ---
-name: 2E Opposite / 2E Adjacent
-short_name: 2eopp_2eadj
-top: 2E Opposite
-top_short_name: 2eopp
-bot: 2E Adjacent
-bot_short_name: 2eadj
+name: Plane / Right Kite
+short_name: plane_rkite
+top: Plane
+top_short_name: plane
+bot: Kite
+bot_short_name: kite
+bot_lr: Right
 
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -29,8 +30,12 @@ parents:
 mirrors:
   top_bot:
     -
-      name: 2E Adjacent / 2E Opposite
-      short_name: 2eadj_2eopp
+      name: Right Kite / Plane
+      short_name: rkite_plane
+  lr:
+    -
+      name: Plane / Left Kite
+      short_name: plane_lkite
 
 
 ---

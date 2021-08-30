@@ -1,16 +1,16 @@
 ---
-name: 2C Opposite / 2C Adjacent
-short_name: 2copp_2cadj
-top: 2C Opposite
-top_short_name: 2copp
-bot: 2C Adjacent
-bot_short_name: 2cadj
+name: Moth / Plane
+short_name: moth_plane
+top: Moth
+top_short_name: moth
+bot: Plane
+bot_short_name: plane
 
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -29,8 +29,8 @@ parents:
 mirrors:
   top_bot:
     -
-      name: 2C Adjacent / 2C Opposite
-      short_name: 2cadj_2copp
+      name: Plane / Moth
+      short_name: plane_moth
 
 
 ---

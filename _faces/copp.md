@@ -1,7 +1,7 @@
 ---
-name: 2C Opposite
-short_name: 2copp
-nickname: 2C Opp / Copp
+name: Copp
+short_name: copp
+nickname: 2C Opposite / 2C Opp
 type: 2C
 ---
 

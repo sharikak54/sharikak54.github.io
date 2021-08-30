@@ -1,10 +1,10 @@
 ---
-name: Right Satellite Dish / Left Red Baron
+name: Right Dish / Left Baron
 short_name: rdish_lbaron
-top: Satellite Dish
+top: Dish
 top_short_name: dish
 top_lr: Right
-bot: Red Baron
+bot: Baron
 bot_short_name: baron
 bot_lr: Left
 
@@ -12,7 +12,7 @@ recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -31,18 +31,18 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Left Red Baron / Right Satellite Dish
+      name: Left Baron / Right Dish
       short_name: lbaron_rdish
   lr:
     -
-      name: Left Satellite Dish / Right Red Baron
+      name: Left Dish / Right Baron
       short_name: ldish_rbaron
   pseudo:
     -
-      name: Left Satellite Dish / Left Red Baron
+      name: Left Dish / Left Baron
       short_name: ldish_lbaron
     -
-      name: Right Satellite Dish / Right Red Baron
+      name: Right Dish / Right Baron
       short_name: rdish_rbaron
 
 
