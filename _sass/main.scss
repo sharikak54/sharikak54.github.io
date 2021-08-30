@@ -107,10 +107,22 @@ a.backLink:hover {
 	float: right;
 }
 
+figure.face_figure {
+	display: flex;
+	flex-flow: column;
+	padding: 5px;
+	margin: auto;
+}
 .face_image {
 	height: 200px;
-	// width: 200px;
-	max-width: 100%
+	max-width: 100%;
+	object-fit: contain;
+}
+figcaption {
+	color: #fff;
+	font: italic smaller sans-serif;
+	padding: 3px;
+	text-align: center;
 }
 
 .squandb_embed {

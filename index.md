@@ -21,7 +21,7 @@ Not Kevin and Shari didn't advertise this method at all, so it dropped out of pu
 <!-- TODO hard numbers please! -->
 Okay, I hear you saying that 80 cases is still a lot.  That may be true, but hear me out.  Most OBL cases are optimal 4 moves or less -- the average movecount for an OBL movecount, weighted by probability of appearing, is actually _less_ than 4 -- and many of the 5-movers are pure CO or EO, so you already know them!  The easiest way to get into OBL is by starting with the cases which are 3 moves or less, and using CO/EO for the cases you don't know yet, slowly building your way up.
 
-Not Kevin says: The 6-move optimal algs are terrible so I actually use longer algs for those anyway.
+> **Not Kevin says:** The 6-move optimal algs are terrible so I actually use longer algs for those anyway.
 
 
 

@@ -5,4 +5,4 @@ type: 1E2C
 has_lr: true
 ---
 
-TODO description
+Two large wings (the adjacent corners), with a body (the edge) trailing behind.  If the bird is flying towards the left, then it's a Left Bird.
