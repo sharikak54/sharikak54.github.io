@@ -148,7 +148,7 @@ for obl_type in obl_types.keys():
 
       contents += "# ALGORITHMS\n"
       contents += "default_alg:\n"
-      contents += "  alg: \"0,0/\"\n"
+      contents += "  alg: \"1,0/5,5/0,1\"\n"
       contents += "  description: TODO\n"
       contents += "mirror_algs:\n"
       contents += "  -\n"

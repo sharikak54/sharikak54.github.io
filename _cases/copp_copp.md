@@ -1,11 +1,10 @@
 ---
-name: Moth / Right Zero
-short_name: moth_rzero
-top: Moth
-top_short_name: moth
-bot: Zero
-bot_short_name: zero
-bot_lr: Right
+name: Copp / Copp
+short_name: copp_copp
+top: Copp
+top_short_name: copp
+bot: Copp
+bot_short_name: copp
 
 recognition: TODO
 
@@ -27,17 +26,6 @@ parents:
   -
     name: TODO
     short_name: TODO
-mirrors:
-  top_bot:
-    -
-      name: Right Zero / Moth
-      short_name: rzero_moth
-  lr:
-    -
-      name: Moth / Left Zero
-      short_name: moth_lzero
-
-
 ---
 
 Description TODO

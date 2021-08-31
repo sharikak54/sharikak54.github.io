@@ -1,7 +1,7 @@
 ---
-name: Left Spilled Paint Can / Gem
+name: Left Spill / Gem
 short_name: lspill_gem
-top: Spilled Paint Can
+top: Spill
 top_short_name: spill
 top_lr: Left
 bot: Gem
@@ -11,7 +11,7 @@ recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -30,11 +30,11 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Gem / Left Spilled Paint Can
+      name: Gem / Left Spill
       short_name: gem_lspill
   lr:
     -
-      name: Right Spilled Paint Can / Gem
+      name: Right Spill / Gem
       short_name: rspill_gem
 
 

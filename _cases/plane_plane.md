@@ -1,11 +1,10 @@
 ---
-name: Moth / Right Zero
-short_name: moth_rzero
-top: Moth
-top_short_name: moth
-bot: Zero
-bot_short_name: zero
-bot_lr: Right
+name: Plane / Plane
+short_name: plane_plane
+top: Plane
+top_short_name: plane
+bot: Plane
+bot_short_name: plane
 
 recognition: TODO
 
@@ -27,17 +26,6 @@ parents:
   -
     name: TODO
     short_name: TODO
-mirrors:
-  top_bot:
-    -
-      name: Right Zero / Moth
-      short_name: rzero_moth
-  lr:
-    -
-      name: Moth / Left Zero
-      short_name: moth_lzero
-
-
 ---
 
 Description TODO

@@ -1,7 +1,7 @@
 ---
-name: Scottish Terrier
+name: Scottie
 short_name: scottie
-nickname: Scottie
+nickname: Scottish Terrier
 type: 1E2C
 has_lr: true
 ---

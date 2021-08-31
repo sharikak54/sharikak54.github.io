@@ -1,7 +1,7 @@
 ---
-name: 2C Adjacent
-short_name: 2cadj
-nickname: 2C Adj / Cadj
+name: Cadj
+short_name: cadj
+nickname: 2C Adjacent / 2C Adj
 type: 2C
 ---
 

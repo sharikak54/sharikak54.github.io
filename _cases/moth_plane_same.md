@@ -1,16 +1,16 @@
 ---
-name: Moth / Airplane
-short_name: moth_airplane
+name: Same Moth / Plane
+short_name: moth_plane_same
 top: Moth
 top_short_name: moth
-bot: Airplane
-bot_short_name: airplane
+bot: Plane
+bot_short_name: plane
 
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -29,11 +29,12 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Airplane / Moth
-      short_name: airplane_moth
+      name: Plane / Moth
+      short_name: plane_moth
 
 
 ---
 
 Description TODO
 
+A moth and a plane that are the same color.  Be careful not to mistake this for [Moth / Plane](moth_plane).

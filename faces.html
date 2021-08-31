@@ -1,7 +1,7 @@
 ---
 title: OBL Faces
 backLink:
-  url: "/start.html"
+  url: "/start"
 ---
 
 <h1>OBL Faces</h1>
@@ -15,7 +15,7 @@ backLink:
 <ul>
   {% for face in site.faces %}
     <li>
-      <h2><a href="{{ face.url }}">{{ face.name }}</a></h2>
+      <h2><a href="{{ face.url | replace: '.html','' }}">{{ face.name }}</a></h2>
     </li>
   {% endfor %}
 </ul>

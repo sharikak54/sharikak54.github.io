@@ -1,7 +1,7 @@
 ---
-name: Left Scottish Terrier / Right Bird
+name: Left Scottie / Right Bird
 short_name: lscottie_rbird
-top: Scottish Terrier
+top: Scottie
 top_short_name: scottie
 top_lr: Left
 bot: Bird
@@ -12,7 +12,7 @@ recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -
@@ -31,18 +31,18 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Right Bird / Left Scottish Terrier
+      name: Right Bird / Left Scottie
       short_name: rbird_lscottie
   lr:
     -
-      name: Right Scottish Terrier / Left Bird
+      name: Right Scottie / Left Bird
       short_name: rscottie_lbird
   pseudo:
     -
-      name: Right Scottish Terrier / Right Bird
+      name: Right Scottie / Right Bird
       short_name: rscottie_rbird
     -
-      name: Left Scottish Terrier / Left Bird
+      name: Left Scottie / Left Bird
       short_name: lscottie_lbird
 
 

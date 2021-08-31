@@ -1,11 +1,10 @@
 ---
-name: Moth / Right Zero
-short_name: moth_rzero
-top: Moth
-top_short_name: moth
-bot: Zero
-bot_short_name: zero
-bot_lr: Right
+name: Same Plane / Moth
+short_name: plane_moth_same
+top: Plane
+top_short_name: plane
+bot: Moth
+bot_short_name: moth
 
 recognition: TODO
 
@@ -30,15 +29,12 @@ parents:
 mirrors:
   top_bot:
     -
-      name: Right Zero / Moth
-      short_name: rzero_moth
-  lr:
-    -
-      name: Moth / Left Zero
-      short_name: moth_lzero
+      name: Moth / Plane
+      short_name: moth_plane
 
 
 ---
 
 Description TODO
 
+A plane and a moth that are the same color.  Be careful not to mistake this for [Plane / Moth](plane_moth).

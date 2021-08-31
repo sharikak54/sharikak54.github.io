@@ -1,7 +1,7 @@
 ---
-name: 2E Opposite
-short_name: 2eopp
-nickname: 2E Opp / Eopp
+name: Eopp
+short_name: eopp
+nickname: 2E Opposite / 2E Opp
 type: 2E
 ---
 

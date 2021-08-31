@@ -1,16 +1,16 @@
 ---
-name: 2C Adjacent / 2C Adjacent
-short_name: 2cadj_2cadj
-top: 2C Adjacent
-top_short_name: 2cadj
-bot: 2C Adjacent
-bot_short_name: 2cadj
+name: Cadj / Cadj
+short_name: cadj_cadj
+top: Cadj
+top_short_name: cadj
+bot: Cadj
+bot_short_name: cadj
 
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,0/"
+  alg: "1,0/5,5/0,1"
   description: TODO
 mirror_algs:
   -

@@ -1,7 +1,7 @@
 ---
-name: Red Baron
+name: Baron
 short_name: baron
-nickname: Baron
+nickname: Red Baron
 type: 3E1C
 has_lr: true
 ---
