@@ -67,8 +67,8 @@ layout: default
 <br>
 <div>
   <h3>Color Mirror Algs</h3>
-  {% if page.mirror_algs %}
-    {% for alg in page.mirror_algs %}
+  {% if page.color_mirror_algs %}
+    {% for alg in page.color_mirror_algs %}
       <div>
         <b>{{alg.alg}}</b>:
         {{alg.description}}
@@ -117,50 +117,52 @@ layout: default
   <h3>Mirror(s)</h3>
   {% if page.mirrors %}
 
-  {% if page.mirrors.top_bot %}
-    <div>
-      <b>Top/Bottom Mirror</b>:
-      When the top and bottom face are swapped directly.
-      <ul>
-        {% for mirror in page.mirrors.top_bot %}
-          <li>
-            <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
+    {% if page.mirrors.top_bot %}
+      <div>
+        <b>Top/Bottom Mirror</b>:
+        When the top and bottom face are swapped with each other.
+        <ul>
+          {% for mirror in page.mirrors.top_bot %}
+            <li>
+              <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
 
-  {% if page.mirrors.lr %}
-    <div>
-      <b>Left/Right Mirror</b>:
-      When the top and bottom face are swapped with their respective left/right mirrors.
-      <ul>
-        {% for mirror in page.mirrors.lr %}
-          <li>
-            <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
+    {% if page.mirrors.lr %}
+      <div>
+        <b>Left/Right Mirror</b>:
+        When both the top and bottom face are swapped with their respective left/right mirrors.
+        <ul>
+          {% for mirror in page.mirrors.lr %}
+            <li>
+              <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
 
-  {% if page.mirrors.pseudo %}
-    <div>
-      <b>Pseudo Mirror(s)</b>:
-      When only one face is mirrored.  Not a real mirror, but it looks like one; don't be tricked!
-      <ul>
-        {% for mirror in page.mirrors.pseudo %}
-          <li>
-            <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  {% endif %}
+    {% if page.mirrors.pseudo %}
+      <div>
+        <b>Pseudo Mirror(s)</b>:
+        When only one face is left/right mirrored.  Not a real mirror, but it looks like one; don't be tricked!
+        <ul>
+          {% for mirror in page.mirrors.pseudo %}
+            <li>
+              <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
 
   {% else %}
+
     <i>No mirrors found.</i>
+
   {% endif %}
 </div>
 

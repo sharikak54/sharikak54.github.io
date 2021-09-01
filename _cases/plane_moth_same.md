@@ -6,11 +6,13 @@ top_short_name: plane
 bot: Moth
 bot_short_name: moth
 
+optimal: 4
+
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
+  alg: "0,-1/-3,-3/-2,1/0,3/-1,0"
   description: TODO
 mirror_algs:
   -
@@ -18,7 +20,19 @@ mirror_algs:
     description: TODO
 other_algs:
   -
-    alg: "0,0/"
+    alg: "1,3/3,3/2,-1/0,-3/0,1"
+    description: TODO
+  -
+    alg: "-2,0/-3,-3/2,-1/0,3/0,1"
+    description: TODO
+  -
+    alg: "-3,-4/3,3/-2,1/-3,0/-1,0"
+    description: TODO
+  -
+    alg: "-2,0/-3,-3/2,-1/0,3/0,1"
+    description: TODO
+  -
+    alg: "-3,-4/3,3/-2,1/-3,0/-1,0"
     description: TODO
 
 # RELATED CASES
@@ -34,6 +48,10 @@ mirrors:
 
 
 ---
+
+Notes: bad plane/moth (or matching plane/moth); match shell on top with a tent on bottom to form gem/hammer
+
+Notes: bad plane/moth (or matching plane/moth); match shell on top with a tent on bottom to form gem/hammer
 
 Description TODO
 

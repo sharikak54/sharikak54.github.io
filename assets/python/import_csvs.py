@@ -2,6 +2,10 @@ from os import listdir
 from os.path import isfile, join
 import csv
 
+'''
+Run this directly after running ./generate_cases.py.
+'''
+
 CASE_DIR = "../../_cases/"
 CASE_SUFFIX = ".md"
 filenames = [f for f in listdir(CASE_DIR) if isfile(join(CASE_DIR, f))]
@@ -56,7 +60,7 @@ for filename in filenames:
       if (other_algs):
         case['other_algs'] = other_algs
       if (row['Algs2'] != "same alg"):
-        case['mirror_algs'] = row['Algs2'].split(" ")
+        case['color_mirror_algs'] = row['Algs2'].split(" ")
 
       cases_to_update[short_name] = case
 
@@ -65,26 +69,57 @@ for short_name in cases_to_update:
   filename = case['filename']
   print(case)
 
+  # Read old lines
   with open(filename, 'r') as file:
     # read a list of lines into data
     lines = file.readlines()
   
+  # Generate lines in edited file
+
+  found_optimal_line = False
+  found_description_line = False
+
   new_lines = []
-  # TODO convert to iterate by index to look backwards
-  for line in lines:
-    if (line == "recognition: TODO\n"):
+  i = 0
+  while (i < len(lines)):
+    line = lines[i]
+    if (line[0:8] == "optimal:"):
+      found_optimal_line = True
+      line = "optimal: " + case['optimal'] + "\n"
+    elif ((not found_optimal_line) and line == "recognition: TODO\n"):
       new_lines.append("optimal: " + case['optimal'] + "\n")
       new_lines.append("\n")
-    elif (line == '  alg: "1,0/5,5/0,1"\n'):
-      line = '  alg: "' + case['default_alg'] + '"\n'
     elif (line == "Description TODO\n"):
       new_lines.append("Notes: " + case['notes'] + "\n")
       new_lines.append("\n")
-    new_lines.append(line)
-    # print(line)
+    elif (i > 0):
+      # Checking previous line(s)
+      if (lines[i-1] == "default_alg:\n"):
+        line = '  alg: "' + case['default_alg'] + '"\n'
+      elif (lines[i-1] == "color_mirror_algs:\n"):
+        if ('color_mirror_algs' in case.keys()):
+          for mirror_alg in case['color_mirror_algs']:
+            new_lines.append('  -\n')
+            new_lines.append('    alg: "' + mirror_alg + '"\n')
+            new_lines.append('    description: TODO\n')
+        else:
+          new_lines.pop()
+        i += 3
+        continue
+      elif (lines[i-1] == "other_algs:\n"):
+        if ('other_algs' in case.keys()):
+          for other_alg in case['other_algs']:
+            new_lines.append('  -\n')
+            new_lines.append('    alg: "' + other_alg + '"\n')
+            new_lines.append('    description: TODO\n')
+        else:
+          new_lines.pop()
+        i += 3
+        continue
 
-  # write everything back TODO
-  with open(filename + "_test", 'w') as file:
+    new_lines.append(line)
+    i += 1
+
+  # Write everything back in
+  with open(filename, 'w') as file:
     file.writelines(new_lines)
-  
-  break

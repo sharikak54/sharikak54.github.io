@@ -8,20 +8,14 @@ bot: Pinwheel
 bot_short_name: pinwheel
 bot_lr: Right
 
+optimal: 4
+
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
+  alg: "1,0/-1,5/-2,1/3,0/-1,0"
   description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
 
 # RELATED CASES
 parents:
@@ -47,6 +41,8 @@ mirrors:
 
 
 ---
+
+Notes: bad half/n; pair edge on top with tent on bottom to form gem
 
 Description TODO
 
