@@ -64,18 +64,20 @@ layout: default
 
 </div>
 
-{% if page.mirror_algs %}
 <br>
 <div>
   <h3>Color Mirror Algs</h3>
-  {% for alg in page.mirror_algs %}
-    <div>
-      <b>{{alg.alg}}</b>:
-      {{alg.description}}
-    </div>
-  {% endfor %}
+  {% if page.mirror_algs %}
+    {% for alg in page.mirror_algs %}
+      <div>
+        <b>{{alg.alg}}</b>:
+        {{alg.description}}
+      </div>
+    {% endfor %}
+  {% else %}
+    <i>Same as best alg</i>
+  {% endif %}
 </div>
-{% endif %}
 
 {% if page.other_algs %}
 <br>
