@@ -68,14 +68,16 @@ layout: default
 <div>
   <h3>Color Mirror Algs</h3>
   {% if page.color_mirror_algs %}
-    {% for alg in page.color_mirror_algs %}
-      <div>
-        <b>{{alg.alg}}</b>:
-        {{alg.description}}
-      </div>
-    {% endfor %}
+    <ul>
+      {% for alg in page.color_mirror_algs %}
+        <li>
+          <b>{{alg.alg}}</b>:
+          {{alg.description}}
+        </li>
+      {% endfor %}
+    </ul>
   {% else %}
-    <i>Same as best alg</i>
+    <i>None; use best alg</i>
   {% endif %}
 </div>
 
@@ -83,12 +85,14 @@ layout: default
 <br>
 <div>
   <h3>Other Algs</h3>
-  {% for alg in page.other_algs %}
-    <div>
-      <b>{{alg.alg}}</b>:
-      {{alg.description}}
-    </div>
-  {% endfor %}
+  <ul>
+    {% for alg in page.other_algs %}
+      <li>
+        <b>{{alg.alg}}</b>:
+        {{alg.description}}
+      </li>
+    {% endfor %}
+  </ul>
 </div>
 {% endif %}
 
