@@ -98,7 +98,7 @@ for ct_type in ct_types.keys():
       contents += "default_alg:\n"
       contents += "  alg: \"1,0/5,5/0,1\"\n"
       contents += "  description: TODO\n"
-      contents += "mirror_algs:\n"
+      contents += "color_mirror_algs:\n"
       contents += "  -\n"
       contents += "    alg: \"0,0/\"\n"
       contents += "    description: TODO\n"
