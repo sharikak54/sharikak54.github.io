@@ -129,7 +129,7 @@ a.backLink:hover {
 	float: right;
 }
 
-.smallTree {
+figure.smallTree {
 	max-width: 100%;
 	background: linear-gradient(15deg, #609b0250, #5d910b80);
 	margin-bottom: 40px;
@@ -147,6 +147,7 @@ figure.faceFigure {
 	max-width: 100%;
 	object-fit: contain;
 }
+
 figcaption {
 	color: #fff;
 	font: italic smaller sans-serif;

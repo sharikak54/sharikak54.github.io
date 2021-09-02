@@ -4,26 +4,72 @@ backLink:
   url: "/start"
 ---
 
-<div class="smallTree">
+<h1>The OBL Tree</h1>
+
+<p>
+  Below is a visual representation of all the OBL cases
+  (ignoring left/right symmetry).  
+  The single case at the far left is the solved state,
+  and each column to the right represents a slice taken.
+  So the next column (also with only one case) requires
+  one slice to get to the solved state.
+</p>
+
+<p>
+  A line between two cases means that it's possible to get from
+  one case to another.  (Only optimal connections are shown.)
+  If you think of these as directed edges in a graph of all cases, 
+  the diagram is what is known as a "tree" in graph theory 
+  (with the root at the left and the leaves on the right); 
+  hence the name.
+</p>
+
+<figure class="smallTree">
   <a href="/assets/images/obl_data_sorted_by_weights_1110.pdf" target="_blank">
     <img src="/assets/images/obl_data_sorted_by_weights_1110.pdf">
+    <figcaption>
+      Click the image to open the full-size version in a new tab.
+    </figcaption>
   </a>
-</div>
+</figure>
 
-<h1>OBL Cases by Optimal Movecount</h1>
+<h2>Guidelines to Learning</h2>
+<ul>
+  <li>
+    When learning OBL, you generally should start from the left 
+    of the tree, and work your way right.  
+    Not only are the leftwards cases easier to learn, 
+    they'll also show up when learning rightwards cases
+    that feed into them, reinforcing your learning.
+  </li>
+  <li>
+    Also, note the little numbers to the
+    right of each case.  Those represent the relative likelihood
+    of that case showing up in a full solve using optimal-movecount OBL.
+    <!-- TODO when we fix the weights update these words -->
+    So in most cases you may want to start on a new column 
+    before learning the very top and bottom cases.
+  </li>
+  <!-- TODO <li> for sorting via "difficulty" or "level" -->
+</ul>
+
+
+
+<h2>OBL Cases Listed By Optimal Movecount</h2>
 <ul>
   {% for case_by_optimal in site.cases_by_optimal %}
     <li>
-      <h2>
+      <h3>
         <a href="{{ case_by_optimal.url | replace: '.html','' }}">
           {{ case_by_optimal.name }}
         </a>
-      </h2>
+      </h3>
     </li>
   {% endfor %}
 </ul>
 
-<br>
 
-If you want to reference a specific case, go to the 
-<a href="/cases">Full OBL Cases List</a> instead.
+<i>
+  If you want to reference a specific case, try the 
+  <a href="/cases">Full OBL Cases List</a> instead.
+</i>
