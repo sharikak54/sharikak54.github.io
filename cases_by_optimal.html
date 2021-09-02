@@ -1,0 +1,29 @@
+---
+title: OBL Cases By Optimal Movecount
+backLink: 
+  url: "/start"
+---
+
+<div class="smallTree">
+  <a href="/assets/images/obl_data_sorted_by_weights_1110.pdf" target="_blank">
+    <img src="/assets/images/obl_data_sorted_by_weights_1110.pdf">
+  </a>
+</div>
+
+<h1>OBL Cases by Optimal Movecount</h1>
+<ul>
+  {% for case_by_optimal in site.cases_by_optimal %}
+    <li>
+      <h2>
+        <a href="{{ case_by_optimal.url | replace: '.html','' }}">
+          {{ case_by_optimal.name }}
+        </a>
+      </h2>
+    </li>
+  {% endfor %}
+</ul>
+
+<br>
+
+If you want to reference a specific case, go to the 
+<a href="/cases">Full OBL Cases List</a> instead.

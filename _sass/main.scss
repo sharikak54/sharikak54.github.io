@@ -93,17 +93,35 @@ div.announcement {
 }
 
 .backLink {
+	position: relative;
 	color: white;
-	background-color: #5d910b;
+	background: linear-gradient(#609b02, #5d910b);
 	border-radius: 2px;
 	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
+.backLink::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#5e8318, #3b7912);
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
+	border-radius: 2px;
+  opacity: 0;
+  z-index: -1;
+}
+.backLink:hover::before {
+  opacity: 1;
 }
 a.backLink,
 a.backLink:hover {
 	color: white;
 }
 .backLink:hover {
-	background-color: #659e10;
+	background: linear-gradient(#7fa31c, #609b02);
 	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
 	cursor: pointer;
 }
@@ -111,13 +129,20 @@ a.backLink:hover {
 	float: right;
 }
 
-figure.face_figure {
+.smallTree {
+	max-width: 100%;
+	background: linear-gradient(15deg, #609b0250, #5d910b80);
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+figure.faceFigure {
 	display: flex;
 	flex-flow: column;
 	padding: 5px;
 	margin: auto;
 }
-.face_image {
+.faceImage {
 	height: 200px;
 	max-width: 100%;
 	object-fit: contain;
@@ -129,19 +154,19 @@ figcaption {
 	text-align: center;
 }
 
-.cubicle_embed {
+.cubicleEmbed {
 	width: 100%;
 }
-.cubicle_iframe {
+.cubicleIframe {
 	width: 406px;
 	height: 200px;
 }
 
-.squandb_embed {
+.squandbEmbed {
 	width: 100%;
 	height: 800px;
 }
-.squandb_iframe {
+.squandbIframe {
 	width: 100%;
 	height: 800px;
 }

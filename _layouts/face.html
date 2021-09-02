@@ -21,8 +21,8 @@ layout: default
 	{% assign file_exists = site.static_files | where: "path", image_path  %}
 
 	{% if file_exists.size != 0 %}
-		<figure class="face_figure">
-			<img class="face_image" src="{{image_path}}">
+		<figure class="faceFigure">
+			<img class="faceImage" src="{{image_path}}">
 			{% if page.has_lr %}
 			<figcaption>
 				The "Left" version of this case is pictured.

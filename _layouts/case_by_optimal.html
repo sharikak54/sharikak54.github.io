@@ -1,0 +1,30 @@
+---
+title: "{{ page.name }}"
+layout: default
+---
+<div class="pageNav">
+  <a class="backLink" href="/cases_by_optimal">
+    <div ><-- Up</div>
+  </a>
+</div>
+
+<h1>{{ page.name }}</h1>
+
+{{ content }}
+
+{% assign filtered_cases = site.cases | where: 'optimal', page.movecount %}
+{% if filtered_cases.size > 0 %}
+	<ol>
+		{% for case in filtered_cases %}
+			<li>
+				<h2>
+					<a href="{{ case.url | replace: '.html','' }}">
+						{{ case.name }}
+					</a>
+				</h2>
+			</li>
+		{% endfor %}
+	</ol>
+{% else %}
+	<i>No cases found.  Please check back later.</i>
+{% endif %}

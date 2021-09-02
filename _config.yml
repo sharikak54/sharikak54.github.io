@@ -15,6 +15,8 @@ collections:
     output: true
   cases:
     output: true
+  cases_by_optimal:
+    output: true
   faces:
     output: true
 
@@ -29,6 +31,11 @@ defaults:
       type: "cases"
     values:
       layout: "case"
+  - scope:
+      path: ""
+      type: "cases_by_optimal"
+    values:
+      layout: "case_by_optimal"
   - scope:
       path: ""
       type: "faces"
