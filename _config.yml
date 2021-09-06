@@ -10,15 +10,20 @@ description: "An explanation of OBL from a user's perspective."
 
 announcement: true
 
+collections_dir: ".collections"
+
 collections:
   authors:
     output: true
   cases:
     output: true
+    permalink: /learn/:collection/:path
   cases_by_optimal:
     output: true
+    permalink: /learn/:collection/:path
   faces:
     output: true
+    permalink: /learn/:collection/:path
 
 defaults:
   - scope:

@@ -1,22 +1,22 @@
 - name: Home
   link: /
 - name: Learn
-  link: /start
+  link: /learn
   sublinks:
     - name: Start
-      link: /start
+      link: /learn/start
     - name: Faces
-      link: /faces
+      link: /learn/faces
     - name: Cases
-      link: /cases
+      link: /learn/cases
     - name: Resources
-      link: /resources
+      link: /learn/resources
 - name: Tools?
   link: /tools
   sublinks:
     - name: Identifier?
-      link: /identifier
+      link: /tools/identifier
     - name: Trainer?
-      link: /trainer
+      link: /tools/trainer
 - name: About
   link: /about

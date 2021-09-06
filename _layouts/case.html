@@ -3,7 +3,7 @@ title: "Case: {{ page.name }}"
 layout: default
 ---
 <div class="pageNav">
-  <a class="backLink" href="/cases">
+  <a class="backLink" href="/learn/cases">
     <div ><-- Up</div>
   </a>
 
@@ -19,9 +19,9 @@ layout: default
 
 <h1 id="main">{{ page.name }}</h1>
 <h2>
-  Face(s): <a href="/faces/{{page.top_short_name}}">{{page.top_lr}} {{ page.top }}</a>
+  Face(s): <a href="/learn/faces/{{page.top_short_name}}">{{page.top_lr}} {{ page.top }}</a>
   {% if page.top != page.bot or page.top_lr != page.bot_lr %}
-    / <a href="/faces/{{page.bot_short_name}}">{{page.bot_lr}} {{ page.bot }}</a>
+    / <a href="/learn/faces/{{page.bot_short_name}}">{{page.bot_lr}} {{ page.bot }}</a>
   {% endif %}
 </h2>
 
@@ -36,9 +36,11 @@ layout: default
 
 {% if page.recognition %}
   {{page.recognition}}
-  <br>
-  <br>
+{% else %}
+  <i>No recognition hints yet, try again later.</i>
 {% endif %}
+<br>
+<br>
 
 
 

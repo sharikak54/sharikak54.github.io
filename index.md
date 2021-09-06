@@ -34,4 +34,4 @@ Okay, maybe you're still thinking that 74 cases is a lot.  That may be true, but
 > **Not Kevin says:** The 6-slice optimal algs are optimal by just doing CO -> EO, so you already have 2 done :)
 
 ## Okay, _how_ OBL?
-Go to the [Start page](/start) to learn more!
+Go to the [Start page](/learn/start) to learn more!
