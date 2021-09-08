@@ -71,6 +71,13 @@ body * {
 	transition-duration: 0.2s; // Joseph's buttery transitions
 }
 
+.errorBox {
+	background-color: #500;
+	padding: 10px 20px;
+	border: 2px red solid;
+	border-radius: 3px;
+}
+
 div.announcement {
 	width: 100%;
 	background-color: blue;
