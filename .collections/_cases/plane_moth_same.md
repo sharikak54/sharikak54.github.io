@@ -28,12 +28,6 @@ other_algs:
   -
     alg: "-3,-4/3,3/-2,1/-3,0/-1,0"
     description: TODO
-  -
-    alg: "-2,0/-3,-3/2,-1/0,3/0,1"
-    description: TODO
-  -
-    alg: "-3,-4/3,3/-2,1/-3,0/-1,0"
-    description: TODO
 
 # RELATED CASES
 parents:
@@ -48,8 +42,6 @@ mirrors:
 
 
 ---
-
-Notes: bad plane/moth (or matching plane/moth); match shell on top with a tent on bottom to form gem/hammer
 
 Notes: bad plane/moth (or matching plane/moth); match shell on top with a tent on bottom to form gem/hammer
 

@@ -6,7 +6,12 @@ import csv
 Run this directly after running ./generate_cases.py.
 '''
 
-CASE_DIR = "../../_cases/"
+# COMMENT THIS OUT TO RUN
+# WARNING: this script overwrites a ton of files,
+# make sure you know what you're doing
+quit()
+
+CASE_DIR = "../../.collections/_cases/"
 CASE_SUFFIX = ".md"
 filenames = [f for f in listdir(CASE_DIR) if isfile(join(CASE_DIR, f))]
 

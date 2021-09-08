@@ -29,7 +29,7 @@ def getMirrorContents(mirrors):
 def getFacesByECType():
   '''Compute all faces from the ./_faces folder, sorting by edge/corner counts.'''
 
-  FACE_DIR = "../../_faces/"
+  FACE_DIR = "../../.collections/_faces/"
 
   filenames = [f for f in listdir(FACE_DIR) if isfile(join(FACE_DIR, f))]
 

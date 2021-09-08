@@ -5,7 +5,7 @@ from utils import flipLR, flipLeftRight, getMirrorContents, getFacesByECType
 # make sure you know what you're doing
 quit()
 
-CASE_DIR = "../../_cases/"
+CASE_DIR = "../../.collections/_cases/"
 
 ct_types = getFacesByECType()
 
