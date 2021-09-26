@@ -1,6 +1,43 @@
 <ul>
+  <li class="mobileOnly">
+    <a href="/">
+      {{ site.title | default: site.github.repository_name }}
+    </a>
+  </li>
+
+  <li class="mobileOnly mobileNavButton">
+    <a>--</a>
+    <ul class="mobileMenu dropdown" aria-label="submenu">
+      {% for item in site.data.navigation %}
+      <li class="navLinks">
+        <a href="{{ item.link }}" 
+          {% if page.url == item.link %}
+            class="currentPageLink"
+          {% endif %}>
+          {{ item.name }}
+        </a>
+    
+        {% if item.sublinks %}
+        <ul class="dropdown" aria-label="submenu">
+          {% for subitem in item.sublinks %}
+          <li class="navLinks">
+            <a href="{{subitem.link}}"
+              {% if page.url == subitem.link %}
+                class="currentPageLink"
+              {% endif %}>
+              {{subitem.name}}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
+
   {% for item in site.data.navigation %}
-  <li>
+  <li class="navLinks">
     <a href="{{ item.link }}" 
 			{% if page.url == item.link %}
 				class="currentPageLink"
@@ -9,18 +46,18 @@
     </a>
 
     {% if item.sublinks %}
-      <ul class="dropdown" aria-label="submenu">
-        {% for subitem in item.sublinks %}
-          <li>
-            <a href="{{subitem.link}}"
-              {% if page.url == subitem.link %}
-                class="currentPageLink"
-              {% endif %}>
-              {{subitem.name}}
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
+    <ul class="dropdown" aria-label="submenu">
+      {% for subitem in item.sublinks %}
+      <li>
+        <a href="{{subitem.link}}"
+          {% if page.url == subitem.link %}
+            class="currentPageLink"
+          {% endif %}>
+          {{subitem.name}}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
     {% endif %}
   </li>
   {% endfor %}

@@ -23,6 +23,81 @@ ul > li > ul {
 	margin: 0;
 }
 
+// Overwrite mobile theme
+#header nav .mobileOnly {
+	display: none;
+}
+
+@media print, screen and (max-width: 480px) {
+  body #header {
+    margin-top: 0;
+  }
+
+	#header nav {
+		display: block;
+
+		.title {
+			display: none;
+		}
+		.mobileOnly {
+			display: block;
+		}
+	}
+
+	nav .mobileNavButton {
+		float: right;
+		margin-right: 10px;
+		position: relative;
+	}
+	#header nav ul li.mobileNavButton a {
+		color: #fff0;
+		text-shadow: none;
+		border-radius: 20px;
+		user-select: none;
+	}
+
+	#header nav li.navLinks {
+		display: none;
+	}
+
+	#header nav ul li ul.mobileMenu {
+		position: absolute;
+		top: -6px;
+		left: -40px;
+		padding: 60px 40px 1000px 0px;
+		background: linear-gradient(to left, #8889 10%, #888 90%);
+		border-radius: 0;
+
+		li.navLinks {
+			display: block;
+			margin-bottom: 5px;
+
+			a {
+				color: white;
+				text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+				float: right;
+			}
+
+			ul.dropdown {
+				left: -120px;
+				top: 0px;
+				width: 100px;
+				padding: 5px 20px 5px 0;
+				background: linear-gradient(to left, #8889 10%, #888 90%);
+				border-radius: 0;
+			}
+		}
+	}
+
+	#header nav ul li ul li:hover > ul,
+	#header nav ul li ul li:focus-within > ul,
+	#header nav ul li ul li ul:hover,
+	#header nav ul li ul li ul:focus {
+		opacity: 1;
+		pointer-events: auto;
+	}
+}
+
 /************
  * Dropdown *
  ************/
