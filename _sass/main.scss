@@ -15,8 +15,8 @@ body #header nav {
 }
 
 #header nav ul li a.currentPageLink {
-  color: #ffcc00;
-	font-weight: bold;
+  color: #ffcc00 !important;
+	font-weight: bold !important;
 }
 
 ul > li > ul {
