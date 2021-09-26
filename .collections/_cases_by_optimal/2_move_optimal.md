@@ -1,4 +1,5 @@
 ---
+title: 2-Move Optimal Cases
 name: 2-Move Optimal Cases
 movecount: 2
 difficulty: 1

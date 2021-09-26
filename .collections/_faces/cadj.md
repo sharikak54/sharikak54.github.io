@@ -1,4 +1,5 @@
 ---
+title: "Face: Cadj"
 name: Cadj
 short_name: cadj
 nickname: 2C Adjacent / 2C Adj

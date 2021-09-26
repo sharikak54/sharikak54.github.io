@@ -1,4 +1,5 @@
 ---
+title: "Face: Scottie"
 name: Scottie
 short_name: scottie
 nickname: Scottish Terrier

@@ -1,4 +1,5 @@
 ---
+title: "Face: Copp"
 name: Copp
 short_name: copp
 nickname: 2C Opposite / 2C Opp

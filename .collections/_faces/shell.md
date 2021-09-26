@@ -1,4 +1,5 @@
 ---
+title: "Face: Shell"
 name: Shell
 short_name: shell
 nickname: Seashell / Fan

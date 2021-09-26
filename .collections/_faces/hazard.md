@@ -1,4 +1,5 @@
 ---
+title: "Face: Hazard"
 name: Hazard
 short_name: hazard
 nickname: Radioactive / Fidget Spinner

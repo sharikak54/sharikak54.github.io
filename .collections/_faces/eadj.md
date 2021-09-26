@@ -1,4 +1,5 @@
 ---
+title: "Face: Eadj"
 name: Eadj
 short_name: eadj
 nickname: 2E Adjacent / 2E Adj

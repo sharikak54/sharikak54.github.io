@@ -1,4 +1,5 @@
 ---
+title: "Face: Moth"
 name: Moth
 short_name: moth
 nickname: Butterfly

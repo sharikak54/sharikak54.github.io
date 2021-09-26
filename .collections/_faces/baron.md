@@ -1,4 +1,5 @@
 ---
+title: "Face: Baron"
 name: Baron
 short_name: baron
 nickname: Red Baron

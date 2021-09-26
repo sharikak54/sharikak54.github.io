@@ -1,4 +1,5 @@
 ---
+title: "Face: Eopp"
 name: Eopp
 short_name: eopp
 nickname: 2E Opposite / 2E Opp

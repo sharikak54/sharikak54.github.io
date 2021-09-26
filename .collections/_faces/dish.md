@@ -1,4 +1,5 @@
 ---
+title: "Face: Dish"
 name: Dish
 short_name: dish
 nickname: Satellite Dish

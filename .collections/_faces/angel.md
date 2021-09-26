@@ -1,4 +1,5 @@
 ---
+title: "Face: Angel"
 name: Angel
 short_name: angel
 type: 2E1C

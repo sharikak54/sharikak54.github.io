@@ -1,4 +1,5 @@
 ---
+title: "Face: Zero"
 name: Zero
 short_name: zero
 type: 2E2C

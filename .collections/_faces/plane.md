@@ -1,4 +1,5 @@
 ---
+title: "Face: Plane"
 name: Plane
 short_name: plane
 nickname: Airplane / Glider

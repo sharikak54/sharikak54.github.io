@@ -1,4 +1,5 @@
 ---
+title: "Staff: Shari Kuroyama"
 short_name: Shari
 name: Shari Kuroyama
 position: Web Developer

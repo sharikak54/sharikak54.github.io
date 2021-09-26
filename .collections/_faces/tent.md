@@ -1,4 +1,5 @@
 ---
+title: "Face: Tent"
 name: Tent
 short_name: tent
 nickname: Quarter / Pair

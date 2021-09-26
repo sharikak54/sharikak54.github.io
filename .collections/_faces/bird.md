@@ -1,4 +1,5 @@
 ---
+title: "Face: Bird"
 name: Bird
 short_name: bird
 type: 1E2C

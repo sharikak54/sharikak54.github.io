@@ -1,4 +1,5 @@
 ---
+title: "Face: Whale"
 name: Whale
 short_name: whale
 type: 1E1C
