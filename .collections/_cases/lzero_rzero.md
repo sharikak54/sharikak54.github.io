@@ -1,4 +1,5 @@
 ---
+title: "Case: Left Zero / Right Zero"
 name: Left Zero / Right Zero
 short_name: lzero_rzero
 top: Zero

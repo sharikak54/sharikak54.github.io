@@ -1,4 +1,5 @@
 ---
+title: "Case: Plane / Left Pinwheel"
 name: Plane / Left Pinwheel
 short_name: plane_lpinwheel
 top: Plane

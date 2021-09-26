@@ -1,4 +1,5 @@
 ---
+title: "Case: Eadj / Eopp"
 name: Eadj / Eopp
 short_name: eadj_eopp
 top: Eadj

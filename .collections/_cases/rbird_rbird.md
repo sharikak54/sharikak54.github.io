@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Bird / Right Bird"
 name: Right Bird / Right Bird
 short_name: rbird_rbird
 top: Bird

@@ -1,4 +1,5 @@
 ---
+title: "Case: Moth / Moth"
 name: Moth / Moth
 short_name: moth_moth
 top: Moth

@@ -1,4 +1,5 @@
 ---
+title: "Case: Left Dish / Left Baron"
 name: Left Dish / Left Baron
 short_name: ldish_lbaron
 top: Dish

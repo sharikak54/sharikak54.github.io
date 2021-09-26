@@ -1,4 +1,5 @@
 ---
+title: "Case: Left Tent / Left Whale"
 name: Left Tent / Left Whale
 short_name: ltent_lwhale
 top: Tent

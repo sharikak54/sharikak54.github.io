@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Bird / Left Bird"
 name: Right Bird / Left Bird
 short_name: rbird_lbird
 top: Bird

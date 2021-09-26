@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Pinwheel / Moth"
 name: Right Pinwheel / Moth
 short_name: rpinwheel_moth
 top: Pinwheel

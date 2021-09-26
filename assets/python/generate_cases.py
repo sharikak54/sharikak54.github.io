@@ -79,6 +79,7 @@ for ct_type in ct_types.keys():
       filename = CASE_DIR + case['short_name'] + ".md"
 
       contents = "---\n"
+      contents += "title: \"Case: {}\"\n".format(case['name'])
       contents += "name: {}\n".format(case['name'])
       contents += "short_name: {}\n".format(case['short_name'])
       contents += "top: {}\n".format(case['top'])

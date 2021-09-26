@@ -1,4 +1,5 @@
 ---
+title: "Case: Left Tent / Right Whale"
 name: Left Tent / Right Whale
 short_name: ltent_rwhale
 top: Tent

@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Spill / Left Spill"
 name: Right Spill / Left Spill
 short_name: rspill_lspill
 top: Spill

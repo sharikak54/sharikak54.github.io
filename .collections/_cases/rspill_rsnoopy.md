@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Spill / Right Snoopy"
 name: Right Spill / Right Snoopy
 short_name: rspill_rsnoopy
 top: Spill

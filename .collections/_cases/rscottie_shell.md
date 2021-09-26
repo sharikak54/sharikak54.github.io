@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Scottie / Shell"
 name: Right Scottie / Shell
 short_name: rscottie_shell
 top: Scottie

@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Dish / Right Dish"
 name: Right Dish / Right Dish
 short_name: rdish_rdish
 top: Dish

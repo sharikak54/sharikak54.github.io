@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Kite / Plane"
 name: Right Kite / Plane
 short_name: rkite_plane
 top: Kite

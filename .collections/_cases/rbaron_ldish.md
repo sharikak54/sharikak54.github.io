@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Baron / Left Dish"
 name: Right Baron / Left Dish
 short_name: rbaron_ldish
 top: Baron

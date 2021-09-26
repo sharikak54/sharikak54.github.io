@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Scottie / Left Bird"
 name: Right Scottie / Left Bird
 short_name: rscottie_lbird
 top: Scottie

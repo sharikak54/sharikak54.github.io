@@ -1,4 +1,5 @@
 ---
+title: "Case: Left Zero / Right Kite"
 name: Left Zero / Right Kite
 short_name: lzero_rkite
 top: Zero

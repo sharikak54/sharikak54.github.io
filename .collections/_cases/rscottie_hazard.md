@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Scottie / Hazard"
 name: Right Scottie / Hazard
 short_name: rscottie_hazard
 top: Scottie

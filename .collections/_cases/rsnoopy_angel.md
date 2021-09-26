@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Snoopy / Angel"
 name: Right Snoopy / Angel
 short_name: rsnoopy_angel
 top: Snoopy

@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Baron / Left Baron"
 name: Right Baron / Left Baron
 short_name: rbaron_lbaron
 top: Baron

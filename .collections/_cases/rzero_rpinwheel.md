@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Zero / Right Pinwheel"
 name: Right Zero / Right Pinwheel
 short_name: rzero_rpinwheel
 top: Zero

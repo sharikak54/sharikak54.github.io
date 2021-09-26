@@ -1,4 +1,5 @@
 ---
+title: "Case: Moth / Left Zero"
 name: Moth / Left Zero
 short_name: moth_lzero
 top: Moth

@@ -1,4 +1,5 @@
 ---
+title: "Case: Left Tent / Left Tent"
 name: Left Tent / Left Tent
 short_name: ltent_ltent
 top: Tent

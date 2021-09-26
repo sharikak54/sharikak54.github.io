@@ -1,4 +1,5 @@
 ---
+title: "Case: Plane / Plane"
 name: Plane / Plane
 short_name: plane_plane
 top: Plane

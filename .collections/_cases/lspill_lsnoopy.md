@@ -1,4 +1,5 @@
 ---
+title: "Case: Left Spill / Left Snoopy"
 name: Left Spill / Left Snoopy
 short_name: lspill_lsnoopy
 top: Spill

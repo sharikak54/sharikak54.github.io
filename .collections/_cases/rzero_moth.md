@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Zero / Moth"
 name: Right Zero / Moth
 short_name: rzero_moth
 top: Zero

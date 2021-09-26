@@ -1,4 +1,5 @@
 ---
+title: "Case: Left Pinwheel / Right Kite"
 name: Left Pinwheel / Right Kite
 short_name: lpinwheel_rkite
 top: Pinwheel

@@ -1,4 +1,5 @@
 ---
+title: "Case: Hazard / Shell"
 name: Hazard / Shell
 short_name: hazard_shell
 top: Hazard

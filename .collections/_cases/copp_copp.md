@@ -1,4 +1,5 @@
 ---
+title: "Case: Copp / Copp"
 name: Copp / Copp
 short_name: copp_copp
 top: Copp

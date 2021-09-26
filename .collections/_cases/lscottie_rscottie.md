@@ -1,4 +1,5 @@
 ---
+title: "Case: Left Scottie / Right Scottie"
 name: Left Scottie / Right Scottie
 short_name: lscottie_rscottie
 top: Scottie

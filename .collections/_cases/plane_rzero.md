@@ -1,4 +1,5 @@
 ---
+title: "Case: Plane / Right Zero"
 name: Plane / Right Zero
 short_name: plane_rzero
 top: Plane

@@ -1,4 +1,5 @@
 ---
+title: "Case: Same Moth / Plane"
 name: Same Moth / Plane
 short_name: moth_plane_same
 top: Moth

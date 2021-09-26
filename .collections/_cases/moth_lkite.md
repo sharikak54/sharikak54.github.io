@@ -1,4 +1,5 @@
 ---
+title: "Case: Moth / Left Kite"
 name: Moth / Left Kite
 short_name: moth_lkite
 top: Moth

@@ -1,4 +1,5 @@
 ---
+title: "Case: Right Pinwheel / Left Pinwheel"
 name: Right Pinwheel / Left Pinwheel
 short_name: rpinwheel_lpinwheel
 top: Pinwheel

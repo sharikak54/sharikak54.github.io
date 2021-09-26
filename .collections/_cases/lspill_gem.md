@@ -1,4 +1,5 @@
 ---
+title: "Case: Left Spill / Gem"
 name: Left Spill / Gem
 short_name: lspill_gem
 top: Spill

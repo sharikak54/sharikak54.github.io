@@ -1,4 +1,5 @@
 ---
+title: "Case: Left Bird / Shell"
 name: Left Bird / Shell
 short_name: lbird_shell
 top: Bird

@@ -1,4 +1,5 @@
 ---
+title: "Case: Angel / Gem"
 name: Angel / Gem
 short_name: angel_gem
 top: Angel
