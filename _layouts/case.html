@@ -48,22 +48,22 @@ layout: default
 
 <div>
   <h3>Best Alg: {{page.default_alg.alg}}</h3>
-  <!-- 
-    TODO button to hide/show embeddable
-    TODO button to replace alg in embeddable
-  -->
 
   {% if page.default_alg.description %}
     {{page.default_alg.description}}
   {% endif %}
 
-  <div>
-    {% assign title = page.name | prepend: 'OBL: ' %}
-    {% include squandb_embed.html title=title alg=page.default_alg.alg %}
-  </div>
-  <br>
-  <br>
-
+  <!-- 
+    embeddable?
+    TODO button to hide/show embeddable
+    TODO button to replace alg in embeddable
+    <div>
+      {% assign title = page.name | prepend: 'OBL: ' %}
+      {% include squandb_embed.html title=title alg=page.default_alg.alg %}
+    </div>
+    <br>
+    <br>
+  -->
 </div>
 
 <br>
