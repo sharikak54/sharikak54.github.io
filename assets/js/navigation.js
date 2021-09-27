@@ -17,6 +17,7 @@ function onClickBody(e) {
     if (!(targetIsHamburger || targetIsMobileMenu)) {
       hamburgerMenuIsOpen = false
       toggleMobileMenu($("#mobileMenu"), false);
+      onClickMobileMenu();
     }
   }
 }

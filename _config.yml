@@ -11,7 +11,6 @@ description: "An explanation of OBL from a user's perspective."
 announcement: true
 
 collections_dir: ".collections"
-
 collections:
   authors:
     output: true
