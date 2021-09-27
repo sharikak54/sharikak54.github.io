@@ -1,27 +1,62 @@
+let hamburgerMenuIsOpen = false;
+
 $(document).ready(() => {
+  $("body").click(onClickBody);
   $("#hamburger").click(onClickHamburger);
+  $("#mobileMenu").click(onClickMobileMenu);
   $(".mobileSubheader").click(onClickSubheader);
 });
 
-function onClickHamburger(e) {
-  $(this).parent().find("ul.mobileMenu")
-    .toggle(true)
-    .css("opacity", 1)
-    .css("pointer-events", "auto");
+function onClickBody(e) {
+  if (hamburgerMenuIsOpen) {
+    const $target = $(e.target);
+    const targetIsHamburger = $target.attr("id") === "hamburger" 
+      || $target.parents("#hamburger").length;
+    const targetIsMobileMenu = $target.parents(".mobileNavigation").length;
+
+    if (!(targetIsHamburger || targetIsMobileMenu)) {
+      hamburgerMenuIsOpen = false
+      toggleMobileMenu($("#mobileMenu"), false);
+    }
+  }
 }
 
-function onClickSubheader(e) {
-  const id = $(this).attr("id");
-  const $submenu = $(this).parent().find(`ul#submenu-${id}`);
+function onClickHamburger(e) {
+  hamburgerMenuIsOpen = true;
+  toggleMobileMenu($(this).parent().find("#mobileMenu"), true);
+}
 
-  // Toggle visibility of corresponding submenu
-  if (parseInt($submenu.css("opacity"))) {
-    $submenu.hide()
-      .css("opacity", 0)
-      .css("pointer-events", "none")
-  } else {
-    $submenu.show()
-      .css("opacity", 1)
-      .css("pointer-events", "auto")
-  }
+function onClickMobileMenu(e) {
+  // Toggle all submenus closed.
+  $("ul.submenu").each((i) => {
+    $submenu = $($("ul.submenu")[i]);
+    toggleMobileMenu($submenu, false);
+  });
+}
+
+/** Toggle visibility of corresponding submenu. */
+function onClickSubheader(e) {
+  e.preventDefault();
+  e.stopPropagation();
+
+  const id = $(this).attr("id");
+  const $thisSubmenu = $(this).parent().find(`#submenu${id}`);
+  const wasVisible = parseInt($thisSubmenu.css("opacity"));
+
+  // Toggle all other submenus closed too.
+  $("ul.submenu").each((i) => {
+    const $submenu = $($("ul.submenu")[i]);
+    if ($submenu.attr("id") === `submenu${id}`) {
+      toggleMobileMenu($submenu, !wasVisible);
+    } else {
+      toggleMobileMenu($submenu, false);
+    }
+  });
+}
+
+function toggleMobileMenu($menu, display = true) {
+  $menu
+    .toggle(display)
+    .css("opacity", display ? 1 : 0)
+    .css("pointer-events", display ? "auto" : "none");
 }

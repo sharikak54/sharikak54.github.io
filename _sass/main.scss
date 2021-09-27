@@ -44,11 +44,11 @@ ul > li > ul {
 		}
 	}
 
-	nav .mobileNavButton {
+	nav .mobileNavigation {
 		float: right;
 		position: relative;
 	}
-	#header nav ul li.mobileNavButton a {
+	#header nav ul li.mobileNavigation a {
 		color: #fff0;
 		text-shadow: none;
 		border-radius: 5px;
@@ -93,8 +93,8 @@ ul > li > ul {
 	#header nav ul li ul li:focus-within > ul,
 	#header nav ul li ul li ul:hover,
 	#header nav ul li ul li ul:focus {
-		opacity: 1;
-		pointer-events: auto;
+		opacity: 0;
+		pointer-events: none;
 	}
 }
 

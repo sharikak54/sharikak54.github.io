@@ -18,7 +18,7 @@
     {% assign current_link = "/" %}
   {% endif %}
 
-  <li class="mobileOnly mobileNavButton">
+  <li class="mobileOnly mobileNavigation">
     <a id="hamburger">
       <svg viewBox="0 0 100 70" width="30" height="30" fill="#ddd">
         <rect width="100" height="12" rx="8"></rect>
@@ -27,7 +27,7 @@
       </svg>
     </a>
 
-    <ul class="mobileMenu dropdown" aria-label="submenu">
+    <ul id="mobileMenu" class="mobileMenu dropdown" aria-label="submenu">
       {% for item in site.data.navigation %}
       <li class="navLinks">
         <a id="{{ item.name }}"
@@ -46,7 +46,7 @@
         </a>
     
         {% if item.sublinks %}
-        <ul id="submenu-{{ item.name }}" class="dropdown" aria-label="submenu">
+        <ul id="submenu{{ item.name }}" class="submenu dropdown" aria-label="submenu">
           <!-- Submenu header isn't clickable on mobile -->
           <li class="navLinks">
             <a href="{{item.link}}"
