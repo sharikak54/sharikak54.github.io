@@ -14,6 +14,9 @@
     | remove_first: "/"
     | split: "" | reverse | join: ""
   %}
+  {% if current_link == "" %}
+    {% assign current_link = "/" %}
+  {% endif %}
 
   <li class="mobileOnly mobileNavButton">
     <a id="hamburger">
@@ -27,15 +30,32 @@
     <ul class="mobileMenu dropdown" aria-label="submenu">
       {% for item in site.data.navigation %}
       <li class="navLinks">
-        <a href="{{ item.link }}" 
-          {% if item.link == current_link %}
-            class="currentPageLink"
-          {% endif %}>
+        <a id="{{ item.name }}"
+          {% if item.sublinks %}
+            class="mobileSubheader 
+              {% if item.link == current_link %}currentPageLink{% endif %}
+            "
+          {% else %}
+            href="{{ item.link }}"
+            {% if item.link == current_link %}
+              class="currentPageLink"
+            {% endif %}
+          {% endif %}
+          >
           {{ item.name }}
         </a>
     
         {% if item.sublinks %}
-        <ul class="dropdown" aria-label="submenu">
+        <ul id="submenu-{{ item.name }}" class="dropdown" aria-label="submenu">
+          <!-- Submenu header isn't clickable on mobile -->
+          <li class="navLinks">
+            <a href="{{item.link}}"
+              {% if item.link == current_link %}
+                class="currentPageLink"
+              {% endif %}>
+              {{item.name}}
+            </a>
+          </li>
           {% for subitem in item.sublinks %}
           <li class="navLinks">
             <a href="{{subitem.link}}"
