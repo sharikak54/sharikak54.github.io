@@ -57,7 +57,6 @@ function onClickSubheader(e) {
 
 function toggleMobileMenu($menu, display = true) {
   $menu
-    .toggle(display)
     .css("opacity", display ? 1 : 0)
     .css("pointer-events", display ? "auto" : "none");
 }
