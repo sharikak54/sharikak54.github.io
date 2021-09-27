@@ -20,8 +20,9 @@ backLink:
 <ul>
   {% for author in site.authors %}
     <li>
-      <h2><a href="{{ author.url | replace: '.html','' }}">{{ author.name }}</a></h2>
-      <h3>{{ author.position }}</h3>
+      <!-- <h2><a href="{{ author.url | replace: '.html','' }}">{{ author.name }}</a></h2> -->
+      <h3>{{ author.name }}</h3>
+      <i>{{ author.position }}</i>
       <p>{{ author.content | markdownify }}</p>
     </li>
   {% endfor %}

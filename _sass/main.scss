@@ -108,6 +108,12 @@ nav li {
   padding: 0 4px;
   position: relative;
   text-decoration: none;
+
+	a {
+		user-select: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+	}
 }
 
 nav li:focus-within a {
@@ -181,6 +187,10 @@ div.announcement {
 	border-radius: 2px;
 	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
 	z-index: 1;
+
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
 }
 .backLink::before {
   content: "";
@@ -207,6 +217,8 @@ a.backLink:hover {
 	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
 	cursor: pointer;
 }
+
+// Same-page hyperlinks
 .quickLinks {
 	float: right;
 }
