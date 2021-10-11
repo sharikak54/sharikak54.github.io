@@ -1,8 +1,10 @@
-vendor
 .DS_Store
+.vscode
+
+vendor
+
+_site
 Gemfile
 Gemfile.lock
 .bundle
-.vscode
-_site
 .jekyll-cache

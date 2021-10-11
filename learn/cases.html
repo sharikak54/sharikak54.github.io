@@ -4,6 +4,22 @@ backLink:
   url: "/learn"
 ---
 
+<!-- <script>
+  // Convert case table to tablesorter on load.
+  $(function() {
+    $("#cases").tablesorter({
+      theme: "dark",
+      sortList: [[1,0]],
+      widgets: ["filter", "zebra"],
+      widget_options: {
+        filter_hideFilters: true,
+      }
+    });
+  })
+</script> -->
+
+
+
 <h1>OBL Tree</h1>
 
 <p>
@@ -25,21 +41,21 @@ backLink:
 </p>
 
 <h1>OBL Cases</h1>
-<table class="caseTable">
+<table id="cases" class="caseTable tablesorter">
   <thead>
     <tr>
-      <td>Optimal</td>
-      <td>Case Name</td>
-      <td>Image</td>
+      <th class="caseOptimal">Optimal</th>
+      <th>Case Name</th>
+      <th data-sorter="false" data-filter="false">Image</th>
     </tr>
   </thead>
 
   <tbody>
     {% for case in site.cases %}
       <tr>
-        <td>
+        <td class="caseOptimal">
           {% if case.optimal %}
-            {{ case.short_name }}
+            {{ case.optimal }}
           {% else %}
             <i>TBD</i>
           {% endif %}

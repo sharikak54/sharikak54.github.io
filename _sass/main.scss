@@ -260,6 +260,9 @@ figcaption {
 .caseTable > thead {
 	font-weight: bold;
 }
+.caseTable .caseOptimal {
+	width: 40px;
+}
 .caseTable .caseName {
 	font-size: 18px;
 	line-height: 24px;
@@ -269,6 +272,11 @@ figcaption {
 }
 .caseTable .caseImage {
 	height: 100px;
+}
+
+// Tablesorter styles
+.tablesorter-dark * {
+	font-family: "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 .cubicleEmbed {
