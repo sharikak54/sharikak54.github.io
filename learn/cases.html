@@ -25,11 +25,44 @@ backLink:
 </p>
 
 <h1>OBL Cases</h1>
-<!-- TODO convert ul to sortable/filterable table -->
-<ul>
-  {% for case in site.cases %}
-    <li>
-      <h2><a href="{{ case.url | replace: '.html','' }}">{{ case.name }}</a></h2>
-    </li>
-  {% endfor %}
-</ul>
+<table class="caseTable">
+  <thead>
+    <tr>
+      <td>Optimal</td>
+      <td>Case Name</td>
+      <td>Image</td>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for case in site.cases %}
+      <tr>
+        <td>
+          {% if case.optimal %}
+            {{ case.short_name }}
+          {% else %}
+            <i>TBD</i>
+          {% endif %}
+        </td>
+        <td class="caseName">
+          <a href="{{ case.url | replace: '.html','' }}">
+            {{ case.name }}
+          </a>
+        </td>
+        <td>
+          {% assign image_path = case.short_name | prepend: '/assets/images/cases/' | append: ".png" %}
+          {% assign file_exists = site.static_files | where: "path", image_path  %}
+
+          {% if file_exists.size != 0 %}
+            <figure class="caseFigure">
+              <img class="caseImage" src="{{image_path}}">
+            </figure>
+          {% else %}
+            <div><i>Sorry, no image exists.</i></div>
+            {{ case.short_name }}
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

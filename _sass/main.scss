@@ -256,6 +256,21 @@ figcaption {
 	text-align: center;
 }
 
+// Case table
+.caseTable > thead {
+	font-weight: bold;
+}
+.caseTable .caseName {
+	font-size: 18px;
+	line-height: 24px;
+	a {
+		font-weight: bold;
+	}
+}
+.caseTable .caseImage {
+	height: 100px;
+}
+
 .cubicleEmbed {
 	width: 100%;
 }
