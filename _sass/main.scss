@@ -257,8 +257,13 @@ figcaption {
 }
 
 // Case table
-.caseTable > thead {
+.caseTable > thead th {
 	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	div {
+		margin: 4px;
+	}
 }
 .caseTable .caseOptimal {
 	width: 40px;
@@ -277,6 +282,19 @@ figcaption {
 // Tablesorter styles
 .tablesorter-dark * {
 	font-family: "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.tablesorter-dark .tablesorter-header {
+	border: 2px solid #5550;
+}
+.tablesorter-dark .tablesorter-header:hover {
+	background-color: #111;
+	border-top: 2px solid #555;
+}
+.tablesorter-dark td {
+	font-size: 14px;
+}
+.tablesorter-dark tbody td {
+	padding: 4px 12px;
 }
 
 .cubicleEmbed {
