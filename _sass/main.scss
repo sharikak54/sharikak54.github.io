@@ -265,7 +265,7 @@ figcaption {
 		margin: 4px;
 	}
 }
-.caseTable .caseOptimal {
+.caseTable .caseOptimalColumn {
 	width: 40px;
 }
 .caseTable .caseName {
@@ -277,6 +277,7 @@ figcaption {
 }
 .caseTable .caseImage {
 	height: 100px;
+	min-width: 200px;
 }
 
 // Tablesorter styles

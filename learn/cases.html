@@ -10,8 +10,9 @@ backLink:
     $("#cases").tablesorter({
       theme: "dark",
       sortList: [[1,0]],
-      widgets: ["filter", "zebra"],
+      widgets: ["columnSelector", "filter", "zebra"],
       widget_options: {
+        columnSelector_breakpoints: ['400px', '481px'],
         filter_hideFilters: true,
       }
     });
@@ -52,16 +53,16 @@ backLink:
 <table id="cases" class="caseTable tablesorter">
   <thead>
     <tr>
-      <th class="caseOptimal">Optimal</th>
-      <th>Case Name</th>
-      <th data-sorter="false" data-filter="false">Image</th>
+      <th class="caseOptimalColumn" data-priority="1">Optimal</th>
+      <th data-priority="critical">Case Name</th>
+      <th class="caseImageColumn" data-priority="2" data-sorter="false" data-filter="false">Image</th>
     </tr>
   </thead>
 
   <tbody>
     {% for case in site.cases %}
       <tr>
-        <td class="caseOptimal">
+        <td class="caseOptimalColumn">
           {% if case.optimal %}
             {{ case.optimal }}
           {% else %}
@@ -73,7 +74,7 @@ backLink:
             {{ case.name }}
           </a>
         </td>
-        <td>
+        <td class="caseImageColumn">
           {% assign image_path = case.short_name | prepend: '/assets/images/cases/' | append: ".png" %}
           {% assign file_exists = site.static_files | where: "path", image_path  %}
 
