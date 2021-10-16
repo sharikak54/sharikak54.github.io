@@ -297,6 +297,9 @@ figcaption {
 	background-color: #111;
 	border-top: 2px solid #555;
 }
+.tablesorter-dark .tablesorter-header.sorter-false {
+	pointer-events: none;
+}
 .tablesorter-dark td {
 	font-size: 14px;
 }
