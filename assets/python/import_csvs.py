@@ -1,15 +1,13 @@
 from os import listdir
 from os.path import isfile, join
 import csv
+from utils import SHOULD_OVERWRITE_CURRENT_FILES
 
 '''
-Run this directly after running ./generate_cases.py.
+Run this directly after running ./fix_csv_titles.py.
 '''
 
-# CHANGE THIS TO TRUE TO RUN
-# WARNING: this option overwrites a ton of files,
-# make sure you know what you're doing!
-OVERWRITE_CURRENT_FILES = False
+OVERWRITE_CURRENT_FILES = SHOULD_OVERWRITE_CURRENT_FILES()
 
 CASE_DIR = "../../.collections/_cases/"
 CASE_SUFFIX = ".md"
@@ -46,7 +44,7 @@ for filename in filenames:
     csvReader = csv.DictReader(csvfile, delimiter="	")
     for row in csvReader:
       if (not row['Full Case Name']):
-        continue
+        continue # Ignore divider rows and such
 
       name = row['Full Case Name']
       short_name = cases[name]['short_name']
@@ -57,12 +55,15 @@ for filename in filenames:
         continue
 
       case = {
-        'optimal': row['Optimal'],
-        'default_alg': row['(meta) top alg1'],
-        'notes': row['Notes'],
         'name': name,
         'short_name': short_name,
         'filename': case_filename,
+        'optimal': row['Optimal1'],
+        'notes': row['Notes'],
+        'recognition_notes' : row['Recognition Notes'],
+        'default_alg': row['(meta) top alg1'],
+        'default_alg_notes' : row['Best Alg Notes'],
+        'parents' : row['Parents'].split("; "),
       }
       other_algs = row['Algs1'].split(" ")[1:]
       if (other_algs):
@@ -132,3 +133,6 @@ for short_name in cases_to_update:
     # Write everything back in
     with open(filename, 'w') as file:
       file.writelines(new_lines)
+  # else:
+  #   print(new_lines)
+  #   quit()

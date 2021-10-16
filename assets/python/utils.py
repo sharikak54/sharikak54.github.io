@@ -1,6 +1,20 @@
 from os import listdir
 from os.path import isfile, join
 
+
+
+def SHOULD_OVERWRITE_CURRENT_FILES():
+  '''
+  Global flag preventing accidental file overwrites.  
+  Change this to output True to run.
+
+  WARNING: this option overwrites a ton of files,
+  make sure you know what you're doing!
+  '''
+  return False
+
+
+
 def flipLR(lr):
   return 'r' if lr == 'l' else 'l'
 
