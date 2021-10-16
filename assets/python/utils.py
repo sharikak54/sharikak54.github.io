@@ -8,23 +8,6 @@ def flipLeftRight(LeftRight):
   return 'Right' if LeftRight == 'Left' else 'Left'
 
 
-def getMirrorContents(mirrors):
-  '''Get yaml from dict of mirror cases.'''
-
-  contents = "mirrors:\n"
-
-  for mirror_type in mirrors:
-    contents += "  " + mirror_type + ":\n"
-    for mirror in mirrors[mirror_type]:
-      contents += "    -\n"
-      contents += "      name: " + mirror['name'] + "\n"
-      contents += "      short_name: " + mirror['short_name'] + "\n"
-
-  contents += "\n"
-
-  return contents
-
-
 
 def getFacesByECType():
   '''Compute all faces from the ./_faces folder, sorting by edge/corner counts.'''
@@ -162,6 +145,23 @@ def computeCase(top_face, bot_face):
       ]
   
   return case
+
+
+def getMirrorContents(mirrors):
+  '''Helper to get yaml from dict of mirror cases.'''
+
+  contents = "mirrors:\n"
+
+  for mirror_type in mirrors:
+    contents += "  " + mirror_type + ":\n"
+    for mirror in mirrors[mirror_type]:
+      contents += "    -\n"
+      contents += "      name: " + mirror['name'] + "\n"
+      contents += "      short_name: " + mirror['short_name'] + "\n"
+
+  contents += "\n"
+
+  return contents
 
 def computeCaseFileContents(case):
   '''What to write to case file as defaults.'''

@@ -6,13 +6,16 @@ import csv
 Run this directly after running ./generate_cases.py.
 '''
 
-# COMMENT THIS OUT TO RUN
-# WARNING: this script overwrites a ton of files,
-# make sure you know what you're doing
-quit()
+# CHANGE THIS TO TRUE TO RUN
+# WARNING: this option overwrites a ton of files,
+# make sure you know what you're doing!
+OVERWRITE_CURRENT_FILES = False
 
 CASE_DIR = "../../.collections/_cases/"
 CASE_SUFFIX = ".md"
+
+
+
 filenames = [f for f in listdir(CASE_DIR) if isfile(join(CASE_DIR, f))]
 
 cases = {}
@@ -125,6 +128,7 @@ for short_name in cases_to_update:
     new_lines.append(line)
     i += 1
 
-  # Write everything back in
-  with open(filename, 'w') as file:
-    file.writelines(new_lines)
+  if OVERWRITE_CURRENT_FILES:
+    # Write everything back in
+    with open(filename, 'w') as file:
+      file.writelines(new_lines)
