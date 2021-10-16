@@ -4,6 +4,20 @@ backLink:
   url: "/learn"
 ---
 
+<script>
+  // Convert face table to tablesorter for theme.
+  $(function() {
+    $("#faces").tablesorter({
+      theme: "dark",
+      sortList: [[0,0]],
+      widgets: ["columnSelector", "zebra"],
+      widget_options: {
+        columnSelector_breakpoints: ['400px', '481px'],
+      }
+    });
+  })
+</script>
+
 <h1>OBL Faces</h1>
 
 <p>
@@ -13,17 +27,61 @@ backLink:
   one on the top and one on the bottom.
 </p>
 
+<p>
+  An OBL face's <b>Type</b> is just a count of the number of edges
+  and corners which are the same color.  When these counts are
+  different for white and yellow (as they often are), we take the
+  smaller numbers.
+</p>
+
+<p>
+  Only faces of the same type can appear opposite one another and
+  form a <b>case</b>, which is why we group them this way.
+</p>
+
 <!-- <p>
   By convention, the pictures here will have the yellow pieces comprise
   the portion of the image that the face is named after.
   TODO update all images
 </p> -->
 
-<!-- TODO convert ul to sortable/filterable table -->
-<ul>
-  {% for face in site.faces %}
-    <li>
-      <h2><a href="{{ face.url | replace: '.html','' }}">{{ face.name }}</a></h2>
-    </li>
-  {% endfor %}
-</ul>
+<table id="faces" class="caseTable tablesorter">
+  <thead>
+    <tr>
+      <th data-priority="critical">Case Name</th>
+      <th data-priority="1">E/C Type</th>
+      <th class="caseImageColumn" data-priority="2" data-sorter="false">Image</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for face in site.faces %}
+      <tr>
+        <td class="caseName">
+          <a href="{{ face.url | replace: '.html','' }}">
+            {{ face.name }}
+          </a>
+        </td>
+        <td>
+          {% if face.type %}
+            {{ face.type }}
+          {% else %}
+            <i>TBD</i>
+          {% endif %}
+        </td>
+        <td class="caseImageColumn">
+          {% assign image_path = face.short_name | prepend: '/assets/images/faces/' | append: ".jpg" %}
+          {% assign file_exists = site.static_files | where: "path", image_path  %}
+
+          {% if file_exists.size != 0 %}
+            <figure class="caseFigure">
+              <img class="faceImage" src="{{image_path}}">
+            </figure>
+          {% else %}
+            <div><i>Sorry, no image exists.</i></div>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
