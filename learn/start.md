@@ -5,7 +5,7 @@ backLink:
   name: "Learn"
 ---
 
-# Start Here
+# Start Learning
 
 If you're here, you probably want to learn OBL!  This page will tell you how to use the site.
 
@@ -14,13 +14,43 @@ If you're already familiar with the basics and are just looking for references, 
 - [Weighted OBL Tree](/assets/images/obl_data_sorted_by_weights_1110.pdf)
 - [Faces List](faces)
 - [Cases List](cases)
-- [Cases Listed by Optimal Movecount](cases_by_optimal)
+<!-- - [Cases Listed by Optimal Movecount](cases_by_optimal) -->
 - [Other Resources](resources)
 
-## For Beginners
+## Overview
 
-<!-- TODO flesh out more? -->
+In the same sense that we can say there are 4 "levels" of difficulty to cubeshape (beginner methods that either group all edges or group 6 corners; intermediate methods like kite/scallop; advanced full CS; and "expert" CSP), there are essentially four levels of OBL.  These are as follows:
+- Beginner: regular old CO into EO
+- Intermediate: all short OBLs and their pseudomirrors, mostly blockbuilding on any remaining cases
+- Advanced: all 74 standard cases memorized
+- Expert: all mirrors (L/R, U/D, color-swapped) memorized, intentionally choosing non-slice-optimal for some cases because of better recognition/ergonomics/etc.
 
-Welcome!  There's only [1 1-move optimal case](cases_by_optimal/1_move_optimal) (and 1 0-move optimal case, which is the solved state), which you pretty much already know - it's part of every one of your "pure EO cases".  So the best way to start is by learning the 2- and 3-move optimal cases.  There are only 5 2-move optimal cases, and 13 3-move optimal ones (and we'll leave the less common of those for the end of this section).
+## Beginner -> Intermediate
 
-So let's start by looking at the [2-move optimal cases](cases_by_optimal/2_move_optimal)!
+<!-- TODO if you don't, we should have a resource linked here -->
+In this guide, we'll assume that you already know CO into EO.  So, congrats!  You already know the following 11 cases:
+- CO covers 4 cases: [Tent / Tent](ltent_ltent); [Kite / Kite](lkite_lkite), the only 1-slicer; [Kite / Pinwheel](lkite_lpinwheel); [Pinwheel / Pinwheel](lpinwheel_lpinwheel).
+- EO covers 6 cases: [1E / 1E](cases/1e_1e); [Eopp / Eopp, aka M2](cases/eopp_eopp); [Eopp / Eadj](cases/eopp_eadj); [Eadj / Eadj](cases/eadj_eadj); [3E / 3E](cases/3e_3e); [4E / 4E](cases/4e_4e).
+- And then there's 1 0-slicer (the solved state).
+
+Don't worry if you don't know what these mean yet, just know that you're already 14% of the way to "advanced".  Good job, you.  Your next step will be learning all of the 2- and 3-slice optimal cases.
+
+There are only 5 2-slicers, and you actually already know three of them: [Tent / Tent](cases/ltent_ltent), [M2](cases/eopp_eopp), and [Pinwheel / Pinwheel](cases/lpinwheel_lpinwheel).  So really you only have to learn two new cases:
+- [m2 (the corner version of M2)](cases/copp_copp); and
+- [Dish / Dish](cases/ldish_ldish).
+Click on the links to those cases to get started on learning them!
+
+After this, you'll want to start on the 3-slicers.  
+<!-- 
+TODO
+At this point we should probably stop and talk about some of the terminology we've been using.
+-->
+We're planning on writing a more in-depth guide, but for now just start on the 3-slicers.  Go to the [Cases page](cases) and click to sort by optimal movecount.  There will be some mirrors; you don't need to worry about those yet, just pick one and learn it.
+
+## Intermediate -> Advanced
+
+TODO
+
+## Advanced -> Expert
+
+TODO
