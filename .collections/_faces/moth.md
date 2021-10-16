@@ -4,6 +4,7 @@ name: Moth
 short_name: moth
 nickname: Butterfly
 type: 2E2C
+is_balanced: true
 ---
 
 Honestly the wings' shapes remind me more of a butterfly, but "Moth" is a lot easier to say.
