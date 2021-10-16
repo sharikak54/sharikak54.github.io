@@ -24,7 +24,7 @@ With the increased interest in OBL, Not Kevin started looking into the right way
 
 ## Why OBL?
 Okay, maybe you're still thinking that 74 cases is a lot.  That might be true, but hear us out:
-* Most OBL cases (just over 70%) are optimal 4 slices or less, and many of the 5-slicers are pure CO or EO, so you already know them!  In fact, the average slicecount for OBL, weighted by probability of appearing, is slightly _less_ than 4.
+* Most OBL cases (just over 70%) are optimal 4 slices or less, and many of the 5-slicers are pure CO or EO, so you already know them!  In fact, the expected slicecount for OBL, weighting cases by probability of appearing, is slightly _less_ than 4.
 * OBL is roughly as hard as full cubeshape:
   * Cubeshape has 65 unique cases with a max length of 7 (compared to OBL's 74 cases with a max length of 6), and
   * Both have the same tree-like property that each cubeshape/OBL goes into another cubeshape/OBL - this means that your learning rate on OBL naturally speeds up as you recognize more cases, and learning one case will teach you every case on its way to solved.
