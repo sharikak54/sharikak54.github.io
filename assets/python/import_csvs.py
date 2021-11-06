@@ -92,15 +92,20 @@ for short_name in cases_to_update:
   i = 0
   while (i < len(lines)):
     line = lines[i]
-    if (line[0:8] == "optimal:"):
+
+    if ((not found_optimal_line) and line[0:8] == "optimal:"):
       found_optimal_line = True
       line = "optimal: " + case['optimal'] + "\n"
+
     elif ((not found_optimal_line) and line == "recognition: TODO\n"):
+      found_optimal_line = True
       new_lines.append("optimal: " + case['optimal'] + "\n")
       new_lines.append("\n")
-    elif (line == "Description TODO\n"):
-      new_lines.append("Notes: " + case['notes'] + "\n")
-      new_lines.append("\n")
+      if case['recognition_notes']:
+        line = "recognition: " + case['recognition_notes'] + "\n"
+      else:
+        line = "recognition: \n"
+
     elif (i > 0):
       # Checking previous line(s)
       if (lines[i-1] == "default_alg:\n"):
@@ -115,6 +120,7 @@ for short_name in cases_to_update:
           new_lines.pop()
         i += 3
         continue
+
       elif (lines[i-1] == "other_algs:\n"):
         if ('other_algs' in case.keys()):
           for other_alg in case['other_algs']:

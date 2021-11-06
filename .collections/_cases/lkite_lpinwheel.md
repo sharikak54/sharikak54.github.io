@@ -9,17 +9,19 @@ bot: Pinwheel
 bot_short_name: pinwheel
 bot_lr: Left
 
-optimal: 3
-
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,-1/0,3/0,3/0,1"
+  alg: "1,0/5,5/0,1"
   description: TODO
+color_mirror_algs:
+  -
+    alg: "0,0/"
+    description: TODO
 other_algs:
   -
-    alg: "0,2/0,-3/0,-3/0,1"
+    alg: "0,0/"
     description: TODO
 
 # RELATED CASES
@@ -46,8 +48,6 @@ mirrors:
 
 
 ---
-
-Notes: good half/n; CO
 
 Description TODO
 

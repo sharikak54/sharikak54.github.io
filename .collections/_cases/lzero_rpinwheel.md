@@ -9,17 +9,19 @@ bot: Pinwheel
 bot_short_name: pinwheel
 bot_lr: Right
 
-optimal: 5
-
 recognition: TODO
 
 # ALGORITHMS
 default_alg:
-  alg: "0,-1/-2,4/3,0/2,-1/4,1/-1,0"
+  alg: "1,0/5,5/0,1"
   description: TODO
+color_mirror_algs:
+  -
+    alg: "0,0/"
+    description: TODO
 other_algs:
   -
-    alg: "0,2/-2,4/0,3/-1,2/1,4/-1,0"
+    alg: "0,0/"
     description: TODO
 
 # RELATED CASES
@@ -46,8 +48,6 @@ mirrors:
 
 
 ---
-
-Notes: offset zero/n; preserve top bird fully on top, and any rotation on bottom to go to angel/hammer or hammer/angel
 
 Description TODO
 

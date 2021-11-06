@@ -13,7 +13,7 @@ recognition: TODO
 default_alg:
   alg: "1,0/5,5/0,1"
   description: TODO
-mirror_algs:
+color_mirror_algs:
   -
     alg: "0,0/"
     description: TODO
@@ -38,4 +38,5 @@ mirrors:
 
 Description TODO
 
-A moth and a plane that are the same color.  Be careful not to mistake this for [Moth / Plane](moth_plane).
+A Moth and a Plane that are the same color.  Be careful not to mistake this for [Moth / Plane](moth_plane).
+

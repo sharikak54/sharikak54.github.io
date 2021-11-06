@@ -13,7 +13,7 @@ recognition: TODO
 default_alg:
   alg: "1,0/5,5/0,1"
   description: TODO
-mirror_algs:
+color_mirror_algs:
   -
     alg: "0,0/"
     description: TODO
@@ -31,4 +31,5 @@ parents:
 
 Description TODO
 
-Two planes that are the same color.  Be careful not to mistake this for [Plane / Plane](plane_plane).
+Two Planes that are the same color.  Be careful not to mistake this for [Plane / Plane](plane_plane).
+
