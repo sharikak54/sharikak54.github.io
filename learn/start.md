@@ -38,19 +38,23 @@ Don't worry if you don't know what these mean yet, just know that you're already
 There are only 5 2-slicers, and you actually already know three of them: [Tent / Tent](cases/ltent_ltent), [M2](cases/eopp_eopp), and [Pinwheel / Pinwheel](cases/lpinwheel_lpinwheel).  So really you only have to learn two new cases:
 - [m2 (the corner version of M2)](cases/copp_copp); and
 - [Dish / Dish](cases/ldish_ldish).
-Click on the links to those cases to get started on learning them!
+Click on the links to those cases to get started on learning them!  As you do, try clicking into some of the links on each case page.  In particular, click into the cases' face(s) page(s) to see more information on them, e.g. why we've named those faces the way we have.
 
-After this, you'll want to start on the 3-slicers.  
-<!-- 
-TODO
-At this point we should probably stop and talk about some of the terminology we've been using.
--->
-We're planning on writing a more in-depth guide, but for now just start on the 3-slicers.  Go to the [Cases page](cases) and click to sort by optimal movecount.  There will be some mirrors; you don't need to worry about those yet, just pick one and learn it.
+<!-- TODO At this point we should probably stop and talk about some of the terminology we've been using. -->
+
+After this, you'll want to start on the 3-slicers.  We're planning on writing a more in-depth guide, but for now just start on the 3-slicers.  Go to the [Cases page](cases) and click to sort by optimal movecount.  There will be some mirrors; you don't need to worry about those yet, just pick one and learn it.  
+<!-- TODO more in-depth guide -->
+
+While you're working on the 3-slicers is a good time to more thoroughly learn all the different faces.  You can do so by clicking the "Up" button on any individual face's page; through the navbar's dropdown, under "Learn"; or by going directly to the [Faces page](faces).  They're sortable by "E/C Type", which is just a count of edges and corners of a single color that have been swapped with the opposite face.  Only another face of the same E/C Type can be opposite it, so try sorting by that column as well.  Some of the individual faces pages also have recognition tips, especially the left/right ones, so check them out!
 
 ## Intermediate -> Advanced
 
-TODO
+<!-- TODO -->
+
+TBD; check back later!
 
 ## Advanced -> Expert
 
-TODO
+<!-- TODO -->
+
+TBD; check back later!
