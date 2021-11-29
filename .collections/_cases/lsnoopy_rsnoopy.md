@@ -25,6 +25,7 @@ other_algs:
     alg: "0,-1/3,0/-2,1/-1,-1/-3,0/0,1"
   -
     alg: "-2,0/-4,-1/-2,1/-4,-1/4,1/-1,0"
+    description: Put shells on left, pair tent on bottom with edge from tent on top to form gem/spill.
 
 # RELATED CASES
 parents:
