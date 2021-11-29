@@ -29,6 +29,12 @@
       {% endif %}
 
 			<section>
+        <div id="title">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <hr>
+        </div>
+
         {% if page.backLink %}
           <div class="pageNav">
             <a class="backLink" href="{{ page.backLink.url }}">
@@ -41,14 +47,6 @@
                 {% endif %}
               </div>
             </a>
-          </div>
-        {% endif %}
-
-        {% if page.title == "Home" %}
-          <div id="title">
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-            <p>{{ site.description | default: site.github.project_tagline }}</p>
-            <hr>
           </div>
         {% endif %}
 
