@@ -29,7 +29,7 @@ In the same sense that we can say there are 4 "levels" of difficulty to cubeshap
 
 <!-- TODO if you don't, we should have a resource linked here -->
 In this guide, we'll assume that you already know CO into EO.  So, congrats!  You already know the following 11 cases:
-- CO covers 4 cases: [Tent / Tent](ltent_ltent); [Kite / Kite](lkite_lkite), the only 1-slicer; [Kite / Pinwheel](lkite_lpinwheel); [Pinwheel / Pinwheel](lpinwheel_lpinwheel).
+- CO covers 4 cases: [Tent / Tent](cases/ltent_ltent); [Kite / Kite](cases/lkite_lkite), the only 1-slicer; [Kite / Pinwheel](cases/lkite_lpinwheel); [Pinwheel / Pinwheel](cases/lpinwheel_lpinwheel).
 - EO covers 6 cases: [1E / 1E](cases/1e_1e); [Eopp / Eopp, aka M2](cases/eopp_eopp); [Eopp / Eadj](cases/eopp_eadj); [Eadj / Eadj](cases/eadj_eadj); [3E / 3E](cases/3e_3e); [4E / 4E](cases/4e_4e).
 - And then there's 1 0-slicer (the solved state).
 
