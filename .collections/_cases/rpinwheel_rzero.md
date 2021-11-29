@@ -9,26 +9,27 @@ bot: Zero
 bot_short_name: zero
 bot_lr: Right
 
-recognition: TODO
+optimal: 4
+
+recognition: good pinwheel/zero - aligning blocks to slice preserves squareshape
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+  alg: "0,-1/4,1/-3,3/-1,-4/0,1"
+  description: intentionally misalign both faces' blocks to go to good baron/baron
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "3,-1/1,4/-3,3/2,5/0,1"
+  -
+    alg: "1,0/-3,3/-1,-1/4,1/3,0/-1,0"
+  -
+    alg: "-2,0/-3,3/-1,-1/-2,1/0,-3/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Baron / Right Baron"
+    short_name: "rbaron_rbaron"
 mirrors:
   top_bot:
     -
@@ -48,6 +49,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

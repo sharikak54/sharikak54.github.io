@@ -48,7 +48,7 @@ layout: default
 {% if page.recognition %}
   {{page.recognition}}
 {% else %}
-  <i>No recognition hints yet, try again later.</i>
+  <i>None; see faces.</i>
 {% endif %}
 <br>
 <br>
@@ -84,8 +84,8 @@ layout: default
     <ul>
       {% for alg in page.color_mirror_algs %}
         <li>
-          <b>{{alg.alg}}</b>:
-          {{alg.description}}
+          <b>{{alg.alg}}</b>{% if alg.description %}:
+          {{alg.description}}{% endif %}
         </li>
       {% endfor %}
     </ul>
@@ -101,8 +101,8 @@ layout: default
   <ul>
     {% for alg in page.other_algs %}
       <li>
-        <b>{{alg.alg}}</b>:
-        {{alg.description}}
+        <b>{{alg.alg}}</b>{% if alg.description %}:
+        {{alg.description}}{% endif %}
       </li>
     {% endfor %}
   </ul>

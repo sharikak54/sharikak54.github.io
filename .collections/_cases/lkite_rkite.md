@@ -45,5 +45,3 @@ mirrors:
 
 ---
 
-Description TODO
-

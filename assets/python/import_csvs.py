@@ -76,7 +76,6 @@ for filename in filenames:
 for short_name in cases_to_update:
   case = cases_to_update[short_name]
   filename = case['filename']
-  print(case)
 
   # Read old lines
   with open(filename, 'r') as file:
@@ -104,33 +103,42 @@ for short_name in cases_to_update:
       if case['recognition_notes']:
         line = "recognition: " + case['recognition_notes'] + "\n"
       else:
-        line = "recognition: \n"
+        line = "recognition:\n"
 
     elif (i > 0):
       # Checking previous line(s)
       if (lines[i-1] == "default_alg:\n"):
-        line = '  alg: "' + case['default_alg'] + '"\n'
+        new_lines.append('  alg: "' + case['default_alg'] + '"\n')
+        new_lines.append('  description: ' + case['default_alg_notes'] + '\n')
+        i += 2
+        continue
       elif (lines[i-1] == "color_mirror_algs:\n"):
         if ('color_mirror_algs' in case.keys()):
           for mirror_alg in case['color_mirror_algs']:
             new_lines.append('  -\n')
             new_lines.append('    alg: "' + mirror_alg + '"\n')
-            new_lines.append('    description: TODO\n')
         else:
           new_lines.pop()
         i += 3
         continue
-
       elif (lines[i-1] == "other_algs:\n"):
         if ('other_algs' in case.keys()):
           for other_alg in case['other_algs']:
             new_lines.append('  -\n')
             new_lines.append('    alg: "' + other_alg + '"\n')
-            new_lines.append('    description: TODO\n')
         else:
           new_lines.pop()
         i += 3
         continue
+      elif (lines[i-1] == "parents:\n"):
+        if ('parents' in case.keys()):
+          for parent in case['parents']:
+            short_parent = cases[parent]['short_name']
+            new_lines.append('  -\n')
+            new_lines.append('    name: "' + parent + '"\n')
+            new_lines.append('    short_name: "' + short_parent + '"\n')
+          i += 3
+          continue
 
     new_lines.append(line)
     i += 1
@@ -139,6 +147,5 @@ for short_name in cases_to_update:
     # Write everything back in
     with open(filename, 'w') as file:
       file.writelines(new_lines)
-  # else:
-  #   print(new_lines)
-  #   quit()
+  else:
+    print(new_lines)

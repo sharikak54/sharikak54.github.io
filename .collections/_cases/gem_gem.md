@@ -29,5 +29,3 @@ parents:
     short_name: TODO
 ---
 
-Description TODO
-

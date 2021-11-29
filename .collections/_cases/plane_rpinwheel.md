@@ -8,26 +8,43 @@ bot: Pinwheel
 bot_short_name: pinwheel
 bot_lr: Right
 
-recognition: TODO
+optimal: 5
+
+recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/0,-3/2,-1/4,1/2,5/0,1"
+  description: pair shell on top with a tent on bottom to form gem/spill
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/0,-3/2,-1/4,1/-4,-1/0,1"
+  -
+    alg: "0,-1/1,-2/3,0/-1,-4/1,4/-1,0"
+  -
+    alg: "-2,3/0,-3/-1,2/4,1/-3,6/-1,0"
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "-5,0/-3,0/2,-1/1,4/-4,-1/0,1"
+  -
+    alg: "0,-1/1,-2/3,0/-1,-4/-5,-2/-1,0"
+  -
+    alg: "-2,3/0,-3/-1,2/4,1/3,0/-1,0/"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Gem / Left Spill"
+    short_name: "gem_lspill"
+  -
+    name: "Left Spill / Angel"
+    short_name: "lspill_angel"
+  -
+    name: "Right Kite / Moth"
+    short_name: "rkite_moth"
+  -
+    name: "Right Zero / Moth"
+    short_name: "rzero_moth"
 mirrors:
   top_bot:
     -
@@ -40,6 +57,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

@@ -223,7 +223,7 @@ def computeCaseFileContents(case):
 
   contents += "---\n"
   contents += "\n"
-  contents += "Description TODO\n\n"
+  # contents += "Description TODO\n\n"
   if case['is_balanced'] and case['name'][:5] == "Same ":
     if case['top_short_name'] == case['bot_short_name']:
       contents += "Two " + case['top'] + "s that are the same color.  "

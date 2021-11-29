@@ -9,26 +9,29 @@ bot: Pinwheel
 bot_short_name: pinwheel
 bot_lr: Left
 
-recognition: TODO
+optimal: 4
+
+recognition: bad kite/pinwheel - aligning blocks to slice breaks squareshape
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+  alg: "0,-1/1,-5/2,-1/-3,0/0,1"
+  description: pair edge on top with tent on bottom to form snoopy/gem
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Gem / Left Snoopy"
+    short_name: "gem_lsnoopy"
+  -
+    name: "Left Scottie / Shell"
+    short_name: "lscottie_shell"
+  -
+    name: "Right Whale / Left Tent"
+    short_name: "rwhale_ltent"
+  -
+    name: "Plane / Moth"
+    short_name: "plane_moth"
 mirrors:
   top_bot:
     -
@@ -48,6 +51,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

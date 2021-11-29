@@ -9,26 +9,27 @@ bot: Pinwheel
 bot_short_name: pinwheel
 bot_lr: Left
 
-recognition: TODO
+optimal: 5
+
+recognition: bad zero/pinwheel - aligning blocks to slice breaks cubeshape
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+  alg: "1,0/2,-4/-3,0/-2,1/-4,-1/0,1"
+  description: preserve bird on tap and hold any angle on bottom to go to angel/snoopy or snoopy/angel
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/-4,2/0,-3/-2,1/-1,-4/0,1"
+  -
+    alg: "1,3/-4,2/-3,0/1,-2/-4,-1/0,1"
+  -
+    alg: "1,3/2,-4/0,-3/1,-2/-1,-4/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Angel / Left Snoopy"
+    short_name: "angel_lsnoopy"
 mirrors:
   top_bot:
     -
@@ -48,6 +49,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

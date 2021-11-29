@@ -29,7 +29,5 @@ parents:
     short_name: TODO
 ---
 
-Description TODO
-
 Two Planes that are the same color.  Be careful not to mistake this for [Plane / Plane](plane_plane).
 

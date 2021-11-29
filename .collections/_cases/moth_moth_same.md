@@ -29,7 +29,5 @@ parents:
     short_name: TODO
 ---
 
-Description TODO
-
 Two Moths that are the same color.  Be careful not to mistake this for [Moth / Moth](moth_moth).
 

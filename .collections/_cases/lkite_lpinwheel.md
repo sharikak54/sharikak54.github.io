@@ -9,26 +9,23 @@ bot: Pinwheel
 bot_short_name: pinwheel
 bot_lr: Left
 
-recognition: TODO
+optimal: 3
+
+recognition: good kite/pinwheel - aligning blocks to slice preserves squareshape
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+  alg: "0,-1/0,3/0,3/0,1"
+  description: CO; preserve blocks
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,2/0,-3/0,-3/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Tent / Left Tent"
+    short_name: "ltent_ltent"
 mirrors:
   top_bot:
     -
@@ -48,6 +45,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 
