@@ -9,26 +9,33 @@ bot: Tent
 bot_short_name: tent
 bot_lr: Left
 
-recognition: TODO
+optimal: 4
+
+recognition: Bad tent/tent; aligning tents next to slice breaks squareshape.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/2,-1/-2,1/-3,0/-1,0"
+  description: Keep top tent on left with edge next to slice, send gem from bottom to form scottie/shell.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/2,-1/-3,0/-2,1/-1,0"
+  -
+    alg: "-2,0/2,-1/1,-2/0,3/-1,0"
+  -
+    alg: "-2,0/2,-1/3,0/-2,1/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Scottie / Shell"
+    short_name: "rscottie_shell"
+  -
+    name: "Gem / Right Snoopy"
+    short_name: "gem_rsnoopy"
 mirrors:
   lr:
     -

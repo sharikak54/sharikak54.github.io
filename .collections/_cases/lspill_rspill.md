@@ -9,26 +9,29 @@ bot: Spill
 bot_short_name: spill
 bot_lr: Right
 
-recognition: TODO
+optimal: 4
+
+recognition: good spill/spill; swapping spills breaks squareshape
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/-3,0/-3,0/-1,-1/0,1"
+  description: CO -> M2, make plane/plane with tent on top connecting with whale from bottom
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "-3,-4/0,3/0,3/1,1/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Same Plane / Plane"
+    short_name: "plane_plane_same"
+  -
+    name: "Right Scottie / Shell"
+    short_name: "rscottie_shell"
 mirrors:
   lr:
     -

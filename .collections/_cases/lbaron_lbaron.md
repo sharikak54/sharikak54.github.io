@@ -9,26 +9,26 @@ bot: Baron
 bot_short_name: baron
 bot_lr: Left
 
-recognition: TODO
+optimal: 3
+
+recognition: good baron/baron; preserving tents preserves cubeshape
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/-3,3/4,1/-1,0"
+  description: put all 4 tents on Right Kite and swap them to get dish/dish
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/3,-3/1,4/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Dish / Left Dish"
+    short_name: "ldish_ldish"
 mirrors:
   lr:
     -

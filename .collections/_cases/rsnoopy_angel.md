@@ -8,26 +8,32 @@ top_lr: Right
 bot: Angel
 bot_short_name: angel
 
-recognition: TODO
+optimal: 4
+
+recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/0,3/-1,2/1,4/-1,0"
+  description: put shell on top in UL, pair tent on top with whale on bottom to form good plane/moth
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "-5,6/3,0/-1,2/4,1/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Plane / Moth"
+    short_name: "plane_moth"
+  -
+    name: "Right Spill / Right Snoopy"
+    short_name: "rspill_rsnoopy"
+  -
+    name: "Right Baron / Right Baron"
+    short_name: "rbaron_rbaron"
 mirrors:
   top_bot:
     -

@@ -16,6 +16,7 @@ for filename in filenames:
   if (not filename[-4:] == ".tsv"):
     continue
 
+  print(filename)
   contents = ""
   with open(CSV_DIR + filename, newline='') as csvfile:
     lines = csvfile.readlines()

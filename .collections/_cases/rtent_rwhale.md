@@ -9,26 +9,26 @@ bot: Whale
 bot_short_name: whale
 bot_lr: Right
 
-recognition: TODO
+optimal: 4
+
+recognition: Bad tent/whale; splitting tent on top and sandwiched tent on bottom breaks squareshape.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/4,1/3,0/-4,-1/0,1"
+  description: Swap tent on top (so that it's not touching the slice) with same-colored spill on bottom (keeping shell on DL) to form spill/snoopy.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Spill / Right Snoopy"
+    short_name: "rspill_rsnoopy"
+  -
+    name: "Left Bird / Right Scottie"
+    short_name: "lbird_rscottie"
 mirrors:
   top_bot:
     -

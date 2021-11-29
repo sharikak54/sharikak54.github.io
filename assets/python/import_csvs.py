@@ -133,6 +133,9 @@ for short_name in cases_to_update:
       elif (lines[i-1] == "parents:\n"):
         if ('parents' in case.keys()):
           for parent in case['parents']:
+            if (not parent in cases):
+              print("Missing parent: '" + parent + "' in case: '" + short_name + "'")
+              continue
             short_parent = cases[parent]['short_name']
             new_lines.append('  -\n')
             new_lines.append('    name: "' + parent + '"\n')

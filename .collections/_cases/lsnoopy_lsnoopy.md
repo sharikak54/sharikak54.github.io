@@ -9,26 +9,23 @@ bot: Snoopy
 bot_short_name: snoopy
 bot_lr: Left
 
-recognition: TODO
+optimal: 5
+
+recognition: matching snoopies; tents can connect to form kites
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/-3,0/4,1/3,0/2,-1/0,1"
+  description: put shells on left, pair tent on bottom with isolated edge on top
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Gem / Gem"
+    short_name: "gem_gem"
 mirrors:
   lr:
     -

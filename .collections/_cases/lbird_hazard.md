@@ -8,26 +8,28 @@ top_lr: Left
 bot: Hazard
 bot_short_name: hazard
 
-recognition: TODO
+optimal: 4
+
+recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/3,0/4,1/5,2/0,1"
+  description: preserve half on top, swap isolated edge with whale on bottom to form good tent/whale
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/3,0/4,1/-1,-4/0,1"
+  -
+    alg: "6,5/0,3/4,1/-4,-1/0,1"
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "6,5/0,3/4,1/2,5/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Tent / Left Whale"
+    short_name: "rtent_lwhale"
 mirrors:
   top_bot:
     -

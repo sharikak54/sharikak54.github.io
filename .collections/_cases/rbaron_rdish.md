@@ -9,26 +9,23 @@ bot: Dish
 bot_short_name: dish
 bot_lr: Right
 
-recognition: TODO
+optimal: 4
+
+recognition: preserving baron/dish; preserving tents on top and putting slice between shell and gem on bottom preserves squareshape
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/-4,-1/-5,1/3,0/-1,0"
+  description: put shell of dish in DL and align so slice preserves gem, swap isolated corner on top with gem
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Whale / Left Whale"
+    short_name: "lwhale_lwhale"
 mirrors:
   top_bot:
     -

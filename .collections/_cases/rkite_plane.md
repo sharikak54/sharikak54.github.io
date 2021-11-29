@@ -8,26 +8,31 @@ top_lr: Right
 bot: Plane
 bot_short_name: plane
 
-recognition: TODO
+optimal: 4
+
+recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/2,-1/-2,1/-3,6/-1,0"
+  description: send tent on top to pair with shell on bottom to form snoopy/gem
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/2,-1/-2,1/3,0/-1,0"
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "-5,6/-1,2/-2,1/6,-3/-1,0"
+  -
+    alg: "-5,6/5,-4/1,-2/0,3/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Snoopy / Gem"
+    short_name: "rsnoopy_gem"
+  -
+    name: "Left Spill / Left Snoopy"
+    short_name: "lspill_lsnoopy"
 mirrors:
   top_bot:
     -

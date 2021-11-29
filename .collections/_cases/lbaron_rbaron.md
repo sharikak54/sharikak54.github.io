@@ -9,26 +9,45 @@ bot: Baron
 bot_short_name: baron
 bot_lr: Right
 
-recognition: TODO
+optimal: 5
+
+recognition: bad baron/baron; preserving tents breaks cubeshape
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/2,2/-3,0/0,3/4,1/-1,0"
+  description: put all 4 tents on Right Kite and slice with either alignment into 2,2 or -2,-2; goes to preserving baron/dish or preserving dish/baron
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/-1,2/3,0/0,-3/1,4/-1,0"
+  -
+    alg: "0,-1/-2,-2/0,3/-3,0/-1,-4/0,1"
+  -
+    alg: "0,-1/-2,1/0,-3/3,0/-4,-1/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Baron / Left Dish"
+    short_name: "rbaron_ldish"
+  -
+    name: "Right Dish / Left Baron"
+    short_name: "rdish_lbaron"
+  -
+    name: "Moth / Right Zero"
+    short_name: "moth_rzero"
+  -
+    name: "Right Snoopy / Angel"
+    short_name: "rsnoopy_angel"
+  -
+    name: "Plane / Left Zero"
+    short_name: "plane_lzero"
+  -
+    name: "Right Scottie / Hazard"
+    short_name: "rscottie_hazard"
 mirrors:
   lr:
     -

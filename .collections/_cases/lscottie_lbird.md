@@ -9,26 +9,37 @@ bot: Bird
 bot_short_name: bird
 bot_lr: Left
 
-recognition: TODO
+optimal: 4
+
+recognition: bad scottie/bird; the clean slice between the tent and corner on top preserves squareshape when preserving the half on bottom
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/-2,-2/2,-1/-3,0/0,1"
+  description: position isolated corner on top next to the slice, and preserve D half in DL; first move trades isolated corner on top with isolated edge on bottom to make snoopy/gem
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/4,4/-1,2/-3,0/0,1"
+  -
+    alg: "0,-1/4,4/-3,0/-1,2/0,1"
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/-2,-2/0,-3/-1,2/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Snoopy / Gem"
+    short_name: "lsnoopy_gem"
+  -
+    name: "Right Whale / Left Tent"
+    short_name: "rwhale_ltent"
+  -
+    name: "Left Scottie / Shell"
+    short_name: "lscottie_shell"
+  -
+    name: "Left Pinwheel / Left Kite"
+    short_name: "lpinwheel_lkite"
 mirrors:
   top_bot:
     -

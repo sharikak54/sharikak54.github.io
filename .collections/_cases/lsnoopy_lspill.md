@@ -9,26 +9,23 @@ bot: Spill
 bot_short_name: spill
 bot_lr: Left
 
-recognition: TODO
+optimal: 3
+
+recognition: good snoopy/spill; tent from snoopy can't exactly swap with tent from spill
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/0,-3/1,4/-1,0"
+  description: swap tent on top with only corner from spill on bottom to make dish/dish
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Dish / Left Dish"
+    short_name: "ldish_ldish"
 mirrors:
   top_bot:
     -

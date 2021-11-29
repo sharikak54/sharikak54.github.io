@@ -9,26 +9,40 @@ bot: Zero
 bot_short_name: zero
 bot_lr: Right
 
-recognition: TODO
+optimal: 6
+
+recognition: bad zero/zero; aligning birds breaks squareshape
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+  alg: "1,0/-4,2/-3,0/4,1/3,0/2,-1/0,1"
+  description: preserve bird on bottom, send whale from top to form matching snoopy/snoopy; doing CO->3E/3E is also decent
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "-2,0/0,3/-1,-4/1,4/3,0/-4,-1/0,1"
+  -
+    alg: "-2,0/0,3/3,0/..."
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Snoopy / Left Snoopy"
+    short_name: "lsnoopy_lsnoopy"
+  -
+    name: "3E / 3E"
+    short_name: "3e_3e"
+  -
+    name: "3C / 3C"
+    short_name: "3c_3c"
+  -
+    name: "Angel / Angel"
+    short_name: "angel_angel"
+  -
+    name: "Hazard / Hazard"
+    short_name: "hazard_hazard"
+  -
+    name: "Right Scottie / Right Scottie"
+    short_name: "rscottie_rscottie"
 mirrors:
   lr:
     -

@@ -8,26 +8,29 @@ bot: Snoopy
 bot_short_name: snoopy
 bot_lr: Right
 
-recognition: TODO
+optimal: 4
+
+recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/3,0/2,-1/4,1/-1,0"
+  description: put shell on bottom in DL, pair tent on bottom with whale on top to form good moth/plane
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Moth / Plane"
+    short_name: "moth_plane"
+  -
+    name: "Right Snoopy / Right Spill"
+    short_name: "rsnoopy_rspill"
+  -
+    name: "Right Baron / Right Baron"
+    short_name: "rbaron_rbaron"
 mirrors:
   top_bot:
     -

@@ -7,26 +7,28 @@ top_short_name: plane
 bot: Plane
 bot_short_name: plane
 
-recognition: TODO
+optimal: 3
+
+recognition: matching plane/plane; planes are the same color
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/-3,0/-1,-1/0,1"
+  description: CO -> M2
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/0,3/-1,-1/0,1"
+  -
+    alg: "0,-1/0,3/1,1/-1,0"
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/-3,0/1,1/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Eopp / Eopp"
+    short_name: "eopp_eopp"
 ---
 
 Two Planes that are the same color.  Be careful not to mistake this for [Plane / Plane](plane_plane).

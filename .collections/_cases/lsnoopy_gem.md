@@ -8,26 +8,23 @@ top_lr: Left
 bot: Gem
 bot_short_name: gem
 
-recognition: TODO
+optimal: 3
+
+recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/2,-1/-3,0/0,1"
+  description: swap tent on top with gem on bottom, "maximally" blockbuild to get tent/tent
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Tent / Left Tent"
+    short_name: "ltent_ltent"
 mirrors:
   top_bot:
     -
