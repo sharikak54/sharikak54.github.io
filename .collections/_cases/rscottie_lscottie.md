@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 5
 
-recognition: mirrored scotties; tents can't connect to form kites
+recognition: Mirrored scotties; tents can't connect to form kites.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-3,0/0,-3/-2,1/3,0/-1,0"
-  description: create a yellow (D-color) shell on bottom (as part of a plane) by pairing isolated yellow corner on top with yellow tent on bottom
+  description: Create a yellow (D-color) shell on bottom (as part of a plane) by pairing isolated yellow corner on top with yellow tent on bottom.
 color_mirror_algs:
   -
     alg: "1,0/-1,-4/-2,1/2,-1/-3,0/0,1"

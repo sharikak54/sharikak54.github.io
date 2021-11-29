@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "0,-1/1,4/0,-3/-4,-1/0,1"
-  description: pair isolated corner on top with tent on bottom (breaking gem) to form good scottie/bird
+  description: Pair isolated corner on top with tent on bottom (breaking gem) to form good scottie/bird.
 color_mirror_algs:
   -
     alg: "0,-1/-5,-2/-3,0/-4,-1/0,1"

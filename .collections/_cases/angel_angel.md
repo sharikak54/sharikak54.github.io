@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/-4,-1/-3,0/-3,3/4,1/-1,0"
-  description: put isolated corners in UBL and DFR; either alignment will make scottie/hazard
+  description: Put isolated corners in UBL and DFR; either alignment will make scottie/hazard.
 color_mirror_algs:
   -
     alg: ""

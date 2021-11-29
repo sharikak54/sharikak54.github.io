@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 6
 
-recognition: bad kite/zero; aligning kite with bird preserves squareshape
+recognition: Bad kite/zero; aligning kite with bird preserves squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/1,-2/-3,0/2,-1/-2,1/3,0/-1,0"
-  description: just solve CO -> 1e1e
+  description: Solve CO into 1e/1e.
 
 # RELATED CASES
 parents:

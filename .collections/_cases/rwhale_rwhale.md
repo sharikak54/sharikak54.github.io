@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 3
 
-recognition: good whale/whale; whales are the same as each other
+recognition: Good whale/whale; whales are the same as each other.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/5,-1/-3,0/0,1"
-  description: swap both whales to form tent/tent
+  description: Swap both whales to form tent/tent.
 color_mirror_algs:
   -
     alg: ""

@@ -9,12 +9,12 @@ bot_short_name: moth
 
 optimal: 3
 
-recognition: matching moth moth; moths are of same colors
+recognition: Matching moth moth; moths are of same colors.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/0,3/2,2/0,1"
-  description: swap isolated corner with gem to go to m2
+  description: Swap isolated corner with gem to go to m2.
 color_mirror_algs:
   -
     alg: "1,0/-3,0/2,2/0,1"

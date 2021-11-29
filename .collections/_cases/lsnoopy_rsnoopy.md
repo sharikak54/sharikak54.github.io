@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 5
 
-recognition: mirrored snoopies; tents can't connect to form kites
+recognition: Mirrored snoopies; tents can't connect to form kites.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/2,-1/-2,1/-1,-1/-3,0/0,1"
-  description: fastest alg: swap isolated edge on top with tent on bottom, forming opposite plane/plane; alternatively: put shells on left, pair tent on bottom with edge from tent on top to form gem/spill
+  description: Swap isolated edge on top with tent on bottom, forming opposite plane/plane.
 color_mirror_algs:
   -
     alg: ""

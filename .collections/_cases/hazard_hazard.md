@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/-1,2/-3,0/-2,1/-4,-1/0,1"
-  description: keep non-hazard corners in DL, swap whale on top with hazard corners on bottom to get angel/snoopy
+  description: Keep non-hazard corners in DL, swap whale on top with hazard corners on bottom to get angel/snoopy.
 color_mirror_algs:
   -
     alg: "1,0/-1,2/-3,0/-2,1/2,5/0,1"

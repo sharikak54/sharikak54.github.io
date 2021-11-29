@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 4
 
-recognition: bad pinwheel/pinwheel; tents can't connect to form kites
+recognition: Bad pinwheel/pinwheel; tents can't connect to form kites.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-3,-3/0,3/-1,-1/0,1"
-  description: CO -> M2; all alignments will form matching planes
+  description: Do good pinwheel/pinwheel into M2; all alignments will form matching planes.
 other_algs:
   -
     alg: "0,-1/-2,-2/0,3/-1,-1/0,1"

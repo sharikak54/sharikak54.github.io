@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/-3,0/-1,-1/-3,0/0,1"
-  description: corner mirror; hold corners next to slice in front, keeping them together
+  description: Hold corners next to slice in front, keeping them together.
 color_mirror_algs:
   -
     alg: "1,0/-3,0/-1,-1/3,6/0,1"

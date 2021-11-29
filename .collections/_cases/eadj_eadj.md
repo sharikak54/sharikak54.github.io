@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/3,0/-1,-1/-3,0/0,1"
-  description: hold edges next to slice in front, keeping the pairs together
+  description: Hold edges next to slice in front, keeping the pairs together.
 color_mirror_algs:
   -
     alg: "1,0/3,0/-1,-1/3,6/0,1"

@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 2
 
-recognition: good dish/dish; thumbs are the same as each other, or making a half on one face makes a half on the other face
+recognition: Good dish/dish; thumbs are the same as each other, or making a kite on one face makes a kite on the other face.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/4,1/-1,0"
-  description: keep bottom shell in DL, pair gem on top with isolated corner on bottom to form half/half
+  description: Keep bottom shell in DL, pair gem on top with isolated corner on bottom to form kite/kite.
 color_mirror_algs:
   -
     alg: "0,-1/-2,-5/-1,0"

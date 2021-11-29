@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/2,-1/0,3/0,1"
-  description: maximal blockbuild - pair shell on top with gem on bottom to get tent/tent
+  description: Pair shell on top with gem on bottom, such that slice goes between gem and neighboring isolated corner, to get tent/tent.
 color_mirror_algs:
   -
     alg: "1,0/-1,2/0,3/0,1"

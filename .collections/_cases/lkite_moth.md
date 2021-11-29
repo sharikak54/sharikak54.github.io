@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "0,-1/1,-2/-1,2/3,0/0,1"
-  description: preserve gem on bottom and pair tent from top to form scottie/shell
+  description: Preserve gem on bottom and pair tent from top to form scottie/shell.
 color_mirror_algs:
   -
     alg: "0,-1/1,-2/-1,2/-3,6/0,1"

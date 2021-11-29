@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/-4,-1/-2,1/-3,0/-1,0"
-  description: keep gem in UFR, send tent from bottom to make scottie/shell
+  description: Keep gem in UFR, send tent from bottom to make scottie/shell.
 color_mirror_algs:
   -
     alg: ""

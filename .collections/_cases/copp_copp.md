@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/2,2/0,1"
-  description: m2; preserve gems on both sides
+  description: m2; preserve gems on both sides.
 color_mirror_algs:
   -
     alg: "1,0/-4,-4/0,1"

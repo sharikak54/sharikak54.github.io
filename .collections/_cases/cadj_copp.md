@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/3,0/-3,0/2,-1/0,3/0,1"
-  description: corner mirror; put isolated corner against slice in UFR, and D corners in DF
+  description: Put isolated corner against slice in UFR, and D corners in DF.
 color_mirror_algs:
   -
     alg: "1,0/3,0/0,-3/2,-1/3,0/0,1"

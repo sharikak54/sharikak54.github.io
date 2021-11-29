@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 4
 
-recognition: bad scottie/bird; the clean slice between the tent and corner on top preserves squareshape when preserving the half on bottom
+recognition: Bad scottie/bird; the clean slice between the tent and corner on top preserves squareshape when preserving the  kite on bottom.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-2,-2/2,-1/-3,0/0,1"
-  description: position isolated corner on top next to the slice, and preserve D half in DL; first move trades isolated corner on top with isolated edge on bottom to make snoopy/gem
+  description: Position isolated corner on top next to the slice, and preserve D kite in DL; first move trades isolated corner on top with isolated edge on bottom to make snoopy/gem.
 color_mirror_algs:
   -
     alg: "0,-1/4,4/-1,2/-3,0/0,1"

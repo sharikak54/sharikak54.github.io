@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 3
 
-recognition: good baron/baron; preserving tents preserves cubeshape
+recognition: Good baron/baron; preserving tents preserves cubeshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-3,3/4,1/-1,0"
-  description: put all 4 tents on Right Kite and swap them to get dish/dish
+  description: Put all 4 tents on right half of puzzle and swap them to get dish/dish.
 color_mirror_algs:
   -
     alg: ""

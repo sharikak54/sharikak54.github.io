@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 2
 
-recognition: good pinwheel/pinwheel; tents can connect to form kites
+recognition: Good pinwheel/pinwheel; tents can connect to form kites.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-3,-3/0,1"
-  description: CO, make kite/kite
+  description: CO case; preserve blocks.
 other_algs:
   -
     alg: "3,2/3,3/0,1"

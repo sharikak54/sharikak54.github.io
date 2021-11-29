@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 4
 
-recognition: bad pinwheel/kite - aligning blocks to slice breaks squareshape
+recognition: Bad pinwheel/kite - aligning blocks to slice breaks squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-5,1/-3,0/2,-1/0,1"
-  description: pair tent on top with edge on bottom to form gem/snoopy
+  description: Pair tent on top with edge on bottom to form gem/snoopy.
 
 # RELATED CASES
 parents:

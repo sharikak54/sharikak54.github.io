@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 3
 
-recognition: good zero/zero; aligning birds preserves squareshape
+recognition: Good zero/zero; aligning birds preserves squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-3,3/-1,-1/0,1"
-  description: CO -> M2
+  description: Solve CO into M2.
 
 # RELATED CASES
 parents:

@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/0,3/-3,3/2,5/0,1"
-  description: switch isolated corner on top with hazard corners on bottom; slice should be next to edge from tent on top without splitting it
+  description: Switch isolated corner on top with hazard corners on bottom; slice should be next to edge from tent on top without splitting it.
 color_mirror_algs:
   -
     alg: "1,0/0,3/-3,3/-4,-1/0,1"

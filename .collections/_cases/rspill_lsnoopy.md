@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 4
 
-recognition: bad spill/snoopy; tent from spill can exactly swap with tent from snoopy
+recognition: Bad spill/snoopy; tent from spill can exactly swap with tent from snoopy.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/1,1/3,0/2,-1/0,1"
-  description: keep spill fully in UL, pair edge from spill with tent to make scottie/shell
+  description: Keep spill fully in UL, pair edge from spill with tent to make scottie/shell.
 color_mirror_algs:
   -
     alg: ""

@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/2,-1/-2,1/2,-1/-3,0/0,1"
-  description: hold edges in U FR, and D FB; split the adjacent edges on top
+  description: Hold edges in U FR, and D FB; split the adjacent edges on top.
 color_mirror_algs:
   -
     alg: "0,-1/3,0/0,-3/1,-2/3,0/-1,0"

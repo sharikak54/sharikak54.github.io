@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 3
 
-recognition: good kite/pinwheel - aligning blocks to slice preserves squareshape
+recognition: Good kite/pinwheel - aligning blocks to slice preserves squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/0,3/0,3/0,1"
-  description: CO; preserve blocks
+  description: CO case; preserve blocks.
 other_algs:
   -
     alg: "0,2/0,-3/0,-3/0,1"

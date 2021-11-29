@@ -9,12 +9,12 @@ bot_short_name: plane
 
 optimal: 4
 
-recognition: opposite plane/plane; planes are of different colors
+recognition: Opposite plane/plane; planes are of different colors.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-2,1/-1,-1/3,6/0,1"
-  description: hold D-layer shell in DL, and hold same-color corners in UL ("anti-CO") to go to good zero/kite; I prefer misaligning D-layer
+  description: Hold D-layer shell in DL, and hold same-color corners in UL ("anti-CO") to go to good zero/kite; I prefer misaligning D-layer.
 color_mirror_algs:
   -
     alg: "0,-1/-2,1/-1,-1/-3,0/0,1"

@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 4
 
-recognition: good pinwheel/zero - aligning blocks to slice preserves squareshape
+recognition: Good pinwheel/zero - aligning blocks to slice preserves squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-4,-1/-3,3/4,1/-1,0"
-  description: intentionally misalign both faces' blocks to go to good baron/baron
+  description: Intentionally misalign both faces' blocks to go to good baron/baron.
 other_algs:
   -
     alg: "-2,0/-1,-4/-3,3/-5,-2/-1,0"

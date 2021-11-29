@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "0,-1/1,4/3,0/2,5/0,1"
-  description: preserve whale on bottom and pair with bird from top to form spill/snoopy
+  description: Preserve whale on bottom and pair with bird from top to form spill/snoopy.
 color_mirror_algs:
   -
     alg: "0,-1/1,4/3,0/-4,-1/0,1"

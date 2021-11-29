@@ -9,12 +9,12 @@ bot_short_name: moth
 
 optimal: 4
 
-recognition: opposite moth/moth; moths are of different colors
+recognition: Opposite moth/moth; moths are of different colors.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/1,-2/-1,-1/-3,0/0,1"
-  description: make kite on bottom from pairing gem on top with matching isolated corner
+  description: Make kite on bottom from pairing gem on top with matching isolated corner.
 color_mirror_algs:
   -
     alg: "0,-1/1,-2/-1,-1/3,6/0,1"

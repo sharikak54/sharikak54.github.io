@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 5
 
-recognition: matching snoopies; tents can connect to form kites
+recognition: Matching snoopies; tents can connect to form kites.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/3,0/-4,-1/-2,1/-3,0/-1,0"
-  description: put shells on left, pair tent on bottom with isolated edge on top
+  description: Put shells on left, pair tent on bottom with isolated edge on top.
 color_mirror_algs:
   -
     alg: ""

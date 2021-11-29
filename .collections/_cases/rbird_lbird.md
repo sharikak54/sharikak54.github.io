@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 4
 
-recognition: good bird/bird; preserving both halves breaks squareshape
+recognition: Good bird/bird; preserving both kites breaks squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/3,0/-2,1/3,0/-1,0"
-  description: preserve half on bottom, send isolated corner (aligned next to slice) to form snoopy/gem
+  description: Preserve kite on bottom, send isolated corner (aligned next to slice) to form snoopy/gem.
 color_mirror_algs:
   -
     alg: "0,-1/3,0/-2,1/-3,6/-1,0"

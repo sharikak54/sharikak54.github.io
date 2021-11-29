@@ -9,12 +9,12 @@ bot_short_name: plane
 
 optimal: 3
 
-recognition: good moth/plane - color of moth and plane are swapped
+recognition: Good moth/plane - color of moth and plane are swapped.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-2,1/2,5/0,1"
-  description: swap isolated corner on top with isolated edge on bottom
+  description: Swap isolated corner on top with isolated edge on bottom.
 color_mirror_algs:
   -
     alg: "0,-1/-2,1/-4,-1/0,1"

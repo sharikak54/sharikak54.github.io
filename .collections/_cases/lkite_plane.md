@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-2,1/2,-1/3,6/0,1"
-  description: send tent on top to pair with shell on bottom to form snoopy/gem
+  description: Send tent on top to pair with shell on bottom to form snoopy/gem.
 color_mirror_algs:
   -
     alg: "0,-1/-2,1/2,-1/-3,0/0,1"

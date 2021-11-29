@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 5
 
-recognition: bad kite/kite; not the 1-slicer
+recognition: Bad kite/kite; not the 1-slicer.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-2,1/-4,-1/-2,1/-3,0/-1,0"
-  description: preserve kite on bottom, send single corner to bottom to form gem/gem
+  description: Preserve kite on bottom, send single corner to bottom to form gem/gem.
 other_algs:
   -
     alg: "0,-1/-2,1/-4,-1/-3,0/-2,-1/-1,0"

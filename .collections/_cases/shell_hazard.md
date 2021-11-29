@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/-1,2/0,-3/-5,-2/-1,0"
-  description: preserve shell on top, send tent from bottom to form good snoopy/spill
+  description: Preserve shell on top, send tent from bottom to form good snoopy/spill.
 color_mirror_algs:
   -
     alg: "1,0/-1,2/0,-3/1,4/-1,0"

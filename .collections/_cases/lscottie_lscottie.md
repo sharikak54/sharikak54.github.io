@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 5
 
-recognition: matching scotties; tents can connect to form kites
+recognition: Matching scotties; tents can connect to form kites.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/1,-2/-4,-1/3,0/-2,1/-1,0"
-  description: create a yellow (D-color) shell on bottom by pairing isolated yellow corner on top with yellow tent on bottom
+  description: Create a yellow (D-color) shell on bottom by pairing isolated yellow corner on top with yellow tent on bottom.
 color_mirror_algs:
   -
     alg: "0,-1/0,3/4,1/-3,0/2,-1/0,1"

@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/0,3/-1,2/3,6/0,1"
-  description: preserve D-layer shell (but not kite) in DL, swap tent on top with edge on bottom to form snoopy/gem
+  description: Preserve D-layer shell (but not kite) in DL, swap tent on top with edge on bottom to form snoopy/gem.
 color_mirror_algs:
   -
     alg: "1,0/3,0/-3,0/2,-1/0,1"

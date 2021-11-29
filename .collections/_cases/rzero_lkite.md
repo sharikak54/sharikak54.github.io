@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 3
 
-recognition: good zero/kite; aligning bird with kite breaks squareshape
+recognition: Good zero/kite; aligning bird with kite breaks squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/1,1/3,0/-1,0"
-  description: preserve kite on bottom, send whale to form tent/tent
+  description: Preserve kite on bottom, send whale to form tent/tent.
 
 # RELATED CASES
 parents:

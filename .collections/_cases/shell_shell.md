@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "0,-1/4,1/-1,2/6,3/0,1"
-  description: preserve shell on bottom; send tent from top to form gem/snoopy
+  description: Preserve shell on bottom; send tent from top to form gem/snoopy.
 color_mirror_algs:
   -
     alg: "0,-1/4,1/-1,2/0,-3/0,1"

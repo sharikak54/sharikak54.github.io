@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 3
 
-recognition: good whale/tent; splitting sandwiched tent on top and tent on bottom preserves squareshape
+recognition: Good whale/tent; splitting sandwiched tent on top and tent on bottom preserves squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-4,-1/4,1/-1,0"
-  description: split sandwiched tent on top and tent on bottom, holding both tents in front
+  description: Split sandwiched tent on top and tent on bottom, holding both tents in front.
 color_mirror_algs:
   -
     alg: ""

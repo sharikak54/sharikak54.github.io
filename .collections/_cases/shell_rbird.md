@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/-1,2/1,4/2,5/0,1"
-  description: swap tent from top with full bird on bottom
+  description: Swap tent from top with full bird on bottom.
 color_mirror_algs:
   -
     alg: "1,0/-1,2/1,4/-4,-1/0,1"

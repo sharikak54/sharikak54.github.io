@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 3
 
-recognition: good kite/zero; aligning kite with bird breaks squareshape
+recognition: Good kite/zero; aligning kite with bird breaks squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/1,1/0,3/-1,0"
-  description: preserve kite on top, pair with whale from bottom to get tent/tent
+  description: Preserve kite on top, pair with whale from bottom to get tent/tent.
 
 # RELATED CASES
 parents:

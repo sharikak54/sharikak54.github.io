@@ -9,12 +9,12 @@ bot_short_name: plane
 
 optimal: 3
 
-recognition: matching plane/plane; planes are the same color
+recognition: Matching plane/plane; planes are the same color.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-3,0/-1,-1/0,1"
-  description: CO -> M2
+  description: Solve CO into M2.
 color_mirror_algs:
   -
     alg: "1,0/0,3/-1,-1/0,1"

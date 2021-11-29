@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 4
 
-recognition: preserving dish/baron; putting slice between shell and gem on top and preserving tents on bottom preserves squareshape
+recognition: Preserving dish/baron; putting slice between shell and gem on top and preserving tents on bottom preserves squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-1,-4/-5,1/3,0/-1,0"
-  description: put shell of dish in UL and align so slice preserves gem, swap gem with isolated corner on bottom
+  description: Put shell of dish in UL and align so slice preserves gem, swap gem with isolated corner on bottom.
 color_mirror_algs:
   -
     alg: ""

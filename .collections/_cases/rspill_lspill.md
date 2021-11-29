@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 4
 
-recognition: good spill/spill; swapping spills breaks squareshape
+recognition: Good spill/spill; swapping spills breaks squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/3,0/-3,0/1,1/-1,0"
-  description: CO -> M2, make plane/plane with tent on top connecting with whale from bottom
+  description: Do CO into M2, make plane/plane with tent on top connecting with whale from bottom.
 color_mirror_algs:
   -
     alg: ""

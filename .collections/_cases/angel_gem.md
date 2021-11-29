@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/3,0/-3,0/-1,-1/0,1"
-  description: CO -> M2; create same plane/plane by pairing corner on top with a tent from bottom
+  description: Do CO into M2; create same plane/plane by pairing corner on top with a tent from bottom.
 color_mirror_algs:
   -
     alg: ""

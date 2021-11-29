@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "0,-1/3,0/4,1/5,2/0,1"
-  description: preserve half on top, swap isolated edge with whale on bottom to form good tent/whale
+  description: Preserve kite on top, swap isolated edge with whale on bottom to form good tent/whale.
 color_mirror_algs:
   -
     alg: "0,-1/3,0/4,1/-1,-4/0,1"

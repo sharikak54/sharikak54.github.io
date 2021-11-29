@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-3,0/4,1/2,5/0,1"
-  description: preserve shell on bottom, pair with gem on top to form whale/tent
+  description: Preserve shell on bottom, pair with gem on top to form whale/tent.
 color_mirror_algs:
   -
     alg: "0,-1/-3,0/4,1/-4,-1/0,1"

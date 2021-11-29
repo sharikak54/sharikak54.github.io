@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 5
 
-recognition: bad baron/baron; preserving tents breaks cubeshape
+recognition: Bad baron/baron; preserving tents breaks cubeshape.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/2,2/-3,0/0,3/4,1/-1,0"
-  description: put all 4 tents on Right Kite and slice with either alignment into 2,2 or -2,-2; goes to preserving baron/dish or preserving dish/baron
+  description: Put all 4 tents on right half of puzzle and slice with either alignment into m2; goes to preserving baron/dish or preserving dish/baron.
 color_mirror_algs:
   -
     alg: ""

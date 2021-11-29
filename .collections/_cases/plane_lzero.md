@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-5,-2/3,0/-4,-1/0,1"
-  description: preserve D-layer bird in DL, pair whale from plane with same-color bird
+  description: Preserve D-layer bird in DL, pair whale from plane with same-color bird.
 color_mirror_algs:
   -
     alg: "0,-1/4,1/0,3/-1,-4/0,1"

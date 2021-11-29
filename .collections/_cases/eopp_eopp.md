@@ -14,7 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/-1,-1/0,1"
-  description: hold edges in FB
+  description: Hold edges in FB.
 color_mirror_algs:
   -
     alg: "1,0/5,5/0,1"

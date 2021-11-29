@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-3,0/-2,1/-1,2/-3,0/0,1"
-  description: create a shell on top (as part of a plane) with the isolated corner on top and a tent on bottom
+  description: Create a shell on top (as part of a plane) with the isolated corner on top and a tent on bottom.
 color_mirror_algs:
   -
     alg: "0,-1/0,-3/-2,1/2,-1/-3,0/0,1"

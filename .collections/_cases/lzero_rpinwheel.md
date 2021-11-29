@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 5
 
-recognition: bad zero/pinwheel - aligning blocks to slice breaks squareshape
+recognition: Bad zero/pinwheel - aligning blocks to slice breaks squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-2,4/3,0/2,-1/4,1/-1,0"
-  description: preserve bird on top and hold any angle on bottom to go to angel/snoopy
+  description: Preserve bird on top and hold any angle on bottom to go to angel/snoopy.
 other_algs:
   -
     alg: "0,2/-2,4/0,3/-1,2/1,4/-1,0"

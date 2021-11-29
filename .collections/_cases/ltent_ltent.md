@@ -16,7 +16,7 @@ recognition: Good tent/tent; aligning tents next to slice preserves squareshape.
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-3,0/0,1"
-  description: Basic CO/blockbuilding :)
+  description: CO case; preserve blocks.
 color_mirror_algs:
   -
     alg: "0,-1/3,6/0,1"

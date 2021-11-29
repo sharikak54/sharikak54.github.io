@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 3
 
-recognition: good bird/scottie; the clean slice between the tent and corner on bottom breaks squareshape when preserving the half on top
+recognition: Good bird/scottie; the clean slice between the tent and corner on bottom breaks squareshape when preserving the kite on top.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/0,-3/-1,-4/0,1"
-  description: preserve shell of U half in UL, and position isolated corner on bottom next to the slice; first move trades two edges on top with isolated corner on bottom to make dish/dish
+  description: Preserve shell of U kite in UL, and position isolated corner on bottom next to the slice; first move trades two edges on top with isolated corner on bottom to make dish/dish.
 color_mirror_algs:
   -
     alg: "1,0/-3,0/-1,-4/0,1"

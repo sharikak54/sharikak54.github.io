@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 5
 
-recognition: bad dish/dish; thumbs are mirrors of each other, or making a half on one face forms plane on the other
+recognition: Bad dish/dish; thumbs are mirrors of each other, or making a kite on one face forms plane on the other.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/1,1/2,-1/-2,1/3,0/-1,0"
-  description: keep bottom shell in DL, swap 2 edges on top with isolated corner on bottom to form bird/bird
+  description: Keep bottom shell in DL, swap 2 edges on top with isolated corner on bottom to form bird/bird.
 color_mirror_algs:
   -
     alg: ""

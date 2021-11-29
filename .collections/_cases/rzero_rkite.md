@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 6
 
-recognition: bad zero/kite; aligning bird with kite preserves squareshape
+recognition: Bad zero/kite; aligning bird with kite preserves squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-3,0/3,0/2,2/-2,1/3,0/-1,0"
-  description: preserve kite on bottom, send isolated corner to form bad spill/spill
+  description: Preserve kite on bottom, send isolated corner to form bad spill/spill.
 other_algs:
   -
     alg: "4,0/-3,3/3,0/-4,-1/4,1/-3,0/-1,0"

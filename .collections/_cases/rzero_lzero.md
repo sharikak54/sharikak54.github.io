@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 6
 
-recognition: bad zero/zero; aligning birds breaks squareshape
+recognition: Bad zero/zero; aligning birds breaks squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/4,-2/3,0/-4,-1/-2,1/-3,0/-1,0"
-  description: preserve bird on bottom, send whale from top to form matching snoopy/snoopy; doing CO->3E/3E is also decent
+  description: Preserve bird on bottom, send whale from top to form matching snoopy/snoopy; doing CO into 3E/3E is also decent.
 other_algs:
   -
     alg: "3,-1/0,-3/1,4/-1,-4/-3,0/4,1/-1,0"

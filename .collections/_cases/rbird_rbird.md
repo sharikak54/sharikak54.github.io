@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 5
 
-recognition: bad bird/bird; preserving both halves preserves squareshape
+recognition: Bad bird/bird; preserving both kites preserves squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-3,0/-1,-1/4,1/3,0/-1,0"
-  description: preserve half on bottom, send isolated corner (aligned away from slice) to form snoopy/spill
+  description: Preserve kite on bottom, send isolated corner (aligned away from slice) to form snoopy/spill.
 color_mirror_algs:
   -
     alg: "1,0/0,-3/-1,-1/-2,1/-3,0/-1,0"

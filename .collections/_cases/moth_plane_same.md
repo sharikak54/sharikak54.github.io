@@ -9,12 +9,12 @@ bot_short_name: plane
 
 optimal: 4
 
-recognition: bad moth/plane - color of moth and plane match
+recognition: Bad moth/plane - color of moth and plane match.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/3,3/-2,1/3,0/-1,0"
-  description: send tent on top with shell on bottom to form snoopy/gem
+  description: Send tent on top with shell on bottom to form snoopy/gem.
 color_mirror_algs:
   -
     alg: "0,-1/-3,-3/1,-2/3,0/-1,0"

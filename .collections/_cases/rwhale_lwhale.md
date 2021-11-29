@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 4
 
-recognition: bad whale/whale; whales are mirrors of each other
+recognition: Bad whale/whale; whales are mirrors of each other.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-3,0/3,0/2,-1/0,1"
-  description: put top whale in UL and bottom whale in DR; either slice alignment will create scottie/shell
+  description: Put top whale in UL and bottom whale in DR; either slice alignment will create scottie/shell.
 color_mirror_algs:
   -
     alg: ""

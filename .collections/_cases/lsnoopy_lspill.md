@@ -11,12 +11,12 @@ bot_lr: Left
 
 optimal: 3
 
-recognition: good snoopy/spill; tent from snoopy can't exactly swap with tent from spill
+recognition: Good snoopy/spill; tent from snoopy can't exactly swap with tent from spill.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/0,-3/1,4/-1,0"
-  description: swap tent on top with only corner from spill on bottom to make dish/dish
+  description: Swap tent on top with only corner from spill on bottom to make dish/dish.
 color_mirror_algs:
   -
     alg: ""

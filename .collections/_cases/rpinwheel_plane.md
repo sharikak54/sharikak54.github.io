@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/-3,0/-1,2/1,4/5,2/0,1"
-  description: pair tent on top with shell on bottom to form spill/gem
+  description: Pair tent on top with shell on bottom to form spill/gem.
 color_mirror_algs:
   -
     alg: "1,0/-3,0/-1,2/1,4/-1,-4/0,1"

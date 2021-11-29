@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/0,3/-4,-1/4,1/-1,0"
-  description: preserve full kite on bottom in DL, swap remaining corner on bottom with whale on top
+  description: Preserve full kite on bottom in DL, swap remaining corner on bottom with whale on top.
 color_mirror_algs:
   -
     alg: ""
