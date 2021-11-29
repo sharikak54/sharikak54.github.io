@@ -329,68 +329,29 @@ figcaption {
  * Identifier *
  **************/
 
-.clicker-wrapper {
-	position: relative;
-}
-div.clicker {
-	cursor: pointer;
-	position: absolute;
+.svgWrapper {
 	height: 200px;
 	width: 200px;
-
-	background: 
-	linear-gradient(
-		15deg, rgba(255,255,255,0) 49.5%, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 50.5%
-	),
-	linear-gradient(
-		-15deg, rgba(255,255,255,0) 49.5%, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 50.5%
-	),
-	linear-gradient(
-		75deg, rgba(255,255,255,0) 49.5%, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 50.5%
-	),
-	linear-gradient(
-		-75deg, rgba(255,255,255,0) 49.5%, rgba(0,0,0,1) 50%, rgba(255,255,255,0) 50.5%
-	),
-	linear-gradient(white, white);
 }
 
-.clicker .section {
-	position: absolute;
-	color: black;
-	pointer-events: none;
-	user-select: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
+.buttonWrapper {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
 }
-.clicker .section0 {
-	left: 80px;
-	top: 175px;
+
+.outputWrapper {
+	border-left: gold solid 3px;
+	background-color:rgb(100, 100, 100);
+	padding: 5px 10px;
+	margin: 10px 30px 10px 10px;
+
+	color: white;
+	font-style: italic;
 }
-.clicker .section1 {
-	left: 15px;
-	top: 150px;
-}
-.clicker .section2 {
-	left: 15px;
-	top: 90px;
-}
-.clicker .section3 {
-	left: 15px;
-	top: 30px;
-}
-.clicker .section4 {
-	left: 80px;
-	top: 5px;
-}
-.clicker .section5 {
-	left: 150px;
-	top: 30px;
-}
-.clicker .section6 {
-	left: 150px;
-	top: 90px;
-}
-.clicker .section7 {
-	left: 150px;
-	top: 170px;
+
+.toolBtn {
+	padding: 2px 5px;
+	margin: 5px;
+	text-align: center;
 }

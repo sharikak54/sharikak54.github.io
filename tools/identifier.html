@@ -1,5 +1,5 @@
 ---
-title: Face Identifier
+title: Face/Case Identifier
 backLink:
   url: "/tools"
 ---
@@ -13,22 +13,55 @@ backLink:
   and/or cases without having to memorize them first.
 </p>
 
+<h2>Instructions</h2>
+<p>
+  Click a piece to toggle its color.  
+  Click "Identify Face/Case" to toggle between face and case modes.
+  Click "Submit" to get which face/case is currently shown.
+  Click the "Reset" button to reset all pieces to white.  
+</p>
 
-<script src="/assets/js/identifier.js"></script>
-<div class="clicker-wrapper">
-  <div id="clicker1" class="clicker">
-    <div class="section section0">top</div>
-    <div class="section section1">top</div>
-    <div class="section section2">top</div>
-    <div class="section section3">top</div>
-    <div class="section section4">top</div>
-    <div class="section section5">top</div>
-    <div class="section section6">top</div>
-    <div class="section section7">top</div>
-  </div>
+<div class="buttonWrapper">
+  <div class="backLink toolBtn faceOrCase">Identify Face</div>
+  <div class="backLink toolBtn submit">Submit</div>
+  <div class="backLink toolBtn reset">Reset</div>
+</div>
+
+<div class="outputWrapper">
+  <i><b>Output:</b> <span id="outputSpan">None yet.</span></i>
 </div>
 
 <br>
+
+<script src="/assets/js/identifier.js"></script>
+<svg class="svgWrapper" id="topWrapper">
+  <!-- Left face -->
+  <polygon points="0,0 200,0 200,200 0,200" style="stroke:black; stroke-width:3" />
+  <polygon class="section" id="top0" points="126.79491924311227,200 100,100 73.20508075688772,200" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="top1" points="73.20508075688772,200 100,100 0,126.79491924311227 0,200" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="top2" points="0,126.79491924311227 100,100 0,73.20508075688772" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="top3" points="0,73.20508075688772 100,100 73.20508075688772,0 0,0" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="top4" points="73.20508075688772,0 100,100 126.79491924311227,0" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="top5" points="126.79491924311227,0 100,100 200,73.20508075688772 200,0" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="top6" points="200,73.20508075688772 100,100 200,126.79491924311227" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="top7" points="200,126.79491924311227 100,100 126.79491924311227,200 200,200" style="fill:white; stroke:black; stroke-width:1" />
+</svg>
+
+<br>
+
+<svg class="svgWrapper" id="botWrapper" style="opacity: 0">
+  <!-- Left face -->
+  <polygon points="0,0 200,0 200,200 0,200" style="stroke:black; stroke-width:3" />
+  <polygon class="section" id="bot0" points="126.79491924311227,200 100,100 73.20508075688772,200" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="bot1" points="73.20508075688772,200 100,100 0,126.79491924311227 0,200" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="bot2" points="0,126.79491924311227 100,100 0,73.20508075688772" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="bot3" points="0,73.20508075688772 100,100 73.20508075688772,0 0,0" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="bot4" points="73.20508075688772,0 100,100 126.79491924311227,0" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="bot5" points="126.79491924311227,0 100,100 200,73.20508075688772 200,0" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="bot6" points="200,73.20508075688772 100,100 200,126.79491924311227" style="fill:white; stroke:black; stroke-width:1" />
+  <polygon class="section" id="bot7" points="200,126.79491924311227 100,100 126.79491924311227,200 200,200" style="fill:white; stroke:black; stroke-width:1" />
+</svg>
+
 <br>
 <br>
 <br>
@@ -38,6 +71,3 @@ backLink:
 <br>
 <br>
 <br>
-<p>
-  Click the above to toggle each piece's color.
-</p>

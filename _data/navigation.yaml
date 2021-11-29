@@ -11,12 +11,12 @@
       link: /learn/cases
     - name: Resources
       link: /learn/resources
-- name: Tools
-  link: /tools
-  sublinks:
-    - name: Identifier
-      link: /tools/identifier
-    - name: Trainer
-      link: /tools/trainer
+# - name: Tools
+#   link: /tools
+#   sublinks:
+#     - name: Identifier
+#       link: /tools/identifier
+#     - name: Trainer
+#       link: /tools/trainer
 - name: About
   link: /about

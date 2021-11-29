@@ -1,40 +1,47 @@
+// Keeps track of whether each piece is gold.
+// TODO use this to recognize faces/cases.
+let colors = [[0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]];
+let identifyType = "Face";
+let $outputSpan;
+
 function onClickClicker(e) {
-  const x = e.offsetX - 100;
-  const y = e.offsetY - 100;
-  // console.log("(x=" + x + ",y=" + y + ")");
-
-  let section = 1;
-  let atan;
-  if (x === 0) {
-    section = y > 0 ? 0 : 4;
-  } else {
-    atan = Math.atan(y/x);
-    if (atan < 0) {
-      atan += Math.PI;
-    }
-    if (atan > line0) {
-      section = 5;
-    }
-  }
-  console.log("(x=" + x + ",y=" + y + ")", "atan:" + atan, "section:" + section);
-
-  console.log(section);
-  toggleColor(section);
+  toggleColor($(e.target));
 }
 
-function toggleColor(sectionNum) {
-  const $section = $("#clicker1").find("div.section.section" + sectionNum);
-  const was_top = $section.text() === "top";
-  $section.text(was_top ? "bottom" : "top")
-    .css("color", was_top ? "gold" : "");
+function toggleColor($section) {
+  const id = $section.attr("id");
+  const y = Number.parseInt(id.charAt(id.length - 1));
+  const x = id.indexOf("top") === 0 ? 0 : 1;
+  const wasGold = colors[x][y];
+
+  $section.css("fill", wasGold ? "white" : "gold");
+  colors[x][y] = 1 - wasGold;
+  
+  console.log(colors);
 }
 
-const line0 = Math.atan(Math.PI/12);
-const line1 = Math.atan(5 * Math.PI/12);
-const line2 = Math.atan(7 * Math.PI/12);
-const line3 = Math.atan(11 * Math.PI/12);
+function onClickFaceOrCase() {
+  const wasFace = identifyType === "Face";
+  $("#botWrapper").css("opacity", wasFace ? 1 : 0);
+  $(".faceOrCase").text("Identify " + (wasFace ? "Case" : "Face"));
+  identifyType = wasFace ? "Case" : "Face";
+}
+
+function onClickSubmit() {
+  // TODO
+  $outputSpan.text("Sorry, this functionality has not yet been implemented...");
+}
+
+function onClickReset() {
+  colors = [[0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]];
+  $(".section").css("fill", "white");
+}
 
 $(document).ready(() => {
-  $("#clicker1").click(onClickClicker);
-  console.log(line0, line1, line2, line3);
+  $(".section").click(onClickClicker);
+  $(".faceOrCase").click(onClickFaceOrCase);
+  $(".submit").click(onClickSubmit);
+  $(".reset").click(onClickReset);
+
+  $outputSpan = $("#outputSpan");
 });
