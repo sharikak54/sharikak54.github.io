@@ -9,26 +9,23 @@ bot: Whale
 bot_short_name: whale
 bot_lr: Left
 
-recognition: TODO
+optimal: 3
+
+recognition: Good tent/whale; splitting tent on top and sandwiched tent on bottom preserves squareshape.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/1,4/-1,-4/0,1"
+  description: Split tent on top and sandwiched tent on bottom, holding both tents in front.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Dish / Right Dish"
+    short_name: "rdish_rdish"
 mirrors:
   top_bot:
     -
@@ -48,6 +45,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

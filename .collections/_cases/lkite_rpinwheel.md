@@ -11,18 +11,27 @@ bot_lr: Right
 
 optimal: 4
 
-recognition: TODO
+recognition: Bad kite/pinwheel - aligning blocks to slice breaks squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-1,5/-2,1/3,0/-1,0"
-  description: TODO
+  description: Pair edge on top with tent on bottom to form snoopy/gem.
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Gem / Right Snoopy"
+    short_name: "gem_rsnoopy"
+  -
+    name: "Right Scottie / Shell"
+    short_name: "rscottie_shell"
+  -
+    name: "Left Whale / Right Tent"
+    short_name: "lwhale_rtent"
+  -
+    name: "Plane / Moth"
+    short_name: "plane_moth"
 mirrors:
   top_bot:
     -
@@ -42,8 +51,4 @@ mirrors:
 
 
 ---
-
-Notes: bad half/n; pair edge on top with tent on bottom to form gem
-
-Description TODO
 

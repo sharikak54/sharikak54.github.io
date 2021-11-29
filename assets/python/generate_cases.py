@@ -1,9 +1,6 @@
-from utils import getFacesByECType, computeCase, computeCaseFileContents
+from utils import getFacesByECType, computeCase, computeCaseFileContents, SHOULD_OVERWRITE_CURRENT_FILES
 
-# CHANGE THIS TO TRUE TO RUN
-# WARNING: this option overwrites a ton of files,
-# make sure you know what you're doing!
-OVERWRITE_CURRENT_FILES = False
+OVERWRITE_CURRENT_FILES = SHOULD_OVERWRITE_CURRENT_FILES()
 
 CASE_DIR = "../../.collections/_cases/"
 

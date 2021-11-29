@@ -8,26 +8,23 @@ top_lr: Left
 bot: Angel
 bot_short_name: angel
 
-recognition: TODO
+optimal: 4
+
+recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/3,0/-1,-4/1,4/-1,0"
+  description: Preserve full kite on top in UL, swap remaining corner with whale on bottom.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Tent / Right Whale"
+    short_name: "ltent_rwhale"
 mirrors:
   top_bot:
     -
@@ -40,6 +37,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

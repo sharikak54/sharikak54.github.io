@@ -1,6 +1,20 @@
 from os import listdir
 from os.path import isfile, join
 
+
+
+def SHOULD_OVERWRITE_CURRENT_FILES():
+  '''
+  Global flag preventing accidental file overwrites.  
+  Change this to output True to run.
+
+  WARNING: this option overwrites a ton of files,
+  make sure you know what you're doing!
+  '''
+  return False
+
+
+
 def flipLR(lr):
   return 'r' if lr == 'l' else 'l'
 
@@ -209,7 +223,7 @@ def computeCaseFileContents(case):
 
   contents += "---\n"
   contents += "\n"
-  contents += "Description TODO\n\n"
+  # contents += "Description TODO\n\n"
   if case['is_balanced'] and case['name'][:5] == "Same ":
     if case['top_short_name'] == case['bot_short_name']:
       contents += "Two " + case['top'] + "s that are the same color.  "

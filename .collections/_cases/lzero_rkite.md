@@ -9,26 +9,23 @@ bot: Kite
 bot_short_name: kite
 bot_lr: Right
 
-recognition: TODO
+optimal: 3
+
+recognition: Good zero/kite; aligning bird with kite breaks squareshape.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+  alg: "1,0/-1,-1/-3,0/0,1"
+  description: Preserve kite on bottom, send whale to form tent/tent.
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Tent / Left Tent"
+    short_name: "ltent_ltent"
+  -
+    name: "Right Dish / Right Dish"
+    short_name: "rdish_rdish"
 mirrors:
   top_bot:
     -
@@ -48,6 +45,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

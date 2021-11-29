@@ -9,26 +9,26 @@ bot: Zero
 bot_short_name: zero
 bot_lr: Right
 
-recognition: TODO
+optimal: 3
+
+recognition: Good zero/zero; aligning birds preserves squareshape.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+  alg: "1,0/-3,3/-1,-1/0,1"
+  description: Solve CO into M2.
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Eopp / Eopp"
+    short_name: "eopp_eopp"
+  -
+    name: "Copp / Copp"
+    short_name: "copp_copp"
+  -
+    name: "Right Pinwheel / Right Pinwheel"
+    short_name: "rpinwheel_rpinwheel"
 mirrors:
   lr:
     -
@@ -44,6 +44,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

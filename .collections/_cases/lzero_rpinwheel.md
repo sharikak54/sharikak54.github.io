@@ -11,22 +11,21 @@ bot_lr: Right
 
 optimal: 5
 
-recognition: TODO
+recognition: Bad zero/pinwheel - aligning blocks to slice breaks squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-2,4/3,0/2,-1/4,1/-1,0"
-  description: TODO
+  description: Preserve bird on top and hold any angle on bottom to go to angel/snoopy.
 other_algs:
   -
     alg: "0,2/-2,4/0,3/-1,2/1,4/-1,0"
-    description: TODO
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Angel / Right Snoopy"
+    short_name: "angel_rsnoopy"
 mirrors:
   top_bot:
     -
@@ -46,8 +45,4 @@ mirrors:
 
 
 ---
-
-Notes: offset zero/n; preserve top bird fully on top, and any rotation on bottom to go to angel/hammer or hammer/angel
-
-Description TODO
 

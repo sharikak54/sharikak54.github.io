@@ -9,26 +9,26 @@ bot: Dish
 bot_short_name: dish
 bot_lr: Left
 
-recognition: TODO
+optimal: 4
+
+recognition: Breaking baron/dish; preserving tents on top and putting slice between shell and gem on bottom breaks squareshape.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/3,0/-3,0/-4,-1/0,1"
+  description: Put shell of dish in DL and align so slice breaks gem, preserve both tents in UL (goes to scottie/bird).
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Scottie / Left Bird"
+    short_name: "rscottie_lbird"
+  -
+    name: "Right Spill / Right Snoopy"
+    short_name: "rspill_rsnoopy"
 mirrors:
   top_bot:
     -
@@ -48,6 +48,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

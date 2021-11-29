@@ -8,26 +8,34 @@ bot: Scottie
 bot_short_name: scottie
 bot_lr: Right
 
-recognition: TODO
+optimal: 4
+
+recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/3,0/-3,3/2,5/0,1"
+  description: Switch hazard corners on top with isolated corner on bottom; slice should be next to edge from tent on bottom without splitting it.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/3,0/-3,3/-4,-1/0,1"
+  -
+    alg: "1,0/3,0/3,-3/-1,-4/0,1"
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/3,0/3,-3/5,2/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Baron / Right Baron"
+    short_name: "rbaron_rbaron"
+  -
+    name: "Left Scottie / Right Bird"
+    short_name: "lscottie_rbird"
+  -
+    name: "Moth / Plane"
+    short_name: "moth_plane"
 mirrors:
   top_bot:
     -
@@ -40,6 +48,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

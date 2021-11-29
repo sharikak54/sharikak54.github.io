@@ -8,26 +8,28 @@ bot: Bird
 bot_short_name: bird
 bot_lr: Left
 
-recognition: TODO
+optimal: 4
+
+recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/0,3/1,4/2,5/0,1"
+  description: Preserve kite on bottom, swap whale on top with isolated edge on bottom to form good whale/tent.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/0,3/1,4/-4,-1/0,1"
+  -
+    alg: "6,5/3,0/1,4/-1,-4/-1,0"
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "6,5/3,0/1,4/5,2/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Whale / Right Tent"
+    short_name: "lwhale_rtent"
 mirrors:
   top_bot:
     -
@@ -40,6 +42,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

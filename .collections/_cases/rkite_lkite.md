@@ -9,26 +9,26 @@ bot: Kite
 bot_short_name: kite
 bot_lr: Left
 
-recognition: TODO
+optimal: 5
+
+recognition: Bad kite/kite; not the 1-slicer.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+  alg: "0,-1/-2,1/-4,-1/-2,1/-3,0/-1,0"
+  description: Preserve kite on bottom, send single corner to bottom to form gem/gem.
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/-2,1/-4,-1/-3,0/-2,-1/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Gem / Gem"
+    short_name: "gem_gem"
+  -
+    name: "Shell / Shell"
+    short_name: "shell_shell"
 mirrors:
   lr:
     -
@@ -44,6 +44,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

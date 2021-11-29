@@ -11,22 +11,21 @@ bot_lr: Left
 
 optimal: 3
 
-recognition: TODO
+recognition: Good kite/pinwheel - aligning blocks to slice preserves squareshape.
 
 # ALGORITHMS
 default_alg:
   alg: "0,-1/0,3/0,3/0,1"
-  description: TODO
+  description: CO case; preserve blocks.
 other_algs:
   -
     alg: "0,2/0,-3/0,-3/0,1"
-    description: TODO
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Tent / Left Tent"
+    short_name: "ltent_ltent"
 mirrors:
   top_bot:
     -
@@ -46,8 +45,4 @@ mirrors:
 
 
 ---
-
-Notes: good half/n; CO
-
-Description TODO
 

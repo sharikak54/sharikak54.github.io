@@ -9,26 +9,23 @@ bot: Pinwheel
 bot_short_name: pinwheel
 bot_lr: Right
 
-recognition: TODO
+optimal: 2
+
+recognition: Good pinwheel/pinwheel; tents can connect to form kites.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+  alg: "1,0/-3,-3/-1,0"
+  description: CO case; preserve blocks.
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "-2,3/3,3/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Kite / Right Kite"
+    short_name: "rkite_rkite"
 mirrors:
   lr:
     -
@@ -44,6 +41,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

@@ -9,26 +9,25 @@ bot: Bird
 bot_short_name: bird
 bot_lr: Right
 
-recognition: TODO
+optimal: 3
+
+recognition: Good scottie/bird; the clean slice between the tent and corner on top breaks squareshape when preserving the kite on bottom.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/3,0/4,1/-1,0"
+  description: Position isolated corner on top next to the slice, and hold D kite in DL; first move trades isolated corner on top with two edges on bottom to make dish/dish.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
-other_algs:
+    alg: "0,-1/0,3/4,1/-1,0"
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "6,5/3,0/-2,-5/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Dish / Left Dish"
+    short_name: "ldish_ldish"
 mirrors:
   top_bot:
     -
@@ -48,6 +47,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

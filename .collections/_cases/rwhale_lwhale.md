@@ -9,26 +9,37 @@ bot: Whale
 bot_short_name: whale
 bot_lr: Left
 
-recognition: TODO
+optimal: 4
+
+recognition: Bad whale/whale; whales are mirrors of each other.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/-3,0/3,0/2,-1/0,1"
+  description: Put top whale in UL and bottom whale in DR; either slice alignment will create scottie/shell.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/-3,0/2,-1/3,0/0,1"
+  -
+    alg: "0,-1/3,0/4,1/3,0/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Scottie / Shell"
+    short_name: "lscottie_shell"
+  -
+    name: "Right Scottie / Shell"
+    short_name: "rscottie_shell"
+  -
+    name: "Right Snoopy / Gem"
+    short_name: "rsnoopy_gem"
+  -
+    name: "Gem / Left Snoopy"
+    short_name: "gem_lsnoopy"
 mirrors:
   lr:
     -
@@ -44,6 +55,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

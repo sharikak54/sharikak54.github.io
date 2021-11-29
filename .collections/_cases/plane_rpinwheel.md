@@ -10,38 +10,41 @@ bot_lr: Right
 
 optimal: 5
 
-recognition: TODO
+recognition:
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/0,-3/2,-1/4,1/2,5/0,1"
-  description: TODO
+  description: Pair shell on top with a tent on bottom to form gem/spill.
 color_mirror_algs:
   -
     alg: "1,0/0,-3/2,-1/4,1/-4,-1/0,1"
-    description: TODO
   -
     alg: "0,-1/1,-2/3,0/-1,-4/1,4/-1,0"
-    description: TODO
   -
     alg: "-2,3/0,-3/-1,2/4,1/-3,6/-1,0"
-    description: TODO
 other_algs:
   -
     alg: "-5,0/-3,0/2,-1/1,4/-4,-1/0,1"
-    description: TODO
   -
     alg: "0,-1/1,-2/3,0/-1,-4/-5,-2/-1,0"
-    description: TODO
   -
     alg: "-2,3/0,-3/-1,2/4,1/3,0/-1,0/"
-    description: TODO
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Gem / Left Spill"
+    short_name: "gem_lspill"
+  -
+    name: "Left Spill / Angel"
+    short_name: "lspill_angel"
+  -
+    name: "Right Kite / Moth"
+    short_name: "rkite_moth"
+  -
+    name: "Right Zero / Moth"
+    short_name: "rzero_moth"
 mirrors:
   top_bot:
     -
@@ -54,8 +57,4 @@ mirrors:
 
 
 ---
-
-Notes: plane/n; there are a bunch of optimals, but my favorite is pairing shell on top with a tent on bottom to form gem/spill
-
-Description TODO
 

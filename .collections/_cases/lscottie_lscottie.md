@@ -9,26 +9,23 @@ bot: Scottie
 bot_short_name: scottie
 bot_lr: Left
 
-recognition: TODO
+optimal: 5
+
+recognition: Matching scotties; tents can connect to form kites.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/1,-2/-4,-1/3,0/-2,1/-1,0"
+  description: Create a yellow (D-color) shell on bottom by pairing isolated yellow corner on top with yellow tent on bottom.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/0,3/4,1/-3,0/2,-1/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Shell / Shell"
+    short_name: "shell_shell"
 mirrors:
   lr:
     -
@@ -44,6 +41,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

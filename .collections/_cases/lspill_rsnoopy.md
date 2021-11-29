@@ -9,26 +9,37 @@ bot: Snoopy
 bot_short_name: snoopy
 bot_lr: Right
 
-recognition: TODO
+optimal: 4
+
+recognition: Bad spill/snoopy; tent from spill can exactly swap with tent from snoopy.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/-1,-1/-3,0/-2,1/-1,0"
+  description: Keep spill fully in UL, pair edge from spill with tent to make scottie/shell.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/-1,-1/-2,1/-3,0/-1,0"
+  -
+    alg: "0,-1/1,1/-3,0/-3,0/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Scottie / Shell"
+    short_name: "rscottie_shell"
+  -
+    name: "Right Pinwheel / Right Kite"
+    short_name: "rpinwheel_rkite"
+  -
+    name: "Right Snoopy / Gem"
+    short_name: "rsnoopy_gem"
+  -
+    name: "Right Tent / Left Whale"
+    short_name: "rtent_lwhale"
 mirrors:
   top_bot:
     -
@@ -48,6 +59,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

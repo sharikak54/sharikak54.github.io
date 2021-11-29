@@ -9,26 +9,40 @@ bot: Snoopy
 bot_short_name: snoopy
 bot_lr: Right
 
-recognition: TODO
+optimal: 5
+
+recognition: Mirrored snoopies; tents can't connect to form kites.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/2,-1/-2,1/-1,-1/-3,0/0,1"
+  description: Swap isolated edge on top with tent on bottom, forming opposite plane/plane.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/3,0/-2,1/-1,-1/-3,0/0,1"
+  -
+    alg: "-2,0/-4,-1/-2,1/-4,-1/4,1/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Plane / Plane"
+    short_name: "plane_plane"
+  -
+    name: "Gem / Right Spill"
+    short_name: "gem_rspill"
+  -
+    name: "Moth / Left Kite"
+    short_name: "moth_lkite"
+  -
+    name: "Angel / Right Spill"
+    short_name: "angel_rspill"
+  -
+    name: "Moth / Right Zero"
+    short_name: "moth_rzero"
 mirrors:
   lr:
     -
@@ -44,6 +58,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

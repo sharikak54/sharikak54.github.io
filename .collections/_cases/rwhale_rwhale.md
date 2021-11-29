@@ -9,26 +9,29 @@ bot: Whale
 bot_short_name: whale
 bot_lr: Right
 
-recognition: TODO
+optimal: 3
+
+recognition: Good whale/whale; whales are the same as each other.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/5,-1/-3,0/0,1"
+  description: Swap both whales to form tent/tent.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/-3,3/2,-1/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Tent / Left Tent"
+    short_name: "ltent_ltent"
+  -
+    name: "Right Dish / Right Dish"
+    short_name: "rdish_rdish"
 mirrors:
   lr:
     -
@@ -44,6 +47,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

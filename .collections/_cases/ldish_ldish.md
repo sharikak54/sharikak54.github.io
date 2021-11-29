@@ -9,26 +9,28 @@ bot: Dish
 bot_short_name: dish
 bot_lr: Left
 
-recognition: TODO
+optimal: 2
+
+recognition: Good dish/dish; thumbs are the same as each other, or making a kite on one face makes a kite on the other face.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/4,1/-1,0"
+  description: Keep bottom shell in DL, pair gem on top with isolated corner on bottom to form kite/kite.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/-2,-5/-1,0"
+  -
+    alg: "6,5/5,2/-1,0"
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "6,5/-1,-4/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Kite / Right Kite"
+    short_name: "rkite_rkite"
 mirrors:
   lr:
     -
@@ -44,6 +46,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

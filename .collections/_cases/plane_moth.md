@@ -9,35 +9,33 @@ bot_short_name: moth
 
 optimal: 3
 
-recognition: TODO
+recognition: Good plane/moth - color of plane and moth are swapped.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-1,2/-5,-2/-1,0"
-  description: TODO
+  description: Swap isolated edge on top with isolated corner on bottom.
 color_mirror_algs:
   -
     alg: "1,0/-1,2/1,4/-1,0"
-    description: TODO
   -
     alg: "0,2/1,-2/-1,-4/0,1"
-    description: TODO
 other_algs:
   -
     alg: "0,2/1,-2/5,2/0,1"
-    description: TODO
   -
     alg: "-5,6/2,-1/1,4/-1,0"
-    description: TODO
   -
     alg: "6,-4/-2,1/-1,-4/0,1"
-    description: TODO
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Dish / Left Dish"
+    short_name: "ldish_ldish"
+  -
+    name: "Right Dish / Right Dish"
+    short_name: "rdish_rdish"
 mirrors:
   top_bot:
     -
@@ -46,8 +44,4 @@ mirrors:
 
 
 ---
-
-Notes: good plane/moth (or swapped plane/moth); swap isolated edge on top with isolated corner on bottom
-
-Description TODO
 

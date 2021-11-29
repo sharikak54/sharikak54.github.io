@@ -9,26 +9,44 @@ bot: Kite
 bot_short_name: kite
 bot_lr: Right
 
-recognition: TODO
+optimal: 6
+
+recognition: Bad zero/kite; aligning bird with kite preserves squareshape.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+  alg: "1,0/-3,0/3,0/2,2/-2,1/3,0/-1,0"
+  description: Preserve kite on bottom, send isolated corner to form bad spill/spill.
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "4,0/-3,3/3,0/-4,-1/4,1/-3,0/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Spill / Left Spill"
+    short_name: "lspill_lspill"
+  -
+    name: "Right Bird / Right Bird"
+    short_name: "rbird_rbird"
+  -
+    name: "1E / 1E"
+    short_name: "1e_1e"
+  -
+    name: "3E / 3E"
+    short_name: "3e_3e"
+  -
+    name: "1C / 1C"
+    short_name: "1c_1c"
+  -
+    name: "3C / 3C"
+    short_name: "3c_3c"
+  -
+    name: "Right Snoopy / Right Snoopy"
+    short_name: "rsnoopy_rsnoopy"
+  -
+    name: "Right Scottie / Right Scottie"
+    short_name: "rscottie_rscottie"
 mirrors:
   top_bot:
     -
@@ -48,6 +66,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

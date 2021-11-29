@@ -9,26 +9,46 @@ bot: Tent
 bot_short_name: tent
 bot_lr: Left
 
-recognition: TODO
+optimal: 2
+
+recognition: Good tent/tent; aligning tents next to slice preserves squareshape.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/-3,0/0,1"
+  description: CO case; preserve blocks.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/3,6/0,1"
+  -
+    alg: "3,2/-3,6/0,1"
+  -
+    alg: "-2,-3/5,-4/0,1"
+  -
+    alg: "4,3/-4,5/0,1"
+  -
+    alg: "so"
+  -
+    alg: "many"
+  -
+    alg: "others"
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "3,2/3,0/0,1"
+  -
+    alg: "4,3/2,-1/0,1"
+  -
+    alg: "so"
+  -
+    alg: "many"
+  -
+    alg: "others"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Left Kite / Left Kite"
+    short_name: "lkite_lkite"
 mirrors:
   lr:
     -
@@ -44,6 +64,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

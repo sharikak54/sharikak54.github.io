@@ -9,26 +9,34 @@ bot: Spill
 bot_short_name: spill
 bot_lr: Left
 
-recognition: TODO
+optimal: 5
+
+recognition: Bad spill/spill; swapping spills preserves squareshape.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "1,0/3,0/2,2/-2,1/3,0/-1,0"
+  description: Preserve full kite on bottom in DL, swap isolated edge on top with isolated corner on bottom to make scottie/bird.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: ""
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "-5,0/5,-1/4,1/-3,0/-4,-1/0,1"
+  -
+    alg: "-5,0/2,-1/1,4/0,3/-1,-4/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Scottie / Right Bird"
+    short_name: "rscottie_rbird"
+  -
+    name: "Right Whale / Right Tent"
+    short_name: "rwhale_rtent"
+  -
+    name: "Right Baron / Left Dish"
+    short_name: "rbaron_ldish"
 mirrors:
   lr:
     -
@@ -44,6 +52,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

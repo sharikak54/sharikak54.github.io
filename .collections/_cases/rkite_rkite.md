@@ -9,26 +9,17 @@ bot: Kite
 bot_short_name: kite
 bot_lr: Right
 
-recognition: TODO
+optimal: 1
+
+recognition: Good kite/kite; it's a 1-slicer :)
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
-color_mirror_algs:
-  -
-    alg: "0,0/"
-    description: TODO
-other_algs:
-  -
-    alg: "0,0/"
-    description: TODO
+  alg: "1,0/-1,0"
+  description: Preserve everything :)
 
 # RELATED CASES
 parents:
-  -
-    name: TODO
-    short_name: TODO
 mirrors:
   lr:
     -
@@ -44,6 +35,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

@@ -9,26 +9,40 @@ bot: Scottie
 bot_short_name: scottie
 bot_lr: Left
 
-recognition: TODO
+optimal: 5
+
+recognition: Mirrored scotties; tents can't connect to form kites.
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/-3,0/0,-3/-2,1/3,0/-1,0"
+  description: Create a yellow (D-color) shell on bottom (as part of a plane) by pairing isolated yellow corner on top with yellow tent on bottom.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "1,0/-1,-4/-2,1/2,-1/-3,0/0,1"
+  -
+    alg: "-3,-4/0,-3/0,-3/1,-2/3,0/-1,0"
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "4,3/0,3/3,0/-3,0/2,-1/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Kite / Plane"
+    short_name: "rkite_plane"
+  -
+    name: "Right Bird / Hazard"
+    short_name: "rbird_hazard"
+  -
+    name: "Right Bird / Shell"
+    short_name: "rbird_shell"
+  -
+    name: "Right Zero / Plane"
+    short_name: "rzero_plane"
+  -
+    name: "Moth / Moth"
+    short_name: "moth_moth"
 mirrors:
   lr:
     -
@@ -44,6 +58,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 

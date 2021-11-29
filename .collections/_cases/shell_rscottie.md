@@ -8,26 +8,28 @@ bot: Scottie
 bot_short_name: scottie
 bot_lr: Right
 
-recognition: TODO
+optimal: 3
+
+recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,5/0,1"
-  description: TODO
+  alg: "0,-1/-2,1/0,-3/-1,0"
+  description: Pair shell on top with gem on bottom, such that slice goes between gem and neighboring isolated corner, to get tent/tent.
 color_mirror_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "0,-1/1,-2/0,-3/-1,0"
+  -
+    alg: "0,-1/0,-3/1,-2/-1,0"
 other_algs:
   -
-    alg: "0,0/"
-    description: TODO
+    alg: "6,5/1,-2/6,3/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: TODO
-    short_name: TODO
+    name: "Right Tent / Right Tent"
+    short_name: "rtent_rtent"
 mirrors:
   top_bot:
     -
@@ -40,6 +42,4 @@ mirrors:
 
 
 ---
-
-Description TODO
 
