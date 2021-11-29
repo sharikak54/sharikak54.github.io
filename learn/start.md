@@ -38,6 +38,7 @@ Don't worry if you don't know what these mean yet, just know that you're already
 There are only 5 2-slicers, and you actually already know three of them: [Tent / Tent](cases/ltent_ltent), [M2](cases/eopp_eopp), and [Pinwheel / Pinwheel](cases/lpinwheel_lpinwheel).  So really you only have to learn two new cases:
 - [m2 (the corner version of M2)](cases/copp_copp); and
 - [Dish / Dish](cases/ldish_ldish).
+
 Click on the links to those cases to get started on learning them!  As you do, try clicking into some of the links on each case page.  In particular, click into the cases' face(s) page(s) to see more information on them, e.g. why we've named those faces the way we have.
 
 <!-- TODO At this point we should probably stop and talk about some of the terminology we've been using. -->
