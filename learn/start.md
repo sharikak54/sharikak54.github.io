@@ -19,11 +19,11 @@ If you're already familiar with the basics and are just looking for references, 
 
 ## Overview
 
-In the same sense that we can say there are 4 "levels" of difficulty to cubeshape (beginner methods that either group all edges or group 6 corners; intermediate methods like kite/scallop; advanced full CS; and "expert" CSP), there are essentially four levels of OBL.  These are as follows:
-- **Beginner**: regular old CO into EO
-- **Intermediate**: all short OBLs and their pseudomirrors, mostly blockbuilding on any remaining cases
-- **Advanced**: all 74 standard cases memorized
-- **Expert**: all mirrors (L/R, U/D, color-swapped) memorized, intentionally choosing non-slice-optimal for some cases because of better recognition/ergonomics/etc.
+In the same sense that we can say there are 4 "levels" of difficulty to cubeshape (*beginner* methods that either group all edges or group 6 corners; *intermediate* methods like kite/scallop; *advanced* full CS; and *expert* CSP), there are essentially four levels of OBL.  These are as follows:
+- *Beginner*: regular old CO into EO
+- *Intermediate*: all short OBLs and their pseudomirrors, mostly blockbuilding on any remaining cases
+- *Advanced*: all 74 standard cases memorized
+- *Expert*: all mirrors (L/R, U/D, color-swapped) memorized, intentionally choosing non-slice-optimal for some cases because of better recognition/ergonomics/etc.
 
 ## Beginner -> Intermediate
 
