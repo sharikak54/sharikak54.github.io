@@ -13,26 +13,26 @@ recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "0,-1/0,-3/0,3/1,-2/-3,0/-1,0"
-  description: Put U corners in UF, and put an isolated corner against slice in DFR.
+  alg: "1,0/3,0/-3,0/2,-1/0,3/0,1"
+  description: Put isolated corner against slice in UFR, and D corners in DF.
 color_mirror_algs:
   -
-    alg: "0,-1/0,-3/3,0/1,-2/0,-3/-1,0"
+    alg: "1,0/3,0/0,-3/2,-1/3,0/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: "Right Kite / Moth"
-    short_name: "rkite_moth"
+    name: "Moth / Left Kite"
+    short_name: "moth_lkite"
   -
-    name: "Right Zero / Moth"
-    short_name: "rzero_moth"
+    name: "Moth / Left Zero"
+    short_name: "moth_lzero"
   -
-    name: "Gem / Left Spill"
-    short_name: "gem_lspill"
+    name: "Right Spill / Gem"
+    short_name: "rspill_gem"
   -
-    name: "Left Spill / Angel"
-    short_name: "lspill_angel"
+    name: "Angel / Right Spill"
+    short_name: "angel_rspill"
 mirrors:
   top_bot:
     -
