@@ -81,6 +81,8 @@ backLink:
           </a>
         </td>
         <td class="caseImageColumn">
+          {% include cubicle_embed.html title=title alg=case.default_alg.alg %}
+          <!-- TODO: add this back when we go to static images
           {% assign image_path = case.short_name | prepend: '/assets/images/cases/' | append: ".png" %}
           {% assign file_exists = site.static_files | where: "path", image_path  %}
 
@@ -91,6 +93,7 @@ backLink:
           {% else %}
             <div><i>Sorry, no image exists.</i></div>
           {% endif %}
+          -->
         </td>
       </tr>
     {% endfor %}
