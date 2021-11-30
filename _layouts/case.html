@@ -26,6 +26,8 @@ layout: default
 
 {{ content }}
 
+{% include cubicle_embed.html title=title alg=page.default_alg.alg %}
+<!-- TODO: add this back in once static images are fixed
 <div>
   {% assign image_path = page.short_name | prepend: '/assets/images/cases/' | append: ".png" %}
   {% assign file_exists = site.static_files | where: "path", image_path  %}
@@ -38,6 +40,7 @@ layout: default
     <div><i>Sorry, no image exists.</i></div>
   {% endif %}
 </div>
+-->
 
 <br>
 
