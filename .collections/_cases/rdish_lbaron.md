@@ -17,9 +17,6 @@ recognition: Breaking dish/baron; putting slice between shell and gem on top and
 default_alg:
   alg: "0,-1/0,-3/0,3/1,4/-1,0"
   description: Put shell of dish in UL and align so slice breaks gem, preserve both tents in DL (goes to good bird/scottie).
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "6,5/-3,0/0,3/4,1/-1,0"

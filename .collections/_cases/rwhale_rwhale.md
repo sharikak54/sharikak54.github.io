@@ -17,9 +17,6 @@ recognition: Good whale/whale; whales are the same as each other.
 default_alg:
   alg: "1,0/5,-1/-3,0/0,1"
   description: Swap both whales to form tent/tent.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "1,0/-3,3/2,-1/0,1"

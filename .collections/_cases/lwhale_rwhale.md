@@ -17,9 +17,6 @@ recognition: Bad whale/whale; whales are mirrors of each other.
 default_alg:
   alg: "0,-1/3,0/-2,1/-3,0/-1,0"
   description: Put top whale in UL and bottom whale in DR; either slice alignment will create scottie/shell.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "0,-1/3,0/-3,0/-2,1/-1,0"

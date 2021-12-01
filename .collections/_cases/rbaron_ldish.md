@@ -17,9 +17,6 @@ recognition: Breaking baron/dish; preserving tents on top and putting slice betw
 default_alg:
   alg: "1,0/3,0/-3,0/-4,-1/0,1"
   description: Put shell of dish in DL and align so slice breaks gem, preserve both tents in UL (goes to scottie/bird).
-color_mirror_algs:
-  -
-    alg: ""
 
 # RELATED CASES
 parents:

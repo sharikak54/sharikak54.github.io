@@ -17,9 +17,6 @@ recognition: Good spill/spill; swapping spills breaks squareshape.
 default_alg:
   alg: "0,-1/3,0/-3,0/1,1/-1,0"
   description: Do CO into M2, make plane/plane with tent on top connecting with whale from bottom.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "4,3/0,-3/0,3/-1,-1/0,1"

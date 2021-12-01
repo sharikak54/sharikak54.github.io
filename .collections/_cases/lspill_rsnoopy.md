@@ -17,9 +17,6 @@ recognition: Bad spill/snoopy; tent from spill can exactly swap with tent from s
 default_alg:
   alg: "1,0/-1,-1/-3,0/-2,1/-1,0"
   description: Keep spill fully in UL, pair edge from spill with tent to make scottie/shell.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "1,0/-1,-1/-2,1/-3,0/-1,0"

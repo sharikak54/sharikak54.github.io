@@ -17,9 +17,6 @@ recognition: Bad tent/whale; splitting tent on top and sandwiched tent on bottom
 default_alg:
   alg: "0,-1/4,1/3,0/-4,-1/0,1"
   description: Swap tent on top (so that it's not touching the slice) with same-colored spill on bottom (keeping shell on DL) to form spill/snoopy.
-color_mirror_algs:
-  -
-    alg: ""
 
 # RELATED CASES
 parents:

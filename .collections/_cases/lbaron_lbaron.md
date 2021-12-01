@@ -17,9 +17,6 @@ recognition: Good baron/baron; preserving tents preserves cubeshape.
 default_alg:
   alg: "0,-1/-3,3/4,1/-1,0"
   description: Put all 4 tents on right half of puzzle and swap them to get dish/dish.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "0,-1/3,-3/1,4/-1,0"

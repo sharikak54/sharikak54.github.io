@@ -16,9 +16,6 @@ recognition:
 default_alg:
   alg: "1,0/2,-1/4,1/-4,-1/0,1"
   description: Preserve full kite on bottom in DL, put gem directly above isolated corner on bottom (in this case, in UFR/DFR).
-color_mirror_algs:
-  -
-    alg: ""
 
 # RELATED CASES
 parents:

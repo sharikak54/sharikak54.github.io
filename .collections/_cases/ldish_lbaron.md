@@ -17,9 +17,6 @@ recognition: Preserving dish/baron; putting slice between shell and gem on top a
 default_alg:
   alg: "0,-1/1,4/5,-1/-3,0/0,1"
   description: Put shell of dish in UL and align so slice preserves gem, swap gem with isolated corner on bottom.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "0,-1/-3,0/4,-2/-4,-1/0,1"

@@ -17,9 +17,6 @@ recognition: Bad tent/tent; aligning tents next to slice breaks squareshape.
 default_alg:
   alg: "0,-1/-2,1/2,-1/3,0/0,1"
   description: Keep top tent on left with edge next to slice, send gem from bottom to form scottie/shell.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "3,-1/-2,1/-3,0/2,-1/0,1"
