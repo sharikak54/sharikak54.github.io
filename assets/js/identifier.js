@@ -3,6 +3,7 @@
 let colors = [[0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0]];
 let identifyType = "Face";
 let $outputSpan;
+let sq1 = new Square1();
 
 function onClickClicker(e) {
   toggleColor($(e.target));
@@ -17,7 +18,7 @@ function toggleColor($section) {
   $section.css("fill", wasGold ? "white" : "gold");
   colors[x][y] = 1 - wasGold;
   
-  console.log(colors);
+  sq1.state = [...colors];
 }
 
 function onClickFaceOrCase() {
@@ -30,6 +31,20 @@ function onClickFaceOrCase() {
 function onClickSubmit() {
   // TODO
   $outputSpan.text("Sorry, this functionality has not yet been implemented...");
+
+  applyState(sq1.getState());
+}
+
+/** Color $outputSpan given a state array. */
+function applyState(state) {
+  colors = state;
+  [0, 1].forEach((i) => {
+    const sideState = state[i];
+    const sideId = i === 0 ? "top" : "bot";
+    for (let j = 0; j < sideState.length; j++) {
+      $(`#${sideId}${j}.section`).css("fill", sideState[j] ? "gold" : "white");
+    }
+  })
 }
 
 function onClickReset() {
@@ -44,4 +59,6 @@ $(document).ready(() => {
   $(".reset").click(onClickReset);
 
   $outputSpan = $("#outputSpan");
+
+  console.log(sq1);
 });
