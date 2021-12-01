@@ -6,6 +6,13 @@ CASE_DIR = "../../.collections/_cases/"
 
 
 
+'''
+Generate the base case files for each case.
+Run this script FIRST before importing any other new data.
+'''
+
+
+
 ct_types = getFacesByECType()
 
 for ct_type in ct_types.keys():

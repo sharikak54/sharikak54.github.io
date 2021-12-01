@@ -6,8 +6,10 @@ from utils import SHOULD_OVERWRITE_CURRENT_FILES
 
 
 '''
-TODO
 Hit cubicle to generate case images based on current best algs for each case.
+
+Must be run AFTER all case mds are properly generated and have name, short_name,
+and default_alg set.
 '''
 
 
