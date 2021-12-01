@@ -15,7 +15,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "0,-1/0,-3/1,-2/0,-3/2,-1/0,1"
-  description: Create a yellow (D-color) shell on bottom (as part of a plane) by pairing isolated yellow corner on bottom with yellow tent on top.
+  description: Create a D-color shell on bottom (as part of a plane) by pairing isolated D-color corner on bottom with D-color tent on top.
 color_mirror_algs:
   -
     alg: "0,-1/-3,0/1,-2/-3,0/2,-1/0,1"

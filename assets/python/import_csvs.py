@@ -113,7 +113,11 @@ for short_name in cases_to_update:
         i += 2
         continue
       elif (lines[i-1] == "color_mirror_algs:\n"):
-        if ('color_mirror_algs' in case.keys()):
+        if (
+          'color_mirror_algs' in case.keys() 
+          and len(case['color_mirror_algs']) 
+          and case['color_mirror_algs'][0]
+        ):
           for mirror_alg in case['color_mirror_algs']:
             new_lines.append('  -\n')
             new_lines.append('    alg: "' + mirror_alg + '"\n')

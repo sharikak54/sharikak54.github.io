@@ -17,9 +17,6 @@ recognition: Bad dish/dish; thumbs are mirrors of each other, or making a kite o
 default_alg:
   alg: "1,0/-1,-1/-2,1/2,-1/-3,0/0,1"
   description: Keep bottom shell in DL, swap 2 edges on top with isolated corner on bottom to form bird/bird.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "0,-1/1,1/-3,0/2,-1/-3,0/0,1"

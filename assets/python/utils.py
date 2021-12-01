@@ -1,6 +1,10 @@
 from os import listdir
 from os.path import isfile, join
 
+'''
+Utils used in other python scripts.
+'''
+
 
 
 def SHOULD_OVERWRITE_CURRENT_FILES():

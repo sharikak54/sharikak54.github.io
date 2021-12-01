@@ -17,9 +17,6 @@ recognition: Good spill/snoopy; tent from spill can't exactly swap with tent fro
 default_alg:
   alg: "1,0/3,0/-4,-1/0,1"
   description: Swap only corner from spill on top with tent on bottom to make dish/dish.
-color_mirror_algs:
-  -
-    alg: ""
 
 # RELATED CASES
 parents:

@@ -16,9 +16,6 @@ recognition:
 default_alg:
   alg: "0,-1/0,-3/4,1/-4,-1/0,1"
   description: Preserve full kite on bottom in DL, swap remaining corner on bottom with whale on top.
-color_mirror_algs:
-  -
-    alg: ""
 
 # RELATED CASES
 parents:

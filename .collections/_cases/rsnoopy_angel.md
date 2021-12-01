@@ -16,9 +16,6 @@ recognition:
 default_alg:
   alg: "1,0/0,3/-1,2/1,4/-1,0"
   description: Put shell on top in UL, pair tent on top with whale on bottom to form good plane/moth.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "-5,6/3,0/-1,2/4,1/-1,0"

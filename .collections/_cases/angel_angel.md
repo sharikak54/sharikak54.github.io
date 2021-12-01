@@ -15,9 +15,6 @@ recognition:
 default_alg:
   alg: "1,0/-4,-1/-3,0/-3,3/4,1/-1,0"
   description: Put isolated corners in UBL and DFR; either alignment will make scottie/hazard.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "0,-1/1,-2/0,-3/2,-1/-2,-5/-1,0"

@@ -17,9 +17,6 @@ recognition: Matching snoopies; tents can connect to form kites.
 default_alg:
   alg: "1,0/3,0/-4,-1/-2,1/-3,0/-1,0"
   description: Put shells on left, pair tent on bottom with isolated edge on top.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "1,0/3,0/-4,-1/-3,0/-2,1/-1,0"

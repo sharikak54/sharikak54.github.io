@@ -17,9 +17,6 @@ recognition: Bad spill/spill; swapping spills preserves squareshape.
 default_alg:
   alg: "0,-1/-3,0/-2,-2/2,-1/-3,0/0,1"
   description: Preserve full kite on bottom in DL, swap isolated edge on top with isolated corner on bottom to make scottie/bird.
-color_mirror_algs:
-  -
-    alg: ""
 other_algs:
   -
     alg: "6,-1/-5,1/-4,-1/3,0/4,1/-1,0"

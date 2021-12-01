@@ -14,10 +14,7 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "0,-1/-3,0/0,3/1,1/-1,0"
-  description: Do CO into M2; create same plane/plane by pairing white corner from bottom with tent on top.
-color_mirror_algs:
-  -
-    alg: ""
+  description: Do CO into M2; create same plane/plane by pairing U-color corner from bottom with tent on top.
 other_algs:
   -
     alg: "-2,-3/0,3/0,3/-1,-1/0,1"

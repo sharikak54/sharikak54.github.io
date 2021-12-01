@@ -16,7 +16,7 @@ recognition: Matching scotties; tents can connect to form kites.
 # ALGORITHMS
 default_alg:
   alg: "1,0/-1,2/4,1/-3,0/2,-1/0,1"
-  description: Create a yellow (D-color) shell on bottom by pairing isolated yellow corner on top with yellow tent on bottom.
+  description: Create a D-color shell on bottom by pairing isolated D-color corner on top with D-color tent on bottom.
 color_mirror_algs:
   -
     alg: "1,0/0,-3/-4,-1/3,0/-2,1/-1,0"

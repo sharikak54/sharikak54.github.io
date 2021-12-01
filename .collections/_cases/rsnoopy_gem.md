@@ -16,9 +16,6 @@ recognition:
 default_alg:
   alg: "0,-1/-2,1/3,0/-1,0"
   description: Swap tent on top with gem on bottom, "maximally" blockbuild to get tent/tent.
-color_mirror_algs:
-  -
-    alg: ""
 
 # RELATED CASES
 parents:

@@ -2,9 +2,13 @@ from os import listdir
 from os.path import isfile, join
 from utils import SHOULD_OVERWRITE_CURRENT_FILES
 
-# CHANGE THIS TO TRUE TO RUN
-# WARNING: this option overwrites a ton of files,
-# make sure you know what you're doing!
+
+
+'''
+Fix the csv title rows to differentiate first and second images/algs/etc.
+Must run this whenever a new .tsv is downloaded from the spreadsheet.
+'''
+
 OVERWRITE_CURRENT_FILES = SHOULD_OVERWRITE_CURRENT_FILES()
 
 

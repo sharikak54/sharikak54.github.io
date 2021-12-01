@@ -16,9 +16,6 @@ recognition:
 default_alg:
   alg: "1,0/3,0/2,-1/4,1/-1,0"
   description: Put shell on bottom in DL, pair tent on bottom with whale on top to form good moth/plane.
-color_mirror_algs:
-  -
-    alg: ""
 
 # RELATED CASES
 parents:
