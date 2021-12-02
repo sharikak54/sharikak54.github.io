@@ -10,5 +10,4 @@ backLink:
 - [Weighted OBL Tree](/assets/images/obl_data_sorted_by_weights_1110.pdf)
 - [Faces List](faces)
 - [Cases List](cases)
-<!-- - [Cases Listed by Optimal Movecount](cases_by_optimal) -->
 - [Other Resources](resources)

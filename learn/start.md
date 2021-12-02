@@ -12,10 +12,13 @@ If you're here, you probably want to learn OBL!  This page will tell you how to 
 ## References
 If you're already familiar with the basics and are just looking for references, use the below links.
 - [Weighted OBL Tree](/assets/images/obl_data_sorted_by_weights_1110.pdf)
+  - All unique OBL cases organized by slice count; cases are weighted by how often they're likely to appear in an OBL solution, with more likely cases in the middle.
 - [Faces List](faces)
+  - Learn the names and mnemonics for every face.
 - [Cases List](cases)
-<!-- - [Cases Listed by Optimal Movecount](cases_by_optimal) -->
+  - Best algs, alternate algs, and related cases for every OBL case, including mirrors.
 - [Other Resources](resources)
+  - A collection of other helpful resources, for OBL or for Square-1 as a whole.
 
 ## Overview
 
