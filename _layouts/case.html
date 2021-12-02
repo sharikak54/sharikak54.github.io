@@ -90,7 +90,7 @@ layout: default
       {% endfor %}
     </ul>
   {% else %}
-    <i>None; use best alg</i>
+    <i>None; use best alg canceled with /6,6/ at the end.</i>
   {% endif %}
 </div>
 
@@ -123,7 +123,10 @@ layout: default
   <ul>
     {% for case in page.parents %}
       <li>
-        <a href="./{{case.short_name}}">{{case.name}}</a>
+        <a href="./{{case.short_name}}" class="caseLink">
+          {{case.name}}
+          {% include hover_case_image.html short_name=case.short_name %}
+        </a>
       </li>
     {% endfor %}
   </ul>
@@ -141,7 +144,10 @@ layout: default
         <ul>
           {% for mirror in page.mirrors.top_bot %}
             <li>
-              <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
+              <a href="./{{mirror.short_name}}" class="caseLink">
+                {{mirror.name}}
+                {% include hover_case_image.html short_name=mirror.short_name %}
+              </a>
             </li>
           {% endfor %}
         </ul>
@@ -155,7 +161,10 @@ layout: default
         <ul>
           {% for mirror in page.mirrors.lr %}
             <li>
-              <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
+              <a href="./{{mirror.short_name}}" class="caseLink">
+                {{mirror.name}}
+                {% include hover_case_image.html short_name=mirror.short_name %}
+              </a>
             </li>
           {% endfor %}
         </ul>
@@ -169,7 +178,10 @@ layout: default
         <ul>
           {% for mirror in page.mirrors.pseudo %}
             <li>
-              <a href="./{{mirror.short_name}}">{{mirror.name}}</a>
+              <a href="./{{mirror.short_name}}" class="caseLink">
+                {{mirror.name}}
+                {% include hover_case_image.html short_name=mirror.short_name %}
+              </a>
             </li>
           {% endfor %}
         </ul>

@@ -1,0 +1,8 @@
+{% assign image_path = include.short_name | prepend: '/assets/images/cases/' | append: ".png" %}
+{% assign file_exists = site.static_files | where: "path", image_path  %}
+
+{% if file_exists.size != 0 %}
+  <span class="caseHoverWrapper">
+    <img class="caseImage" src="{{image_path}}">
+  </span>
+{% endif %}
