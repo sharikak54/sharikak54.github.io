@@ -238,6 +238,15 @@ figure.smallTree {
 	margin-top: 20px;
 }
 
+.faceImageWrapper {
+	display: flex;
+}
+@media print, screen and (max-width: 480px) {
+	.faceImageWrapper {
+		flex-direction: column;
+	}
+}
+
 figure.faceFigure {
 	display: flex;
 	flex-flow: column;

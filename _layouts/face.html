@@ -15,20 +15,32 @@ layout: default
 
 {{ content }}
 
-{% if page.short_name %}
-	{% assign image_path = page.short_name | prepend: '/assets/images/faces/' | append: ".jpg" %}
-	{% assign file_exists = site.static_files | where: "path", image_path  %}
-
-	{% if file_exists.size != 0 %}
-		<figure class="faceFigure">
-			<img class="faceImage" src="{{image_path}}">
-			{% if page.has_lr %}
-			<figcaption>
-				The "Left" version of this case is pictured.
-			</figcaption>
-			{% endif %}
-		</figure>
-	{% else %}
-		<div><i>Sorry, no image exists.</i></div>
+<div class="faceImageWrapper">
+	{% if page.short_name %}
+		{% assign image_path = page.short_name | prepend: '/assets/images/faces/' | append: ".jpg" %}
+		{% assign file_exists = site.static_files | where: "path", image_path  %}
+		{% if file_exists.size != 0 %}
+			<figure class="faceFigure">
+				<img class="faceImage" src="{{image_path}}">
+				{% if page.has_lr %}
+				<figcaption>
+					The "Left" version of this case is pictured.
+				</figcaption>
+				{% endif %}
+			</figure>
+		{% else %}
+			<div><i>Sorry, no image exists.</i></div>
+		{% endif %}
+	
+		{% assign clean_image_path = page.short_name | prepend: '/assets/images/faces/clean/' | append: ".jpg" %}
+		{% assign clean_file_exists = site.static_files | where: "path", clean_image_path  %}
+		{% if clean_file_exists.size != 0 %}
+			<figure class="faceFigure">
+				<img class="faceImage" src="{{clean_image_path}}">
+				<figcaption>
+					Without superimposed drawing.
+				</figcaption>
+			</figure>
+		{% endif %}
 	{% endif %}
-{% endif %}
+</div>
