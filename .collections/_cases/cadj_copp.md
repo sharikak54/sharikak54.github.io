@@ -17,7 +17,7 @@ default_alg:
   description: Put U corners in UF, and put an isolated corner against slice in DFR.
 color_mirror_algs:
   -
-    alg: "0,-1/0,-3/3,0/1,-2/0,-3/-1,0"
+    alg: "1,0/3,0/0,-3/2,-1/3,0/0,1"
 
 # RELATED CASES
 parents:

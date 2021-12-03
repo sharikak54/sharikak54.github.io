@@ -16,7 +16,7 @@ recognition: Bad baron/baron; preserving tents breaks cubeshape.
 # ALGORITHMS
 default_alg:
   alg: "1,0/2,2/0,-3/3,0/1,4/-1,0"
-  description: Put all 4 tents on right half of puzzle and slice with either alignment into m2; goes to preserving baron/dish or preserving dish/baron. 
+  description: Put all 4 tents on right half of puzzle and slice with either alignment into m2; goes to preserving baron/dish or preserving dish/baron.
 other_algs:
   -
     alg: "1,0/2,-1/0,3/-3,0/4,1/-1,0"
