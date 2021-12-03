@@ -11,14 +11,10 @@ If you're here, you probably want to learn OBL!  This page will tell you how to 
 
 ## References
 If you're already familiar with the basics and are just looking for references, use the below links.
-- [Weighted OBL Tree](/assets/images/obl_data_sorted_by_weights_1110.pdf)
-  - All unique OBL cases organized by slice count; cases are weighted by how often they're likely to appear in an OBL solution, with more likely cases in the middle.
-- [Faces List](faces)
-  - Learn the names and mnemonics for every face.
-- [Cases List](cases)
-  - Best algs, alternate algs, and related cases for every OBL case, including mirrors.
-- [Other Resources](resources)
-  - A collection of other helpful resources, for OBL or for Square-1 as a whole.
+- [Weighted OBL Tree](/assets/images/obl_data_sorted_by_weights_1110.pdf): All unique OBL cases organized by slice count; cases are weighted by how often they're likely to appear in an OBL solution, with more likely cases in the middle.
+- [Faces List](faces): Learn the names and mnemonics for every face.
+- [Cases List](cases): Best algs, alternate algs, and related cases for every OBL case, including mirrors.
+- [Other Resources](resources): A collection of other helpful resources, for OBL or for Square-1 as a whole.
 
 ## Overview
 
@@ -30,7 +26,7 @@ In the same sense that we can say there are 4 "levels" of difficulty to cubeshap
 
 ## Beginner -> Intermediate
 
-<!-- TODO if you don't, we should have a resource linked here -->
+<!-- TODO if you don't know CO into EO, we should have a resource linked here -->
 In this guide, we'll assume that you already know CO into EO.  So, congrats!  You already know the following 11 cases:
 - CO covers 4 cases: [Kite / Kite](cases/lkite_lkite) (the only 1-slicer); [Tent / Tent](cases/ltent_ltent); [Kite / Pinwheel](cases/lkite_lpinwheel); [Pinwheel / Pinwheel](cases/lpinwheel_lpinwheel).
 - EO covers 6 cases: [1E / 1E](cases/1e_1e); [Eopp / Eopp, aka M2](cases/eopp_eopp); [Eopp / Eadj](cases/eopp_eadj); [Eadj / Eadj](cases/eadj_eadj); [3E / 3E](cases/3e_3e); [4E / 4E](cases/4e_4e).
