@@ -18,7 +18,7 @@ layout: default
 
 <h1 id="main">{{ page.name }}</h1>
 <h2>
-  Face(s): 
+  Faces: 
   <a href="/learn/faces/{{page.top_short_name}}" class="hoverParent">
     {{page.top_lr}} {{ page.top }}
     {% assign image_path = page.top_short_name | prepend: '/assets/images/faces/' | append: ".jpg" %}
@@ -128,7 +128,7 @@ layout: default
 <h2 id="relatives">Related Cases</h2>
 
 <div>
-  <h3>Parent Case(s)</h3>
+  <h3>Parent Cases</h3>
   Relatively useful cases that can be reached in one slice from this case.
   <ul>
     {% for case in page.parents %}
@@ -145,7 +145,7 @@ layout: default
 
 <br>
 <div>
-  <h3>Mirror(s)</h3>
+  <h3>Mirrors</h3>
   {% if page.mirrors %}
 
     {% if page.mirrors.top_bot %}
@@ -186,7 +186,7 @@ layout: default
 
     {% if page.mirrors.pseudo %}
       <div>
-        <b>Pseudo Mirror(s)</b>:
+        <b>Pseudo Mirrors</b>:
         When only one face is left/right mirrored.  Not a real mirror, but it looks like one; don't be tricked!
         <ul>
           {% for mirror in page.mirrors.pseudo %}
