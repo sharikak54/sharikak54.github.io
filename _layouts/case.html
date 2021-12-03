@@ -18,9 +18,19 @@ layout: default
 
 <h1 id="main">{{ page.name }}</h1>
 <h2>
-  Face(s): <a href="/learn/faces/{{page.top_short_name}}">{{page.top_lr}} {{ page.top }}</a>
+  Face(s): 
+  <a href="/learn/faces/{{page.top_short_name}}" class="hoverParent">
+    {{page.top_lr}} {{ page.top }}
+    {% assign image_path = page.top_short_name | prepend: '/assets/images/faces/' | append: ".jpg" %}
+    {% include hover_image.html image_path=image_path imgCssClass="faceImage" wrapperCssClass="faceHoverWrapper" %}
+  </a>
   {% if page.top != page.bot or page.top_lr != page.bot_lr %}
-    / <a href="/learn/faces/{{page.bot_short_name}}">{{page.bot_lr}} {{ page.bot }}</a>
+    / 
+    <a href="/learn/faces/{{page.bot_short_name}}" class="hoverParent">
+      {{page.bot_lr}} {{ page.bot }}
+      {% assign image_path = page.bot_short_name | prepend: '/assets/images/faces/' | append: ".jpg" %}
+      {% include hover_image.html image_path=image_path imgCssClass="faceImage" wrapperCssClass="faceHoverWrapper" %}
+    </a>
   {% endif %}
 </h2>
 
@@ -123,9 +133,10 @@ layout: default
   <ul>
     {% for case in page.parents %}
       <li>
-        <a href="./{{case.short_name}}" class="caseLink">
+        <a href="./{{case.short_name}}" class="hoverParent">
           {{case.name}}
-          {% include hover_case_image.html short_name=case.short_name %}
+          {% assign image_path = case.short_name | prepend: '/assets/images/cases/' | append: ".png" %}
+          {% include hover_image.html image_path=image_path imgCssClass="caseImage" %}
         </a>
       </li>
     {% endfor %}
@@ -144,9 +155,10 @@ layout: default
         <ul>
           {% for mirror in page.mirrors.top_bot %}
             <li>
-              <a href="./{{mirror.short_name}}" class="caseLink">
+              <a href="./{{mirror.short_name}}" class="hoverParent">
                 {{mirror.name}}
-                {% include hover_case_image.html short_name=mirror.short_name %}
+                {% assign image_path = mirror.short_name | prepend: '/assets/images/cases/' | append: ".png" %}
+                {% include hover_image.html image_path=image_path imgCssClass="caseImage" %}
               </a>
             </li>
           {% endfor %}
@@ -161,9 +173,10 @@ layout: default
         <ul>
           {% for mirror in page.mirrors.lr %}
             <li>
-              <a href="./{{mirror.short_name}}" class="caseLink">
+              <a href="./{{mirror.short_name}}" class="hoverParent">
                 {{mirror.name}}
-                {% include hover_case_image.html short_name=mirror.short_name %}
+                {% assign image_path = mirror.short_name | prepend: '/assets/images/cases/' | append: ".png" %}
+                {% include hover_image.html image_path=image_path imgCssClass="caseImage" %}
               </a>
             </li>
           {% endfor %}
@@ -178,9 +191,10 @@ layout: default
         <ul>
           {% for mirror in page.mirrors.pseudo %}
             <li>
-              <a href="./{{mirror.short_name}}" class="caseLink">
+              <a href="./{{mirror.short_name}}" class="hoverParent">
                 {{mirror.name}}
-                {% include hover_case_image.html short_name=mirror.short_name %}
+                {% assign image_path = mirror.short_name | prepend: '/assets/images/cases/' | append: ".png" %}
+                {% include hover_image.html image_path=image_path imgCssClass="caseImage" %}
               </a>
             </li>
           {% endfor %}
