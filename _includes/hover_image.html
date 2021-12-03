@@ -1,0 +1,7 @@
+{% assign file_exists = site.static_files | where: "path", include.image_path  %}
+
+{% if file_exists.size != 0 %}
+  <span class="baseHoverWrapper {{include.wrapperCssClass}}">
+    <img class="{{include.imgCssClass}}" src="{{include.image_path}}">
+  </span>
+{% endif %}

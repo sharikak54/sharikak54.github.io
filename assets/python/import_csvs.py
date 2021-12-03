@@ -119,8 +119,9 @@ for short_name in cases_to_update:
           and case['color_mirror_algs'][0]
         ):
           for mirror_alg in case['color_mirror_algs']:
-            new_lines.append('  -\n')
-            new_lines.append('    alg: "' + mirror_alg + '"\n')
+            if mirror_alg:
+              new_lines.append('  -\n')
+              new_lines.append('    alg: "' + mirror_alg + '"\n')
         else:
           new_lines.pop()
         i += 3
@@ -128,8 +129,9 @@ for short_name in cases_to_update:
       elif (lines[i-1] == "other_algs:\n"):
         if ('other_algs' in case.keys()):
           for other_alg in case['other_algs']:
-            new_lines.append('  -\n')
-            new_lines.append('    alg: "' + other_alg + '"\n')
+            if other_alg:
+              new_lines.append('  -\n')
+              new_lines.append('    alg: "' + other_alg + '"\n')
         else:
           new_lines.pop()
         i += 3
