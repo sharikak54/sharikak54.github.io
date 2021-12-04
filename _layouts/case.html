@@ -91,16 +91,20 @@ layout: default
 <div>
   <h3>Color Mirror Algs</h3>
   {% if page.color_mirror_algs %}
-    <ul>
-      {% for alg in page.color_mirror_algs %}
-        <li>
-          <b>{{alg.alg}}</b>{% if alg.description %}:
-          {{alg.description}}{% endif %}
-        </li>
-      {% endfor %}
-    </ul>
+    {% if page.color_mirror_algs.first.alg == "samecase" %}
+      <i>This case is its own color mirror; use best alg above.</i>
+    {% else %}
+      <ul>
+        {% for alg in page.color_mirror_algs %}
+          <li>
+            <b>{{alg.alg}}</b>{% if alg.description %}:
+            {{alg.description}}{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   {% else %}
-    <i>None; use best alg canceled with /6,6/ at the end.</i>
+    Use best alg canceled with /6,6/ at the end.
   {% endif %}
 </div>
 
