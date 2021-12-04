@@ -68,8 +68,7 @@ for filename in filenames:
       other_algs = row['Algs1'].split(" ")[1:]
       if (other_algs):
         case['other_algs'] = other_algs
-      if (row['Algs2'] != "same case"):
-        case['color_mirror_algs'] = row['Algs2'].split(" ")
+      case['color_mirror_algs'] = row['Algs2'].split(" ")
 
       cases_to_update[short_name] = case
 

@@ -17,6 +17,9 @@ recognition: Good zero/zero; aligning birds preserves squareshape.
 default_alg:
   alg: "0,-1/-2,4/-1,-1/0,1"
   description: Solve CO into M2.
+color_mirror_algs:
+  -
+    alg: "samecase"
 other_algs:
   -
     alg: "0,-1/-3,3/1,1/-1,0"

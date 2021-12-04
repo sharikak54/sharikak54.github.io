@@ -17,6 +17,9 @@ recognition: Good pinwheel/kite - aligning blocks to slice preserves squareshape
 default_alg:
   alg: "0,-1/-3,0/-3,0/0,1"
   description: CO case; preserve blocks.
+color_mirror_algs:
+  -
+    alg: "samecase"
 other_algs:
   -
     alg: "3,-1/3,0/3,0/0,1"

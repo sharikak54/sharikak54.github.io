@@ -17,6 +17,9 @@ recognition: Good zero/pinwheel - aligning blocks to slice preserves cubeshape.
 default_alg:
   alg: "0,-1/1,4/-3,3/-1,-4/0,1"
   description: Intentionally align both faces' blocks to go to good baron/baron.
+color_mirror_algs:
+  -
+    alg: "samecase"
 other_algs:
   -
     alg: "0,-1/1,4/3,-3/-4,-1/0,1"

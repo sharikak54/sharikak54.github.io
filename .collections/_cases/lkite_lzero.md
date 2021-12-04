@@ -17,6 +17,9 @@ recognition: Bad kite/zero; aligning kite with bird preserves squareshape.
 default_alg:
   alg: "0,-1/1,-2/-3,0/2,-1/-2,1/3,0/-1,0"
   description: Solve CO into 1e/1e.
+color_mirror_algs:
+  -
+    alg: "samecase"
 
 # RELATED CASES
 parents:

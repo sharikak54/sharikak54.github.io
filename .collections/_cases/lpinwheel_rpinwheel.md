@@ -17,6 +17,9 @@ recognition: Bad pinwheel/pinwheel; tents can't connect to form kites.
 default_alg:
   alg: "1,0/-3,-3/0,3/-1,-1/0,1"
   description: Do good pinwheel/pinwheel into M2; all alignments will form matching planes.
+color_mirror_algs:
+  -
+    alg: "samecase"
 other_algs:
   -
     alg: "0,-1/-2,-2/0,3/-1,-1/0,1"
