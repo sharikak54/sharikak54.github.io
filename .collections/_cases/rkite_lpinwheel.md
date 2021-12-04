@@ -17,6 +17,9 @@ recognition: Bad kite/pinwheel - aligning blocks to slice breaks squareshape.
 default_alg:
   alg: "0,-1/1,-5/2,-1/-3,0/0,1"
   description: Pair edge on top with tent on bottom to form snoopy/gem.
+color_mirror_algs:
+  -
+    alg: "samecase"
 
 # RELATED CASES
 parents:

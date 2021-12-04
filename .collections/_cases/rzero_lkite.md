@@ -17,6 +17,9 @@ recognition: Good zero/kite; aligning bird with kite breaks squareshape.
 default_alg:
   alg: "0,-1/1,1/3,0/-1,0"
   description: Preserve kite on bottom, send whale to form tent/tent.
+color_mirror_algs:
+  -
+    alg: "samecase"
 
 # RELATED CASES
 parents:

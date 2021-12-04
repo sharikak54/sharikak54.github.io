@@ -17,6 +17,9 @@ recognition: Bad zero/pinwheel - aligning blocks to slice breaks cubeshape.
 default_alg:
   alg: "1,0/2,-4/-3,0/-2,1/-4,-1/0,1"
   description: Preserve bird on tap and hold any angle on bottom to go to angel/snoopy or snoopy/angel.
+color_mirror_algs:
+  -
+    alg: "samecase"
 other_algs:
   -
     alg: "1,0/-4,2/0,-3/-2,1/-1,-4/0,1"

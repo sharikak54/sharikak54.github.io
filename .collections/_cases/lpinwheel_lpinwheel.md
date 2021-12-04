@@ -17,6 +17,9 @@ recognition: Good pinwheel/pinwheel; tents can connect to form kites.
 default_alg:
   alg: "0,-1/-3,-3/0,1"
   description: CO case; preserve blocks.
+color_mirror_algs:
+  -
+    alg: "samecase"
 other_algs:
   -
     alg: "3,2/3,3/0,1"

@@ -17,6 +17,9 @@ recognition: Bad kite/kite; not the 1-slicer.
 default_alg:
   alg: "1,0/0,3/-4,-1/-2,1/-3,0/-1,0"
   description: Preserve kite on bottom, send single corner to bottom to form gem/gem.
+color_mirror_algs:
+  -
+    alg: "samecase"
 other_algs:
   -
     alg: "1,0/0,3/-4,-1/-3,0/-2,1/-1,0"

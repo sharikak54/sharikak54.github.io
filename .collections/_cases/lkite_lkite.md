@@ -17,6 +17,9 @@ recognition: Good kite/kite; it's a 1-slicer :)
 default_alg:
   alg: "0,-1/0,1"
   description: Preserve everything :)
+color_mirror_algs:
+  -
+    alg: "samecase"
 
 # RELATED CASES
 parents:

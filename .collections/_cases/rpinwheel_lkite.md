@@ -17,6 +17,9 @@ recognition: Bad pinwheel/kite - aligning blocks to slice breaks squareshape.
 default_alg:
   alg: "1,0/5,-1/3,0/-2,1/-1,0"
   description: Pair tent on top with edge on bottom to form gem/snoopy.
+color_mirror_algs:
+  -
+    alg: "samecase"
 
 # RELATED CASES
 parents:

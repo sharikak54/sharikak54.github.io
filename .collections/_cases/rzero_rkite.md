@@ -17,6 +17,9 @@ recognition: Bad zero/kite; aligning bird with kite preserves squareshape.
 default_alg:
   alg: "1,0/-3,0/3,0/2,2/-2,1/3,0/-1,0"
   description: Preserve kite on bottom, send isolated corner to form bad spill/spill.
+color_mirror_algs:
+  -
+    alg: "samecase"
 other_algs:
   -
     alg: "4,0/-3,3/3,0/-4,-1/4,1/-3,0/-1,0"

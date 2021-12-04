@@ -17,6 +17,9 @@ recognition: Bad zero/zero; aligning birds breaks squareshape.
 default_alg:
   alg: "1,0/-4,2/-3,0/4,1/3,0/2,-1/0,1"
   description: Preserve bird on bottom, send whale from top to form matching snoopy/snoopy; doing CO into 3E/3E is also decent.
+color_mirror_algs:
+  -
+    alg: "samecase"
 other_algs:
   -
     alg: "-2,0/0,3/-1,-4/1,4/3,0/-4,-1/0,1"
