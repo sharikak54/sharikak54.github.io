@@ -13,7 +13,7 @@ recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "0,-1/3,0/-3,0/1,-2/0,3/-1,0"
+  alg: "0,-1/3,0/-3,0/3,0/-2,1/-1,0"
   description: Hold edges in U FB, and D FR; split the adjacent edges on bottom.
 color_mirror_algs:
   -
@@ -21,6 +21,8 @@ color_mirror_algs:
 other_algs:
   -
     alg: "0,-1/3,0/-3,0/1,1/3,0/-3,0/-1,0"
+  -
+    alg: "0,-1/3,0/-3,0/1,-2/0,3/-1,0"
 
 # RELATED CASES
 parents:
