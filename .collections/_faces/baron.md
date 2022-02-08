@@ -1,9 +1,12 @@
 ---
-title: "Face: Baron"
-name: Baron
-short_name: baron
-nickname: Red Baron
+title: "Face: Bunny"
+name: Bunny
+short_name: bunny
+nickname: Bun / Red Baron
 type: 3E1C
 has_lr: true
 ---
-The Red Baron is <a href="snoopy">Snoopy's</a> nemesis.  Since he is (spoiler) actually just a figment of Snoopy's imagination, the Baron looks just like Snoopy but with a cape.
+
+Looks like the head of a plump-faced bunny, with its ears askew.
+
+If you flip the bunny upside down, it instead looks like Snoopy with a scarf trailing behind him.  This is Snoopy in his guise as the **Red Baron**, <a href="axe">Snoopy's</a> nemesis.
