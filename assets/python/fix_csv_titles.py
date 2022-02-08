@@ -25,8 +25,8 @@ for filename in filenames:
   with open(CSV_DIR + filename, newline='') as csvfile:
     lines = csvfile.readlines()
 
-    # previous "Image	Optimal	(meta) top alg	Algs	Image	(meta) top alg	Algs	Notes	Recognition Notes	Best Alg Notes	Full Case Name	Parents"
-    lines[0] = "Image1	Optimal1	(meta) top alg1	Algs1	Image2	(meta) top alg2	Algs2	Notes	Recognition Notes	Best Alg Notes	Full Case Name	Parents\n"
+    # previous "Image	Optimal	(meta) top alg	Algs	Image	(meta) top alg	Algs	Recognition Notes	Best Alg Notes	Full Case Name	Parents"
+    lines[0] = "Image1	Optimal1	(meta) top alg1	Algs1	Image2	(meta) top alg2	Algs2	Recognition Notes	Best Alg Notes	Full Case Name	Parents\n"
     contents = "".join(lines)
 
   if OVERWRITE_CURRENT_FILES:
