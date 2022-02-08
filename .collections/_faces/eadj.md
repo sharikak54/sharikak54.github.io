@@ -2,7 +2,7 @@
 title: "Face: Eadj"
 name: Eadj
 short_name: eadj
-nickname: 2E Adjacent / 2E Adj
+nickname: L / 2E Adjacent / 2E Adj
 type: 2E
 ---
 

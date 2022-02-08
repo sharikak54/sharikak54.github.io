@@ -2,7 +2,7 @@
 title: "Face: Eopp"
 name: Eopp
 short_name: eopp
-nickname: 2E Opposite / 2E Opp / M2
+nickname: Line / 2E Opposite / 2E Opp / M2
 type: 2E
 ---
 
