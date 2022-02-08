@@ -59,7 +59,6 @@ for filename in filenames:
         'short_name': short_name,
         'filename': case_filename,
         'optimal': row['Optimal1'],
-        'notes': row['Notes'],
         'recognition_notes' : row['Recognition Notes'],
         'default_alg': row['(meta) top alg1'],
         'default_alg_notes' : row['Best Alg Notes'],
