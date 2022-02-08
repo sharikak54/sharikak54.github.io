@@ -1,8 +1,11 @@
 ---
-title: "Face: Angel"
-name: Angel
-short_name: angel
+title: "Face: Squid"
+name: Squid
+short_name: squid
+nickname: Angel
 type: 2E1C
 ---
 
-A simple angel icon with triangles for wings and a rounded dress.  (Imagine the haloed head right between the "wings".)
+The big corner is the body of the squid, with the flared-out edges as the squid's tentacles.  The flaring probably means it's getting ready to dash away!
+
+Alternatively, if you turn the squid upside down, you can see a simple angel icon with triangles for wings and a rounded dress.  (Imagine the haloed head right between the "wings".)
