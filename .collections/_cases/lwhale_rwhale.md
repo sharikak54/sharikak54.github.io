@@ -22,6 +22,7 @@ other_algs:
     alg: "0,-1/3,0/-3,0/-2,1/-1,0"
   -
     alg: "1,0/-3,0/-4,-1/-3,0/0,1"
+    alg: "1,0/-3,0/-4,-1/-3,0/0,1"
 
 # RELATED CASES
 parents:
@@ -32,11 +33,20 @@ parents:
     name: "Left Scottie / Shell"
     short_name: "lscottie_shell"
   -
-    name: "Left Snoopy / Gem"
-    short_name: "lsnoopy_gem"
+    name: "Left Axe / Gem"
+    short_name: "laxe_gem"
   -
-    name: "Gem / Right Snoopy"
-    short_name: "gem_rsnoopy"
+    name: "Gem / Right Axe"
+    short_name: "gem_raxe"
+  -
+    name: "Left Scottie / Shell"
+    short_name: "lscottie_shell"
+  -
+    name: "Left Axe / Gem"
+    short_name: "laxe_gem"
+  -
+    name: "Gem / Right Axe"
+    short_name: "gem_raxe"
 mirrors:
   lr:
     -

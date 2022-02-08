@@ -21,10 +21,10 @@ color_mirror_algs:
     alg: "0,-1/3,0/4,1/-1,-4/0,1"
   -
     alg: "6,5/0,3/4,1/-4,-1/0,1"
+    alg: "6,5/0,3/4,1/-4,-1/0,1"
 other_algs:
   -
     alg: "6,5/0,3/4,1/2,5/0,1"
-
 # RELATED CASES
 parents:
   -

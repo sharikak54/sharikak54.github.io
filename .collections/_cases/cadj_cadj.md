@@ -15,14 +15,11 @@ recognition:
 default_alg:
   alg: "1,0/-3,0/-1,-1/-3,0/0,1"
   description: Hold corners next to slice in front, keeping them together.
-color_mirror_algs:
-  -
-    alg: "1,0/-3,0/-1,-1/3,6/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: "Left Zero / Left Zero"
-    short_name: "lzero_lzero"
+    name: "Left Cut / Left Cut"
+    short_name: "lcut_lcut"
 ---
 

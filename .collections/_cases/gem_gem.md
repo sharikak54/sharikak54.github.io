@@ -18,12 +18,14 @@ default_alg:
 other_algs:
   -
     alg: "3,-4/4,1/3,0/2,-1/0,1"
-
 # RELATED CASES
 parents:
   -
     name: "Right Scottie / Shell"
     short_name: "rscottie_shell"
+  -
+    name: "Left Scottie / Shell"
+    short_name: "lscottie_shell"
   -
     name: "Left Scottie / Shell"
     short_name: "lscottie_shell"

@@ -15,14 +15,11 @@ recognition:
 default_alg:
   alg: "1,0/3,0/-1,-1/-3,0/0,1"
   description: Hold edges next to slice in front, keeping the pairs together.
-color_mirror_algs:
-  -
-    alg: "1,0/3,0/-1,-1/3,6/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: "Left Zero / Right Kite"
-    short_name: "lzero_rkite"
+    name: "Left Cut / Right Kite"
+    short_name: "lcut_rkite"
 ---
 

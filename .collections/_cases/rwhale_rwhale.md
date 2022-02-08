@@ -20,6 +20,17 @@ default_alg:
 other_algs:
   -
     alg: "1,0/-3,3/2,-1/0,1"
+  -
+    alg: "1,0/3,-3/-1,2/0,1"
+  -
+    alg: "1,0/-4,2/3,0/0,1"
+  -
+    alg: "1,0/2,-4/0,3/0,1"
+    alg: "1,0/3,-3/-1,2/0,1"
+  -
+    alg: "1,0/-4,2/3,0/0,1"
+  -
+    alg: "1,0/2,-4/0,3/0,1"
 
 # RELATED CASES
 parents:
@@ -27,8 +38,11 @@ parents:
     name: "Left Tent / Left Tent"
     short_name: "ltent_ltent"
   -
-    name: "Right Dish / Right Dish"
-    short_name: "rdish_rdish"
+    name: "Left Thumb / Left Thumb"
+    short_name: "lthumb_lthumb"
+  -
+    name: "Left Thumb / Left Thumb"
+    short_name: "lthumb_lthumb"
 mirrors:
   lr:
     -

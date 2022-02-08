@@ -14,11 +14,18 @@ recognition:
 # ALGORITHMS
 default_alg:
   alg: "1,0/-1,2/-3,0/-2,1/-4,-1/0,1"
-  description: Keep non-hazard corners in DL, swap whale on top with hazard corners on bottom to get angel/snoopy.
+  description: Keep non-hazard corners in DL, swap whale on top with hazard corners on bottom to get squid/axe.
 color_mirror_algs:
   -
     alg: "1,0/-1,2/-3,0/-2,1/2,5/0,1"
   -
+    alg: "0,5/-2,1/3,0/-1,2/4,1/-1,0"
+  -
+    alg: "-5,6/2,-1/-3,0/1,-2/-4,-1/0,1"
+  -
+    alg: "6,-1/1,-2/3,0/2,-1/-2,-5/-1,0"
+  -
+    alg: "6,-1/1,-2/5,-1/-2,1/2,5/0,1"
     alg: "0,5/-2,1/3,0/-1,2/4,1/-1,0"
   -
     alg: "-5,6/2,-1/-3,0/1,-2/-4,-1/0,1"
@@ -31,14 +38,18 @@ other_algs:
     alg: "6,-1/1,-2/3,0/2,-1/4,1/-1,0"
   -
     alg: "6,-1/1,-2/5,-1/-2,1/-4,-1/0,1"
+    alg: "6,-1/1,-2/5,-1/-2,1/-4,-1/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: "Angel / Left Snoopy"
-    short_name: "angel_lsnoopy"
+    name: "Squid / Left Axe"
+    short_name: "squid_laxe"
   -
-    name: "Angel / Right Snoopy"
-    short_name: "angel_rsnoopy"
+    name: "Squid / Right Axe"
+    short_name: "squid_raxe"
+  -
+    name: "Squid / Right Axe"
+    short_name: "squid_raxe"
 ---
 

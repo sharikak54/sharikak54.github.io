@@ -18,21 +18,29 @@ default_alg:
 color_mirror_algs:
   -
     alg: "0,-1/0,-3/3,0/1,-2/0,-3/-1,0"
-
 # RELATED CASES
 parents:
   -
-    name: "Moth / Left Kite"
-    short_name: "moth_lkite"
+    name: "Tie / Left Kite"
+    short_name: "tie_lkite"
   -
-    name: "Moth / Left Zero"
-    short_name: "moth_lzero"
+    name: "Tie / Left Cut"
+    short_name: "tie_lcut"
   -
     name: "Right Spill / Gem"
     short_name: "rspill_gem"
   -
-    name: "Angel / Right Spill"
-    short_name: "angel_rspill"
+    name: "Squid / Right Spill"
+    short_name: "squid_rspill"
+  -
+    name: "Tie / Left Cut"
+    short_name: "tie_lcut"
+  -
+    name: "Right Spill / Gem"
+    short_name: "rspill_gem"
+  -
+    name: "Squid / Right Spill"
+    short_name: "squid_rspill"
 mirrors:
   top_bot:
     -

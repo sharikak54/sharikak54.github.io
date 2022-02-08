@@ -20,12 +20,8 @@ default_alg:
 color_mirror_algs:
   -
     alg: "samecase"
-
 # RELATED CASES
 parents:
-mirrors:
-  lr:
-    -
       name: Right Kite / Right Kite
       short_name: rkite_rkite
   pseudo:

@@ -16,16 +16,18 @@ recognition: Good spill/spill; swapping spills breaks squareshape.
 # ALGORITHMS
 default_alg:
   alg: "0,-1/3,0/-3,0/1,1/-1,0"
-  description: Do CO into M2, make plane/plane with tent on top connecting with whale from bottom.
+  description: Do CO into M2, make same trees with tent on top connecting with whale from bottom.
 other_algs:
   -
     alg: "4,3/0,-3/0,3/-1,-1/0,1"
-
 # RELATED CASES
 parents:
   -
-    name: "Same Plane / Plane"
-    short_name: "plane_plane_same"
+    name: "Same Tree / Tree"
+    short_name: "tree_tree_same"
+  -
+    name: "Left Scottie / Shell"
+    short_name: "lscottie_shell"
   -
     name: "Left Scottie / Shell"
     short_name: "lscottie_shell"

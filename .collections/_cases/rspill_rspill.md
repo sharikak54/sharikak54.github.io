@@ -22,6 +22,7 @@ other_algs:
     alg: "6,-1/-5,1/-4,-1/3,0/4,1/-1,0"
   -
     alg: "6,-1/-2,1/-1,-4/0,-3/1,4/-1,0"
+    alg: "6,-1/-2,1/-1,-4/0,-3/1,4/-1,0"
 
 # RELATED CASES
 parents:
@@ -32,8 +33,14 @@ parents:
     name: "Left Whale / Left Tent"
     short_name: "lwhale_ltent"
   -
-    name: "Left Baron / Right Dish"
-    short_name: "lbaron_rdish"
+    name: "Right Bunny / Left Thumb"
+    short_name: "rbunny_lthumb"
+  -
+    name: "Left Whale / Left Tent"
+    short_name: "lwhale_ltent"
+  -
+    name: "Right Bunny / Left Thumb"
+    short_name: "rbunny_lthumb"
 mirrors:
   lr:
     -

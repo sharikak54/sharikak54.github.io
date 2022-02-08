@@ -16,24 +16,27 @@ recognition: Good bird/bird; preserving both kites breaks squareshape.
 # ALGORITHMS
 default_alg:
   alg: "1,0/-3,0/2,-1/-3,0/0,1"
-  description: Preserve kite on bottom, send isolated corner (aligned next to slice) to form snoopy/gem.
+  description: Preserve kite on bottom, send isolated corner (aligned next to slice) to form axe/gem.
 color_mirror_algs:
   -
     alg: "1,0/-3,0/2,-1/3,6/0,1"
   -
     alg: "-5,6/0,-3/2,-1/6,3/0,1"
+    alg: "-5,6/0,-3/2,-1/6,3/0,1"
 other_algs:
   -
     alg: "-5,6/0,-3/2,-1/0,-3/0,1"
-
 # RELATED CASES
 parents:
   -
-    name: "Left Snoopy / Gem"
-    short_name: "lsnoopy_gem"
+    name: "Left Axe / Gem"
+    short_name: "laxe_gem"
   -
-    name: "Same Moth / Moth"
-    short_name: "moth_moth_same"
+    name: "Same Tie / Tie"
+    short_name: "tie_tie_same"
+  -
+    name: "Same Tie / Tie"
+    short_name: "tie_tie_same"
 mirrors:
   lr:
     -

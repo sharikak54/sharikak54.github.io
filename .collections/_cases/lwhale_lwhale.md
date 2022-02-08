@@ -24,6 +24,13 @@ other_algs:
     alg: "0,-1/3,-3/-2,1/-1,0"
   -
     alg: "0,-1/4,-2/-3,0/-1,0"
+  -
+    alg: "0,-1/-2,4/0,-3/-1,0"
+    alg: "0,-1/3,-3/-2,1/-1,0"
+  -
+    alg: "0,-1/4,-2/-3,0/-1,0"
+  -
+    alg: "0,-1/-2,4/0,-3/-1,0"
 
 # RELATED CASES
 parents:
@@ -31,8 +38,11 @@ parents:
     name: "Right Tent / Right Tent"
     short_name: "rtent_rtent"
   -
-    name: "Left Dish / Left Dish"
-    short_name: "ldish_ldish"
+    name: "Right Thumb / Right Thumb"
+    short_name: "rthumb_rthumb"
+  -
+    name: "Right Thumb / Right Thumb"
+    short_name: "rthumb_rthumb"
 mirrors:
   lr:
     -

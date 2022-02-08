@@ -16,14 +16,18 @@ recognition: Bad pinwheel/pinwheel; tents can't connect to form kites.
 # ALGORITHMS
 default_alg:
   alg: "1,0/-3,-3/-3,0/-1,-1/0,1"
-  description: Do good pinwheel/pinwheel into M2; all alignments will form matching planes.
+  description: Do good pinwheel/pinwheel into M2; all alignments will form matching trees.
 color_mirror_algs:
   -
     alg: "samecase"
-other_algs:
   -
     alg: "0,-1/-2,-2/-3,0/-1,-1/0,1"
   -
+    alg: "-2,3/2,2/0,3/1,1/-1,0"
+  -
+    alg: "-2,3/3,3/0,3/-1,-1/0,1"
+  -
+    alg: "-3,2/3,3/0,3/1,1/-1,0"
     alg: "-2,3/2,2/0,3/1,1/-1,0"
   -
     alg: "-2,3/3,3/0,3/-1,-1/0,1"
@@ -33,11 +37,14 @@ other_algs:
 # RELATED CASES
 parents:
   -
-    name: "Same Plane / Plane"
-    short_name: "plane_plane_same"
+    name: "Same Tree / Tree"
+    short_name: "tree_tree_same"
   -
-    name: "Same Moth / Moth"
-    short_name: "moth_moth_same"
+    name: "Same Tie / Tie"
+    short_name: "tie_tie_same"
+  -
+    name: "Same Tie / Tie"
+    short_name: "tie_tie_same"
 mirrors:
   lr:
     -

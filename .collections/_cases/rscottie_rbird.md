@@ -16,21 +16,30 @@ recognition: Bad scottie/bird; the clean slice between the tent and corner on to
 # ALGORITHMS
 default_alg:
   alg: "1,0/2,2/-2,1/3,0/-1,0"
-  description: Position isolated corner on top next to the slice, and preserve D kite in DL; first move trades isolated corner on top with isolated edge on bottom to make snoopy/gem.
+  description: Position isolated corner on top next to the slice, and preserve D kite in DL; first move trades isolated corner on top with isolated edge on bottom to make axe/gem.
 color_mirror_algs:
   -
     alg: "1,0/-4,-4/3,0/1,-2/-1,0"
   -
     alg: "1,0/-4,-4/1-2/3,0/-1,0"
+    alg: "1,0/-4,-4/1-2/3,0/-1,0"
 other_algs:
   -
     alg: "1,0/2,2/0,3/1,-2/-1,0"
-
 # RELATED CASES
 parents:
   -
-    name: "Right Snoopy / Gem"
-    short_name: "rsnoopy_gem"
+    name: "Right Axe / Gem"
+    short_name: "raxe_gem"
+  -
+    name: "Left Whale / Right Tent"
+    short_name: "lwhale_rtent"
+  -
+    name: "Right Scottie / Shell"
+    short_name: "rscottie_shell"
+  -
+    name: "Right Pinwheel / Right Kite"
+    short_name: "rpinwheel_rkite"
   -
     name: "Left Whale / Right Tent"
     short_name: "lwhale_rtent"

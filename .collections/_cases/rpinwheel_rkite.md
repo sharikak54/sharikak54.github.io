@@ -20,10 +20,8 @@ default_alg:
 color_mirror_algs:
   -
     alg: "samecase"
-other_algs:
   -
     alg: "-2,0/3,0/3,0/-1,0"
-
 # RELATED CASES
 parents:
   -

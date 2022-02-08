@@ -21,8 +21,8 @@ default_alg:
 # RELATED CASES
 parents:
   -
-    name: "Left Dish / Left Dish"
-    short_name: "ldish_ldish"
+    name: "Right Thumb / Right Thumb"
+    short_name: "rthumb_rthumb"
 mirrors:
   top_bot:
     -

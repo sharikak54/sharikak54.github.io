@@ -20,7 +20,6 @@ default_alg:
 color_mirror_algs:
   -
     alg: "1,0/0,-3/-4,-1/3,0/-2,1/-1,0"
-
 # RELATED CASES
 parents:
   -
