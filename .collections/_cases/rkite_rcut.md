@@ -20,32 +20,15 @@ default_alg:
 color_mirror_algs:
   -
     alg: "samecase"
+other_algs:
+  -
+    alg: "1,0/-1,2/3,0/-2,1/2,-1/-3,0/0,1"
+
 # RELATED CASES
 parents:
   -
     name: "1E / 1E"
     short_name: "1e_1e"
-  -
-    name: "3E / 3E"
-    short_name: "3e_3e"
-  -
-    name: "1C / 1C"
-    short_name: "1c_1c"
-  -
-    name: "3C / 3C"
-    short_name: "3c_3c"
-  -
-    name: "Right Axe / Right Axe"
-    short_name: "raxe_raxe"
-  -
-    name: "Left Spill / Left Spill"
-    short_name: "lspill_lspill"
-  -
-    name: "Right Bird / Right Bird"
-    short_name: "rbird_rbird"
-  -
-    name: "Right Scottie / Right Scottie"
-    short_name: "rscottie_rscottie"
   -
     name: "3E / 3E"
     short_name: "3e_3e"

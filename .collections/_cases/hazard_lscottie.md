@@ -21,21 +21,15 @@ color_mirror_algs:
     alg: "0,-1/-3,0/-3,3/1,4/-1,0"
   -
     alg: "0,-1/-3,0/3,3/4,1/-1,0"
-    alg: "0,-1/-3,0/3,3/4,1/-1,0"
 other_algs:
   -
     alg: "0,-1/-3,0/3,-3/-2,-5/-1,0"
+
 # RELATED CASES
 parents:
   -
     name: "Right Bunny / Right Bunny"
     short_name: "rbunny_rbunny"
-  -
-    name: "Right Scottie / Left Bird"
-    short_name: "rscottie_lbird"
-  -
-    name: "Tie / Tree"
-    short_name: "tie_tree"
   -
     name: "Right Scottie / Left Bird"
     short_name: "rscottie_lbird"

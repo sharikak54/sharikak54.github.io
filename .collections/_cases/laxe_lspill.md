@@ -17,6 +17,11 @@ recognition: Good axe/spill; tent from axe can't exactly swap with tent from spi
 default_alg:
   alg: "0,-1/0,-3/1,4/-1,0"
   description: Swap tent on top with only corner from spill on bottom to make good thumbs.
+color_mirror_algs:
+  -
+    alg: "0,-1/-3,0/1,4/-1,0"
+  -
+    alg: "6,5/-3,0/-5,-2/-1,0"
 
 # RELATED CASES
 parents:

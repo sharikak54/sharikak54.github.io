@@ -22,7 +22,6 @@ color_mirror_algs:
     alg: "1,0/-3,0/-1,-4/0,1"
   -
     alg: "-5,6/0,-3/5,2/0,1"
-    alg: "-5,6/0,-3/5,2/0,1"
 
 # RELATED CASES
 parents:

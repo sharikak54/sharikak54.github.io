@@ -16,18 +16,19 @@ recognition: Good cut/kite; aligning bird with kite breaks squareshape.
 # ALGORITHMS
 default_alg:
   alg: "1,0/-1,-1/-3,0/0,1"
-  description: Preserve kite on bottom, send whale to form tent/tent.
+  description: Preserve kite on bottom, send whale to form good tents.
 color_mirror_algs:
   -
     alg: "samecase"
+other_algs:
+  -
+    alg: "0,-1/1,1/-4,-1/0,1"
+
 # RELATED CASES
 parents:
   -
     name: "Left Tent / Left Tent"
     short_name: "ltent_ltent"
-  -
-    name: "Left Thumb / Left Thumb"
-    short_name: "lthumb_lthumb"
   -
     name: "Left Thumb / Left Thumb"
     short_name: "lthumb_lthumb"

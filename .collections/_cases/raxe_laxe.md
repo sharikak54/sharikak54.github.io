@@ -41,18 +41,6 @@ parents:
   -
     name: "Tie / Left Cut"
     short_name: "tie_lcut"
-  -
-    name: "Gem / Left Spill"
-    short_name: "gem_lspill"
-  -
-    name: "Tie / Right Kite"
-    short_name: "tie_rkite"
-  -
-    name: "Squid / Left Spill"
-    short_name: "squid_lspill"
-  -
-    name: "Tie / Left Cut"
-    short_name: "tie_lcut"
 mirrors:
   lr:
     -

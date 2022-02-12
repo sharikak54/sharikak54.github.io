@@ -20,11 +20,13 @@ default_alg:
 other_algs:
   -
     alg: "4,0/-1,-4/0,-3/1,4/-1,0"
-# RELATED CASES
 parents:
   -
     name: "Left Scottie / Right Bird"
     short_name: "lscottie_rbird"
+  -
+    name: "Left Axe / Left Spill"
+    short_name: "laxe_lspill"
   -
     name: "Left Axe / Left Spill"
     short_name: "laxe_lspill"

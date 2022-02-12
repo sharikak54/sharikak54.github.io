@@ -18,6 +18,7 @@ default_alg:
 other_algs:
   -
     alg: "0,-1/1,1/-1,0"
+
 # RELATED CASES
 parents:
   -

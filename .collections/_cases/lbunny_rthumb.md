@@ -26,9 +26,6 @@ parents:
   -
     name: "Right Spill / Right Axe"
     short_name: "rspill_raxe"
-  -
-    name: "Right Spill / Right Axe"
-    short_name: "rspill_raxe"
 mirrors:
   top_bot:
     -

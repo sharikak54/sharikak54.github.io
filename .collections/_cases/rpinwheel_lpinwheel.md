@@ -20,14 +20,10 @@ default_alg:
 color_mirror_algs:
   -
     alg: "samecase"
+other_algs:
   -
     alg: "0,-1/-2,-2/-3,0/-1,-1/0,1"
   -
-    alg: "-2,3/2,2/0,3/1,1/-1,0"
-  -
-    alg: "-2,3/3,3/0,3/-1,-1/0,1"
-  -
-    alg: "-3,2/3,3/0,3/1,1/-1,0"
     alg: "-2,3/2,2/0,3/1,1/-1,0"
   -
     alg: "-2,3/3,3/0,3/-1,-1/0,1"
@@ -39,9 +35,6 @@ parents:
   -
     name: "Same Tree / Tree"
     short_name: "tree_tree_same"
-  -
-    name: "Same Tie / Tie"
-    short_name: "tie_tie_same"
   -
     name: "Same Tie / Tie"
     short_name: "tie_tie_same"

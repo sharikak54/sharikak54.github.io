@@ -16,6 +16,9 @@ recognition:
 default_alg:
   alg: "1,0/0,3/-4,-1/4,1/-1,0"
   description: Preserve full kite on bottom in DL, swap remaining corner on bottom with whale on top.
+other_algs:
+  -
+    alg: "-5,6/3,0/-4,-1/1,4/-1,0"
 
 # RELATED CASES
 parents:

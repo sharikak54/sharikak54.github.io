@@ -27,22 +27,10 @@ color_mirror_algs:
     alg: "4,-3/3,0/2,-1/4,1/-1,-4/0,1"
   -
     alg: "-5,6/0,3/-1,2/0,3/4,-5/-1,0"
-    alg: "0,-1/1,-2/0,-3/-1,-4/4,1/-1,0"
-  -
-    alg: "3,-4/-2,1/-1,-4/-3,0/4,1/-1,0"
-  -
-    alg: "4,-3/3,0/2,-1/4,1/-1,-4/0,1"
-  -
-    alg: "-5,6/0,3/-1,2/0,3/4,-5/-1,0"
 other_algs:
   -
     alg: "0,-1/-2,1/0,-3/-4,-1/4,1/-1,0"
   -
-    alg: "3,-4/1,-2/-1,-4/0,-3/4,1/-1,0"
-  -
-    alg: "4,-3/0,3/2,-1/1,4/-1,-4/0,1"
-  -
-    alg: "-5,6/3,0/-1,2/3,0/4,-5/-1,0"
     alg: "3,-4/1,-2/-1,-4/0,-3/4,1/-1,0"
   -
     alg: "4,-3/0,3/2,-1/1,4/-1,-4/0,1"
@@ -54,15 +42,6 @@ parents:
   -
     name: "Right Kite / Tree"
     short_name: "rkite_tree"
-  -
-    name: "Right Bird / Hazard"
-    short_name: "rbird_hazard"
-  -
-    name: "Right Bird / Shell"
-    short_name: "rbird_shell"
-  -
-    name: "Right Cut / Tree"
-    short_name: "rcut_tree"
   -
     name: "Right Bird / Hazard"
     short_name: "rbird_hazard"

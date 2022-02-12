@@ -24,18 +24,10 @@ color_mirror_algs:
     alg: "-2,-3/-1,2/1,1/-3,6/-1,0"
   -
     alg: "-3,-4/0,3/1,1/-3,6/-1,0"
-    alg: "1,0/0,-3/-1,-1/3,6/0,1"
-  -
-    alg: "-2,-3/-1,2/1,1/-3,6/-1,0"
-  -
-    alg: "-3,-4/0,3/1,1/-3,6/-1,0"
 other_algs:
   -
     alg: "1,0/0,-3/-1,-1/-3,0/0,1"
   -
-    alg: "-2,-3/-1,2/1,1/3,0/-1,0"
-  -
-    alg: "-3,-4/0,3/1,1/3,0/-1,0"
     alg: "-2,-3/-1,2/1,1/3,0/-1,0"
   -
     alg: "-3,-4/0,3/1,1/3,0/-1,0"
@@ -45,9 +37,6 @@ parents:
   -
     name: "Left Cut / Right Kite"
     short_name: "lcut_rkite"
-  -
-    name: "Right Cut / Left Kite"
-    short_name: "rcut_lkite"
   -
     name: "Right Cut / Left Kite"
     short_name: "rcut_lkite"

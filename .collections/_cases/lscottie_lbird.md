@@ -22,24 +22,15 @@ color_mirror_algs:
     alg: "0,-1/4,4/-1,2/-3,0/0,1"
   -
     alg: "0,-1/4,4/-3,0/-1,2/0,1"
-    alg: "0,-1/4,4/-3,0/-1,2/0,1"
 other_algs:
   -
     alg: "0,-1/-2,-2/0,-3/-1,2/0,1"
+
 # RELATED CASES
 parents:
   -
     name: "Left Axe / Gem"
     short_name: "laxe_gem"
-  -
-    name: "Right Whale / Left Tent"
-    short_name: "rwhale_ltent"
-  -
-    name: "Left Scottie / Shell"
-    short_name: "lscottie_shell"
-  -
-    name: "Left Pinwheel / Left Kite"
-    short_name: "lpinwheel_lkite"
   -
     name: "Right Whale / Left Tent"
     short_name: "rwhale_ltent"

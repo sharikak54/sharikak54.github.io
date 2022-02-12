@@ -14,17 +14,12 @@ recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "0,-1/0,3/1,4/2,5/0,1"
+  alg: "0,-1/0,3/1,4/-4,-1/0,1"
   description: Preserve kite on bottom, swap whale on top with isolated edge on bottom to form good whale/tent.
-color_mirror_algs:
-  -
-    alg: "0,-1/0,3/1,4/-4,-1/0,1"
-  -
-    alg: "6,5/3,0/1,4/-1,-4/-1,0"
-    alg: "6,5/3,0/1,4/-1,-4/-1,0"
 other_algs:
   -
-    alg: "6,5/3,0/1,4/5,2/-1,0"
+    alg: "6,5/3,0/1,4/-1,-4/-1,0"
+
 # RELATED CASES
 parents:
   -

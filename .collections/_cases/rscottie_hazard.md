@@ -25,18 +25,10 @@ color_mirror_algs:
     alg: "-5,6/3,0/-3,3/-1,-4/0,1"
   -
     alg: "-5,6/3,0/3,-3/-4,-1/0,1"
-    alg: "1,0/0,3/3,-3/-1,-4/0,1"
-  -
-    alg: "-5,6/3,0/-3,3/-1,-4/0,1"
-  -
-    alg: "-5,6/3,0/3,-3/-4,-1/0,1"
 other_algs:
   -
     alg: "1,0/0,3/3,-3/5,2/0,1"
   -
-    alg: "-5,6/3,0/-3,3/5,2/0,1"
-  -
-    alg: "-5,6/3,0/3,-3/2,5/0,1"
     alg: "-5,6/3,0/-3,3/5,2/0,1"
   -
     alg: "-5,6/3,0/3,-3/2,5/0,1"
@@ -46,12 +38,6 @@ parents:
   -
     name: "Left Bunny / Left Bunny"
     short_name: "lbunny_lbunny"
-  -
-    name: "Left Scottie / Right Bird"
-    short_name: "lscottie_rbird"
-  -
-    name: "Tie / Tree"
-    short_name: "tie_tree"
   -
     name: "Left Scottie / Right Bird"
     short_name: "lscottie_rbird"

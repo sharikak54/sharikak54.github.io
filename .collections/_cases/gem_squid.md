@@ -22,21 +22,12 @@ other_algs:
     alg: "4,3/3,0/0,3/-1,-1/0,1"
   -
     alg: "6,5/0,-3/0,3/1,1/-1,0"
-    alg: "4,3/3,0/0,3/-1,-1/0,1"
-  -
-    alg: "6,5/0,-3/0,3/1,1/-1,0"
 
 # RELATED CASES
 parents:
   -
     name: "Same Tree / Tree"
     short_name: "tree_tree_same"
-  -
-    name: "Right Scottie / Left Bird"
-    short_name: "rscottie_lbird"
-  -
-    name: "Left Scottie / Right Bird"
-    short_name: "lscottie_rbird"
   -
     name: "Right Scottie / Left Bird"
     short_name: "rscottie_lbird"

@@ -16,16 +16,11 @@ recognition: Good thumbs; thumbs are the same as each other, or making a kite on
 # ALGORITHMS
 default_alg:
   alg: "1,0/-4,-1/0,1"
-  description: Keep bottom shell in DL, pair gem on top with isolated corner on bottom to form kite/kite.
-color_mirror_algs:
-  -
-    alg: "1,0/2,5/0,1"
-  -
-    alg: "-5,6/5,2/0,1"
-    alg: "-5,6/5,2/0,1"
+  description: Keep bottom shell in DL, pair gem on top with isolated corner on bottom to form good kites.
 other_algs:
   -
     alg: "-5,6/-1,-4/0,1"
+
 # RELATED CASES
 parents:
   -

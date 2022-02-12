@@ -19,17 +19,12 @@ default_alg:
 other_algs:
   -
     alg: "-5,6/3,0/-1,2/4,1/-1,0"
+
 # RELATED CASES
 parents:
   -
     name: "Tree / Tie"
     short_name: "tree_tie"
-  -
-    name: "Right Spill / Right Axe"
-    short_name: "rspill_raxe"
-  -
-    name: "Left Bunny / Left Bunny"
-    short_name: "lbunny_lbunny"
   -
     name: "Right Spill / Right Axe"
     short_name: "rspill_raxe"

@@ -28,12 +28,6 @@ parents:
   -
     name: "Right Bunny / Right Bunny"
     short_name: "rbunny_rbunny"
-  -
-    name: "Left Axe / Left Spill"
-    short_name: "laxe_lspill"
-  -
-    name: "Right Bunny / Right Bunny"
-    short_name: "rbunny_rbunny"
 mirrors:
   top_bot:
     -

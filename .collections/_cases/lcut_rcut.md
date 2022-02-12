@@ -11,7 +11,7 @@ bot_lr: Right
 
 optimal: 6
 
-recognition: Bad cut/cut; aligning birds breaks squareshape.
+recognition: Bad cuts; aligning birds breaks squareshape.
 
 # ALGORITHMS
 default_alg:
@@ -20,32 +20,17 @@ default_alg:
 color_mirror_algs:
   -
     alg: "samecase"
+other_algs:
   -
     alg: "-2,0/0,3/-1,-4/1,4/3,0/-4,-1/0,1"
   -
-    alg: "-2,0/0,3/3,0/..."
-    alg: "-2,0/0,3/3,0/..."
+    alg: "-2,0/0,3/3,0/3,0/-1,-1/-3,0/-3,0/0,1"
 
 # RELATED CASES
 parents:
   -
     name: "Left Axe / Left Axe"
     short_name: "laxe_laxe"
-  -
-    name: "3E / 3E"
-    short_name: "3e_3e"
-  -
-    name: "3C / 3C"
-    short_name: "3c_3c"
-  -
-    name: "Squid / Squid"
-    short_name: "squid_squid"
-  -
-    name: "Hazard / Hazard"
-    short_name: "hazard_hazard"
-  -
-    name: "Right Scottie / Right Scottie"
-    short_name: "rscottie_rscottie"
   -
     name: "3E / 3E"
     short_name: "3e_3e"

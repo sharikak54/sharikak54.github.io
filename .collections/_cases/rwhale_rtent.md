@@ -15,19 +15,17 @@ recognition: Bad whale/tent; splitting sandwiched tent on top and tent on bottom
 
 # ALGORITHMS
 default_alg:
-  alg: "0,-1/1,4/0,3/-1,-4/0,1"
+  alg: "0,-1/4,1/-3,0/-4,-1/0,1"
   description: Keep only isolated corner on top, swapping isolated edge for same-color whale to form scottie/bird.
 other_algs:
   -
-    alg: "3,-1/4,1/-3,0/-4,-1/0,1"
+    alg: "-3,-1/1,4/0,3/-1,-4/0,1"
+
 # RELATED CASES
 parents:
   -
     name: "Right Scottie / Left Bird"
     short_name: "rscottie_lbird"
-  -
-    name: "Right Axe / Right Spill"
-    short_name: "raxe_rspill"
   -
     name: "Right Axe / Right Spill"
     short_name: "raxe_rspill"

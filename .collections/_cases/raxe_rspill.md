@@ -11,12 +11,20 @@ bot_lr: Right
 
 optimal: 3
 
-recognition: Axe's / Snoopy's
+recognition: Good axe/spill; tent from axe can't exactly swap with tent from spill.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/0,3/-1,-4/0,1"
   description: Swap tent on top with only corner from spill on bottom to make good thumbs.
+color_mirror_algs:
+  -
+    alg: "1,0/3,0/-1,-4/0,1"
+  -
+    alg: "-5,6/0,3/5,2/0,1"
+other_algs:
+  -
+    alg: "-5,6/3,0/5,2/0,1"
 
 # RELATED CASES
 parents:

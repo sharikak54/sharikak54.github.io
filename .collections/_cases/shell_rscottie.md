@@ -14,17 +14,17 @@ recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "0,-1/-2,1/0,-3/-1,0"
-  description: Pair shell on top with gem on bottom, such that slice goes between gem and neighboring isolated corner, to get tent/tent.
+  alg: "0,-1/1,-2/0,-3/-1,0"
+  description: Pair shell on top with gem on bottom, such that slice goes between gem and neighboring isolated corner, to get good tents.
 color_mirror_algs:
   -
-    alg: "0,-1/1,-2/0,-3/-1,0"
-  -
-    alg: "0,-1/0,-3/1,-2/-1,0"
-    alg: "0,-1/0,-3/1,-2/-1,0"
-other_algs:
+    alg: "0,-1/-2,1/0,-3/-1,0"
   -
     alg: "6,5/1,-2/6,3/-1,0"
+other_algs:
+  -
+    alg: "0,-1/0,-3/1,-2/-1,0"
+
 # RELATED CASES
 parents:
   -

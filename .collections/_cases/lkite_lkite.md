@@ -11,7 +11,7 @@ bot_lr: Left
 
 optimal: 1
 
-recognition: Good kite/kite; it's a 1-slicer :)
+recognition: Good kites; it's a 1-slicer :)
 
 # ALGORITHMS
 default_alg:
@@ -20,8 +20,12 @@ default_alg:
 color_mirror_algs:
   -
     alg: "samecase"
+
 # RELATED CASES
 parents:
+mirrors:
+  lr:
+    -
       name: Right Kite / Right Kite
       short_name: rkite_rkite
   pseudo:

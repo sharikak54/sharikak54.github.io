@@ -17,9 +17,23 @@ recognition: Good bunnies; preserving tents preserves cubeshape.
 default_alg:
   alg: "1,0/3,-3/-4,-1/0,1"
   description: Put all 4 tents on right half of puzzle and swap them to get good thumbs.
+color_mirror_algs:
+  -
+    alg: "1,0/-3,3/-4,-1/0,1"
+  -
+    alg: "1,0/3,-3/-1,-4/0,1"
+  -
+    alg: "-5,6/-3,3/5,2/0,1"
+  -
+    alg: "-5,6/3,-3/2,5/0,1"
 other_algs:
   -
     alg: "1,0/-3,3/-1,-4/0,1"
+  -
+    alg: "-5,6/3,-3/5,2/0,1"
+  -
+    alg: "-5,6/-3,3/2,5/0,1"
+
 # RELATED CASES
 parents:
   -

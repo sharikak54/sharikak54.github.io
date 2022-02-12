@@ -24,24 +24,12 @@ other_algs:
     alg: "0,-1/1,1/0,3/2,-1/0,1"
   -
     alg: "1,0/-1,-1/-3,0/-3,0/0,1"
-    alg: "0,-1/1,1/0,3/2,-1/0,1"
-  -
-    alg: "1,0/-1,-1/-3,0/-3,0/0,1"
 
 # RELATED CASES
 parents:
   -
     name: "Left Scottie / Shell"
     short_name: "lscottie_shell"
-  -
-    name: "Left Pinwheel / Left Kite"
-    short_name: "lpinwheel_lkite"
-  -
-    name: "Gem / Left Axe"
-    short_name: "gem_laxe"
-  -
-    name: "Right Whale / Left Tent"
-    short_name: "rwhale_ltent"
   -
     name: "Left Pinwheel / Left Kite"
     short_name: "lpinwheel_lkite"

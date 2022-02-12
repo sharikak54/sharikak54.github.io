@@ -24,44 +24,21 @@ color_mirror_algs:
     alg: "4,0/3,3/-1,2/-3,0/0,1"
   -
     alg: "1,-3/-3,-3/-4,-1/-3,0/0,1"
-    alg: "0,-1/-3,-3/4,1/0,-3/-1,0"
   -
-    alg: "4,0/3,3/-1,2/-3,0/0,1"
-  -
-    alg: "1,-3/-3,-3/-4,-1/-3,0/0,1"
+    alg: "1,6/-1,2/4,-2/6,3/-1,0"
 other_algs:
   -
     alg: "4,0/-3,-3/2,-1/-3,0/0,1"
   -
     alg: "1,-3/3,3/3,0/2,-1/0,1"
-    alg: "1,-3/3,3/3,0/2,-1/0,1"
+  -
+    alg: "1,6/1,2/-2,4/-3,0/-1,0"
 
 # RELATED CASES
 parents:
   -
     name: "Right Axe / Gem"
     short_name: "raxe_gem"
-  -
-    name: "Left Axe / Gem"
-    short_name: "laxe_gem"
-  -
-    name: "Right Axe / Right Spill"
-    short_name: "raxe_rspill"
-  -
-    name: "Left Axe / Left Spill"
-    short_name: "laxe_lspill"
-  -
-    name: "Right Bird / Left Scottie"
-    short_name: "rbird_lscottie"
-  -
-    name: "Left Bird / Right Scottie"
-    short_name: "lbird_rscottie"
-  -
-    name: "Right Whale / Right Whale"
-    short_name: "rwhale_rwhale"
-  -
-    name: "Left Whale / Left Whale"
-    short_name: "lwhale_lwhale"
   -
     name: "Left Axe / Gem"
     short_name: "laxe_gem"

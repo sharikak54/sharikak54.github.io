@@ -17,8 +17,16 @@ recognition: Good tent/whale; splitting tent on top and sandwiched tent on botto
 default_alg:
   alg: "0,-1/1,4/-1,-4/0,1"
   description: Split tent on top and sandwiched tent on bottom, holding both tents in front.
-
-# RELATED CASES
+color_mirror_algs:
+  -
+    alg: "0,-1/4,1/-1,-4/0,1"
+  -
+    alg: "6,5/1,4/5,2/0,1"
+    alg: "6,5/1,4/5,2/0,1"
+    alg: "6,5/1,4/5,2/0,1"
+other_algs:
+  -
+    alg: "6,5/4,1/5,2/0,1"
 parents:
   -
     name: "Left Thumb / Left Thumb"

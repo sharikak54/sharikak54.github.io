@@ -25,18 +25,10 @@ color_mirror_algs:
     alg: "0,-1/-2,1/0,3/-4,-1/4,1/-1,0"
   -
     alg: "-2,3/0,-3/2,-1/1,-2/0,-3/-1,0"
-    alg: "1,6/0,-3/-1,2/4,1/5,2/0,1"
-  -
-    alg: "0,-1/-2,1/0,3/-4,-1/4,1/-1,0"
-  -
-    alg: "-2,3/0,-3/2,-1/1,-2/0,-3/-1,0"
 other_algs:
   -
     alg: "1,6/0,-3/-1,2/4,1/-1,-4/0,1"
   -
-    alg: "0,-1/-2,1/0,3/-4,-1/-2,-5/-1,0"
-  -
-    alg: "-2,-3/-3,0/2,-1/-2,1/0,-3/-1,0"
     alg: "0,-1/-2,1/0,3/-4,-1/-2,-5/-1,0"
   -
     alg: "-2,-3/-3,0/2,-1/-2,1/0,-3/-1,0"
@@ -46,15 +38,6 @@ parents:
   -
     name: "Left Spill / Gem"
     short_name: "lspill_gem"
-  -
-    name: "Squid / Left Spill"
-    short_name: "squid_lspill"
-  -
-    name: "Tie / Right Kite"
-    short_name: "tie_rkite"
-  -
-    name: "Tie / Right Cut"
-    short_name: "tie_rcut"
   -
     name: "Squid / Left Spill"
     short_name: "squid_lspill"

@@ -16,18 +16,15 @@ recognition:
 default_alg:
   alg: "1,0/3,0/2,-1/4,1/-1,0"
   description: Put shell on bottom in DL, pair tent on bottom with whale on top to form good tie/tree.
+other_algs:
+  -
+    alg: "-5,6/0,3/2,-1/1,4/-1,0"
 
 # RELATED CASES
 parents:
   -
     name: "Tie / Tree"
     short_name: "tie_tree"
-  -
-    name: "Right Axe / Right Spill"
-    short_name: "raxe_rspill"
-  -
-    name: "Left Bunny / Left Bunny"
-    short_name: "lbunny_lbunny"
   -
     name: "Right Axe / Right Spill"
     short_name: "raxe_rspill"

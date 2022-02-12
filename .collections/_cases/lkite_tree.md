@@ -14,29 +14,17 @@ recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "0,-1/-2,1/2,-1/3,6/0,1"
+  alg: "0,-1/-2,1/2,-1/-3,0/0,1"
   description: Send tent on top to pair with shell on bottom to form axe/gem.
-color_mirror_algs:
+other_algs:
   -
-    alg: "0,-1/-2,1/2,-1/-3,0/0,1"
-  -
-    alg: "6,5/1,-2/2,-1/6,3/0,1"
-  -
-    alg: "6,5/-5,4/-1,2/0,-3/0,1"
-  -
-    alg: "6,5/-5,4/-3,0/2,-1/0,1"
-    alg: "6,5/-5,4/-1,2/0,-3/0,1"
-  -
-    alg: "6,5/-5,4/-3,0/2,-1/0,1"
+    alg: "6,5/1,-2/2,-1/0,-3/0,1"
 
 # RELATED CASES
 parents:
   -
     name: "Left Axe / Gem"
     short_name: "laxe_gem"
-  -
-    name: "Right Spill / Right Axe"
-    short_name: "rspill_raxe"
   -
     name: "Right Spill / Right Axe"
     short_name: "rspill_raxe"

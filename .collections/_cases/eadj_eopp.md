@@ -18,10 +18,10 @@ default_alg:
 color_mirror_algs:
   -
     alg: "0,-1/3,0/0,-3/1,-2/3,0/-1,0"
+other_algs:
   -
     alg: "1,0/0,-3/0,3/2,-1/-3,0/0,1"
   -
-    alg: "-5,0/3,0/3,0/-1,-1/-2,1/-4,-1/0,1"
     alg: "-5,0/3,0/3,0/-1,-1/-2,1/-4,-1/0,1"
 
 # RELATED CASES
@@ -29,15 +29,6 @@ parents:
   -
     name: "Left Kite / Tree"
     short_name: "lkite_tree"
-  -
-    name: "Shell / Right Bird"
-    short_name: "shell_rbird"
-  -
-    name: "Tree / Right Cut"
-    short_name: "tree_rcut"
-  -
-    name: "Left Bird / Hazard"
-    short_name: "lbird_hazard"
   -
     name: "Shell / Right Bird"
     short_name: "shell_rbird"

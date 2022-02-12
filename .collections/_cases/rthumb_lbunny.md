@@ -22,16 +22,12 @@ other_algs:
     alg: "-5,6/3,0/0,-3/-4,-1/0,1"
   -
     alg: "-2,6/-3,0/0,3/-1,-4/0,1"
-    alg: "-2,6/-3,0/0,3/-1,-4/0,1"
 
 # RELATED CASES
 parents:
   -
     name: "Left Bird / Right Scottie"
     short_name: "lbird_rscottie"
-  -
-    name: "Right Axe / Right Spill"
-    short_name: "raxe_rspill"
   -
     name: "Right Axe / Right Spill"
     short_name: "raxe_rspill"

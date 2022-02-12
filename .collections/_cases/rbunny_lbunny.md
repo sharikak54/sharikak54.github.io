@@ -24,30 +24,12 @@ other_algs:
     alg: "0,-1/-2,-2/0,3/-3,0/-1,-4/0,1"
   -
     alg: "0,-1/-2,1/0,-3/3,0/-4,-1/0,1"
-    alg: "0,-1/-2,-2/0,3/-3,0/-1,-4/0,1"
-  -
-    alg: "0,-1/-2,1/0,-3/3,0/-4,-1/0,1"
 
 # RELATED CASES
 parents:
   -
     name: "Left Bunny / Right Thumb"
     short_name: "lbunny_rthumb"
-  -
-    name: "Left Thumb / Right Bunny"
-    short_name: "lthumb_rbunny"
-  -
-    name: "Tie / Right Cut"
-    short_name: "tie_rcut"
-  -
-    name: "Right Axe / Squid"
-    short_name: "raxe_squid"
-  -
-    name: "Tree / Left Cut"
-    short_name: "tree_lcut"
-  -
-    name: "Right Scottie / Hazard"
-    short_name: "rscottie_hazard"
   -
     name: "Left Thumb / Right Bunny"
     short_name: "lthumb_rbunny"

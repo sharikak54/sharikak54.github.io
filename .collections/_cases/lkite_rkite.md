@@ -11,7 +11,7 @@ bot_lr: Right
 
 optimal: 5
 
-recognition: Bad kite/kite; not the 1-slicer.
+recognition: Bad kites; not the 1-slicer.
 
 # ALGORITHMS
 default_alg:
@@ -20,12 +20,10 @@ default_alg:
 color_mirror_algs:
   -
     alg: "samecase"
+other_algs:
   -
     alg: "1,0/0,3/-4,-1/-3,0/-2,1/-1,0"
   -
-    alg: "1,0/2,-1/4,1/3,0/2,-1/0,1"
-  -
-    alg: "1,0/2,-1/4,1/2,-1/3,0/0,1"
     alg: "1,0/2,-1/4,1/3,0/2,-1/0,1"
   -
     alg: "1,0/2,-1/4,1/2,-1/3,0/0,1"
@@ -35,9 +33,6 @@ parents:
   -
     name: "Gem / Gem"
     short_name: "gem_gem"
-  -
-    name: "Shell / Shell"
-    short_name: "shell_shell"
   -
     name: "Shell / Shell"
     short_name: "shell_shell"

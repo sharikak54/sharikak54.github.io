@@ -11,7 +11,7 @@ bot_lr: Left
 
 optimal: 3
 
-recognition: Good cut/cut; aligning birds preserves squareshape.
+recognition: Good cuts; aligning birds preserves squareshape.
 
 # ALGORITHMS
 default_alg:
@@ -20,19 +20,15 @@ default_alg:
 color_mirror_algs:
   -
     alg: "samecase"
+other_algs:
   -
     alg: "0,-1/-3,3/1,1/-1,0"
+
 # RELATED CASES
 parents:
   -
     name: "Eopp / Eopp"
     short_name: "eopp_eopp"
-  -
-    name: "Copp / Copp"
-    short_name: "copp_copp"
-  -
-    name: "Left Pinwheel / Left Pinwheel"
-    short_name: "lpinwheel_lpinwheel"
   -
     name: "Copp / Copp"
     short_name: "copp_copp"

@@ -20,20 +20,12 @@ default_alg:
 color_mirror_algs:
   -
     alg: "samecase"
+
 # RELATED CASES
 parents:
   -
     name: "Left Axe / Gem"
     short_name: "laxe_gem"
-  -
-    name: "Shell / Left Scottie"
-    short_name: "shell_lscottie"
-  -
-    name: "Left Tent / Right Whale"
-    short_name: "ltent_rwhale"
-  -
-    name: "Tie / Tree"
-    short_name: "tie_tree"
   -
     name: "Shell / Left Scottie"
     short_name: "shell_lscottie"

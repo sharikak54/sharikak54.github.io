@@ -11,12 +11,12 @@ bot_lr: Right
 
 optimal: 3
 
-recognition: Good whale/whale; whales are the same as each other.
+recognition: Good whales; whales are the same as each other.
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/5,-1/-3,0/0,1"
-  description: Swap both whales to form tent/tent.
+  description: Swap both whales to form good tents.
 other_algs:
   -
     alg: "1,0/-3,3/2,-1/0,1"
@@ -26,20 +26,14 @@ other_algs:
     alg: "1,0/-4,2/3,0/0,1"
   -
     alg: "1,0/2,-4/0,3/0,1"
-    alg: "1,0/3,-3/-1,2/0,1"
   -
-    alg: "1,0/-4,2/3,0/0,1"
-  -
-    alg: "1,0/2,-4/0,3/0,1"
+    alg: "-3,-4/4,-2/-4,-1/0,1"
 
 # RELATED CASES
 parents:
   -
     name: "Left Tent / Left Tent"
     short_name: "ltent_ltent"
-  -
-    name: "Left Thumb / Left Thumb"
-    short_name: "lthumb_lthumb"
   -
     name: "Left Thumb / Left Thumb"
     short_name: "lthumb_lthumb"

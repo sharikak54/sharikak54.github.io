@@ -29,26 +29,10 @@ color_mirror_algs:
     alg: "6,-1/-3,0/3,0/1,4/-1,0"
   -
     alg: "0,5/0,-3/3,0/4,1/-1,0"
-    alg: "1,0/2,-1/-3,0/-5,4/-1,0"
-  -
-    alg: "-5,6/-1,2/-2,1/3,6/-1,0"
-  -
-    alg: "-5,6/-1,2/-3,0/4,-5/-1,0"
-  -
-    alg: "6,-1/-3,0/3,0/1,4/-1,0"
-  -
-    alg: "0,5/0,-3/3,0/4,1/-1,0"
 other_algs:
   -
     alg: "1,0/2,-1/-3,0/1,-2/-1,0"
   -
-    alg: "-5,6/-1,2/-2,1/-3,0/-1,0"
-  -
-    alg: "-5,6/-1,2/-3,0/-2,1/-1,0"
-  -
-    alg: "6,-1/-3,0/3,0/-2,-5/-1,0"
-  -
-    alg: "0,5/0,-3/3,0/-5,-2/-1,0"
     alg: "-5,6/-1,2/-2,1/-3,0/-1,0"
   -
     alg: "-5,6/-1,2/-3,0/-2,1/-1,0"
@@ -62,9 +46,6 @@ parents:
   -
     name: "Shell / Right Scottie"
     short_name: "shell_rscottie"
-  -
-    name: "Left Scottie / Right Bird"
-    short_name: "lscottie_rbird"
   -
     name: "Left Scottie / Right Bird"
     short_name: "lscottie_rbird"

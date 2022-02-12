@@ -15,6 +15,11 @@ recognition:
 default_alg:
   alg: "1,0/-3,0/-1,-1/-3,0/0,1"
   description: Hold corners next to slice in front, keeping them together.
+other_algs:
+  -
+    alg: "1,0/-4,-1/1,1/-4,-1/0,1"
+  -
+    alg: "6,5/0,3/1,1/0,3/-1,0"
 
 # RELATED CASES
 parents:

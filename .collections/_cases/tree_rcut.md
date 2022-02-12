@@ -14,11 +14,12 @@ recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "1,0/5,2/-3,0/4,1/-1,0"
+  alg: "1,0/-4,-1/0,-3/1,4/-1,0"
   description: Preserve D-layer bird in DL, pair whale from tree with same-color bird.
-color_mirror_algs:
+other_algs:
   -
-    alg: "1,0/-4,-1/0,-3/1,4/-1,0"
+    alg: "-5,6/-1,-4/0,-3/4,1/-1,0"
+
 # RELATED CASES
 parents:
   -

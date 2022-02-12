@@ -29,6 +29,9 @@ parents:
   -
     name: "Right Bird / Left Scottie"
     short_name: "rbird_lscottie"
+  -
+    name: "Right Bird / Left Scottie"
+    short_name: "rbird_lscottie"
 mirrors:
   top_bot:
     -

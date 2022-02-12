@@ -1,12 +1,22 @@
-Image	Optimal	(meta) top alg	Algs	Image	(meta) top alg	Algs	Recognition Notes	Best Alg Notes	Full Case Name	Parents
+Image1	Optimal1	(meta) top alg1	Algs1	Image2	(meta) top alg2	Algs2	Recognition Notes	Best Alg Notes	Full Case Name	Parents
 Line/Shell, Fan										
+
 	3	0,-1/1,-2/0,-3/-1,0	0,-1/1,-2/0,-3/-1,0 0,-1/0,-3/1,-2/-1,0		0,-1/-2,1/0,-3/-1,0	0,-1/-2,1/0,-3/-1,0 6,5/1,-2/6,3/-1,0		Pair shell on top with gem on bottom, such that slice goes between gem and neighboring isolated corner, to get good tents.	Shell / Right Scottie	Right Tent / Right Tent
+
 	3	1,0/-1,2/0,3/0,1	1,0/-1,2/0,3/0,1 1,0/0,3/-1,2/0,1		1,0/2,-1/0,3/0,1	1,0/2,-1/0,3/0,1 -5,6/-1,2/6,-3/0,1		Pair shell on top with gem on bottom, such that slice goes between gem and neighboring isolated corner, to get good tents.	Shell / Left Scottie	Left Tent / Left Tent
+
 Birds										
+
 	3	1,0/0,-3/-1,-4/0,1	1,0/0,-3/-1,-4/0,1		1,0/-3,0/-1,-4/0,1	1,0/-3,0/-1,-4/0,1 -5,6/0,-3/5,2/0,1	Good bird/scottie; the clean slice between the tent and corner on bottom breaks squareshape when preserving the kite on top.	Preserve shell of U kite in UL, and position isolated corner on bottom next to the slice; first move trades two edges on top with isolated corner on bottom to make good thumbs.	Left Bird / Right Scottie	Left Thumb / Left Thumb
+
 	4	0,-1/-2,-2/-3,0/2,-1/0,1	0,-1/-2,-2/-3,0/2,-1/0,1 0,-1/-2,-2/-4,-1/3,0/0,1		0,-1/4,4/2,-1/0,-3/0,1	0,-1/4,4/2,-1/0,-3/0,1 0,-1/4,4/0,-3/2,-1/0,1	Bad bird/scottie; the clean slice between the tent and corner on bottom preserves squareshape when preserving the kite on top.	Fully preserve U kite in UL, and position isolated corner on bottom next to the slice; first move trades isolated edge on top with isolated corner on bottom to make gem/axe.	Left Bird / Left Scottie	Gem / Left Axe; Left Tent / Right Whale; Shell / Left Scottie; Left Kite / Left Pinwheel
+
 	4	1,0/2,2/3,0/-2,1/-1,0	1,0/2,2/3,0/-2,1/-1,0 1,0/2,2/4,1/-3,0/-1,0		1,0/-4,-4/-2,1/0,3/-1,0	1,0/-4,-4/-2,1/0,3/-1,0 1,0/-4,-4/0,3/-2,1/-1,0	Bad bird/scottie; the clean slice between the tent and corner on bottom preserves squareshape when preserving the kite on top.	Fully preserve U kite in UL, and position isolated corner on bottom next to the slice; first move trades isolated edge on top with isolated corner on bottom to make gem/axe.	Right Bird / Right Scottie	Gem / Right Axe; Right Tent / Left Whale; Shell / Right Scottie; Right Kite / Right Pinwheel
+
 	3	0,-1/0,3/1,4/-1,0	0,-1/0,3/1,4/-1,0		0,-1/3,0/1,4/-1,0	0,-1/3,0/1,4/-1,0 6,5/0,3/-5,-2/-1,0	Good bird/scottie; the clean slice between the tent and corner on bottom breaks squareshape when preserving the kite on top.	Hold U kite in UL, and position isolated corner on bottom next to the slice; first move trades two edges on top with isolated corner on bottom to make good thumbs.	Right Bird / Left Scottie	Right Thumb / Right Thumb
+
 Hazards / Spinners										
+
 	4	1,0/3,0/-3,3/2,5/0,1	1,0/3,0/-3,3/2,5/0,1 1,0/3,0/3,-3/5,2/0,1		1,0/3,0/-3,3/-4,-1/0,1	1,0/3,0/-3,3/-4,-1/0,1 1,0/3,0/3,-3/-1,-4/0,1		Switch hazard corners on top with isolated corner on bottom; slice should be next to edge from tent on bottom without splitting it.	Hazard / Right Scottie	Left Bunny / Left Bunny; Left Scottie / Right Bird; Tie / Tree
+
 	4	0,-1/-3,0/-3,3/-5,-2/-1,0	0,-1/-3,0/-3,3/-5,-2/-1,0 0,-1/-3,0/3,-3/-2,-5/-1,0		0,-1/-3,0/-3,3/1,4/-1,0	0,-1/-3,0/-3,3/1,4/-1,0 0,-1/-3,0/3,3/4,1/-1,0		Switch hazard corners on top with isolated corner on bottom; slice should be next to edge from tent on bottom without splitting it.	Hazard / Left Scottie	Right Bunny / Right Bunny; Right Scottie / Left Bird; Tie / Tree

@@ -11,7 +11,7 @@ bot_lr: Left
 
 optimal: 4
 
-recognition: Bad tent/tent; aligning tents next to slice breaks squareshape.
+recognition: Bad tents; aligning tents next to slice breaks squareshape.
 
 # ALGORITHMS
 default_alg:
@@ -24,15 +24,27 @@ other_algs:
     alg: "-2,0/2,-1/1,-2/0,3/-1,0"
   -
     alg: "-2,0/2,-1/3,0/-2,1/-1,0"
+  -
+    alg: "6,5/2,-1/-1,2/0,3/0,1"
     alg: "-2,0/2,-1/1,-2/0,3/-1,0"
   -
     alg: "-2,0/2,-1/3,0/-2,1/-1,0"
+  -
+    alg: "6,5/2,-1/-1,2/0,3/0,1"
+    alg: "-2,0/2,-1/1,-2/0,3/-1,0"
+  -
+    alg: "-2,0/2,-1/3,0/-2,1/-1,0"
+  -
+    alg: "6,5/2,-1/-1,2/0,3/0,1"
 
 # RELATED CASES
 parents:
   -
     name: "Right Scottie / Shell"
     short_name: "rscottie_shell"
+  -
+    name: "Gem / Right Axe"
+    short_name: "gem_raxe"
   -
     name: "Gem / Right Axe"
     short_name: "gem_raxe"

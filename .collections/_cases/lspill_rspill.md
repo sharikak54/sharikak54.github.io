@@ -20,14 +20,14 @@ default_alg:
 other_algs:
   -
     alg: "-3,-4/0,3/0,3/1,1/-1,0"
+  -
+    alg: "4,0/3,0/2,-1/3,0/0,1"
+
 # RELATED CASES
 parents:
   -
     name: "Same Tree / Tree"
     short_name: "tree_tree_same"
-  -
-    name: "Right Scottie / Shell"
-    short_name: "rscottie_shell"
   -
     name: "Right Scottie / Shell"
     short_name: "rscottie_shell"

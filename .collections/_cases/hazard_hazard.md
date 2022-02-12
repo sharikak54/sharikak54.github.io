@@ -26,18 +26,10 @@ color_mirror_algs:
     alg: "6,-1/1,-2/3,0/2,-1/-2,-5/-1,0"
   -
     alg: "6,-1/1,-2/5,-1/-2,1/2,5/0,1"
-    alg: "0,5/-2,1/3,0/-1,2/4,1/-1,0"
-  -
-    alg: "-5,6/2,-1/-3,0/1,-2/-4,-1/0,1"
-  -
-    alg: "6,-1/1,-2/3,0/2,-1/-2,-5/-1,0"
-  -
-    alg: "6,-1/1,-2/5,-1/-2,1/2,5/0,1"
 other_algs:
   -
     alg: "6,-1/1,-2/3,0/2,-1/4,1/-1,0"
   -
-    alg: "6,-1/1,-2/5,-1/-2,1/-4,-1/0,1"
     alg: "6,-1/1,-2/5,-1/-2,1/-4,-1/0,1"
 
 # RELATED CASES
@@ -45,9 +37,6 @@ parents:
   -
     name: "Squid / Left Axe"
     short_name: "squid_laxe"
-  -
-    name: "Squid / Right Axe"
-    short_name: "squid_raxe"
   -
     name: "Squid / Right Axe"
     short_name: "squid_raxe"

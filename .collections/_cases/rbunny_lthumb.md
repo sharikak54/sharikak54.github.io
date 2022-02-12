@@ -26,9 +26,6 @@ parents:
   -
     name: "Left Spill / Left Axe"
     short_name: "lspill_laxe"
-  -
-    name: "Left Spill / Left Axe"
-    short_name: "lspill_laxe"
 mirrors:
   top_bot:
     -

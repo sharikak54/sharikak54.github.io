@@ -13,33 +13,30 @@ recognition: Good tie/tree - color of tie and tree are swapped.
 
 # ALGORITHMS
 default_alg:
-  alg: "0,-1/-2,1/2,5/0,1"
+  alg: "1,0/2,-1/4,1/-1,0"
   description: Swap isolated corner on top with isolated edge on bottom.
 color_mirror_algs:
   -
-    alg: "0,-1/-2,1/-4,-1/0,1"
+    alg: "1,0/-1,2/4,1/-1,0"
   -
-    alg: "-2,0/2,-1/4,1/-1,0"
-    alg: "-2,0/2,-1/4,1/-1,0"
+    alg: "3,-1/1,-2/-4,-1/0,1"
+  -
+    alg: "-5,6/2,-1/-2,-5/-1,0"
+  -
+    alg: "-3,5/-2,1/2,5/0,1"
 other_algs:
   -
-    alg: "-2,0/2,-1/-2,-5/-1,0"
+    alg: "3,-1/-2,1/-4,-1/0,1"
   -
-    alg: "6,5/1,-2/-4,-1/0,1"
+    alg: "-5,6/-1,2/-2,-5/-1,0"
   -
-    alg: "4,6/-2,1/4,1/-1,0"
-    alg: "6,5/1,-2/-4,-1/0,1"
-  -
-    alg: "4,6/-2,1/4,1/-1,0"
+    alg: "-3,5/1,-2/2,5/0,1"
 
 # RELATED CASES
 parents:
   -
     name: "Left Thumb / Left Thumb"
     short_name: "lthumb_lthumb"
-  -
-    name: "Right Thumb / Right Thumb"
-    short_name: "rthumb_rthumb"
   -
     name: "Right Thumb / Right Thumb"
     short_name: "rthumb_rthumb"
