@@ -11,7 +11,7 @@ bot_lr: Left
 
 optimal: 5
 
-recognition: Bad kite/kite; not the 1-slicer.
+recognition: Bad kites; not the 1-slicer.
 
 # ALGORITHMS
 default_alg:

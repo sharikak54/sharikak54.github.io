@@ -27,14 +27,14 @@ other_algs:
 # RELATED CASES
 parents:
   -
-    name: "Left Kite / Plane"
-    short_name: "lkite_plane"
+    name: "Left Kite / Tree"
+    short_name: "lkite_tree"
   -
     name: "Shell / Right Bird"
     short_name: "shell_rbird"
   -
-    name: "Plane / Right Zero"
-    short_name: "plane_rzero"
+    name: "Tree / Right Cut"
+    short_name: "tree_rcut"
   -
     name: "Left Bird / Hazard"
     short_name: "lbird_hazard"

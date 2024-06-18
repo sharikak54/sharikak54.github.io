@@ -22,14 +22,14 @@ color_mirror_algs:
     alg: "1,0/-4,-1/1,4/-1,0"
   -
     alg: "-5,6/-1,-4/-5,-2/-1,0"
-  -
-    alg: "-5,6/5,2/-2,-5/-1,0"
+    alg: "-5,6/-1,-4/-5,-2/-1,0"
+    alg: "-5,6/-1,-4/-5,-2/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: "Left Dish / Left Dish"
-    short_name: "ldish_ldish"
+    name: "Right Thumb / Right Thumb"
+    short_name: "rthumb_rthumb"
 mirrors:
   top_bot:
     -

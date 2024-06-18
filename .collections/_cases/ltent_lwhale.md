@@ -16,13 +16,19 @@ recognition: Bad tent/whale; splitting tent on top and sandwiched tent on bottom
 # ALGORITHMS
 default_alg:
   alg: "1,0/-4,-1/-3,0/4,1/-1,0"
-  description: Swap tent on top (so that it's not touching the slice) with same-colored spill on bottom (keeping shell on DL) to form spill/snoopy.
+  description: Swap tent on top (so that it's not touching the slice) with same-colored spill on bottom (keeping shell on DL) to form spill/axe.
 
 # RELATED CASES
 parents:
   -
-    name: "Left Spill / Left Snoopy"
-    short_name: "lspill_lsnoopy"
+    name: "Left Spill / Left Axe"
+    short_name: "lspill_laxe"
+  -
+    name: "Right Bird / Left Scottie"
+    short_name: "rbird_lscottie"
+  -
+    name: "Right Bird / Left Scottie"
+    short_name: "rbird_lscottie"
   -
     name: "Right Bird / Left Scottie"
     short_name: "rbird_lscottie"

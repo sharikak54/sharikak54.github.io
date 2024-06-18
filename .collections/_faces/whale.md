@@ -2,6 +2,7 @@
 title: "Face: Whale"
 name: Whale
 short_name: whale
+nickname: Arrow
 type: 1E1C
 has_lr: true
 ---

@@ -17,6 +17,11 @@ recognition: Bad spill/spill; swapping spills preserves squareshape.
 default_alg:
   alg: "1,0/3,0/2,2/-2,1/3,0/-1,0"
   description: Preserve full kite on bottom in DL, swap isolated edge on top with isolated corner on bottom to make scottie/bird.
+color_mirror_algs:
+  -
+    alg: "1,0/0,3/2,2/1,-2/3,0/-1,0"
+  -
+    alg: "1,0/-4,-1/-2,1/0,3/0,3/-1,0"
 other_algs:
   -
     alg: "-5,0/5,-1/4,1/-3,0/-4,-1/0,1"
@@ -32,8 +37,8 @@ parents:
     name: "Right Whale / Right Tent"
     short_name: "rwhale_rtent"
   -
-    name: "Right Baron / Left Dish"
-    short_name: "rbaron_ldish"
+    name: "Left Bunny / Right Thumb"
+    short_name: "lbunny_rthumb"
 mirrors:
   lr:
     -

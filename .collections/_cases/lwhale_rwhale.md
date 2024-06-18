@@ -11,32 +11,34 @@ bot_lr: Right
 
 optimal: 4
 
-recognition: Bad whale/whale; whales are mirrors of each other.
+recognition: Bad whales; whales are mirrors of each other.
 
 # ALGORITHMS
 default_alg:
-  alg: "0,-1/3,0/-2,1/-3,0/-1,0"
-  description: Put top whale in UL and bottom whale in DR; either slice alignment will create scottie/shell.
+  alg: "1,0/3,0/2,-1/-3,0/0,1"
+  description: Swap top whale head, held against slice with tail in UL, with full bottom whale in DR.
 other_algs:
   -
-    alg: "0,-1/3,0/-3,0/-2,1/-1,0"
+    alg: "4,0/-3,0/-1,2/3,0/0,1"
   -
-    alg: "1,0/-3,0/-4,-1/-3,0/0,1"
+    alg: "3,-1/3,0/-2,1/-3,0/-1,0"
+  -
+    alg: "3,-1/3,0/-3,0/-2,1/-1,0"
 
 # RELATED CASES
 parents:
+  -
+    name: "Left Axe / Gem"
+    short_name: "laxe_gem"
+  -
+    name: "Gem / Right Axe"
+    short_name: "gem_raxe"
   -
     name: "Right Scottie / Shell"
     short_name: "rscottie_shell"
   -
     name: "Left Scottie / Shell"
     short_name: "lscottie_shell"
-  -
-    name: "Left Snoopy / Gem"
-    short_name: "lsnoopy_gem"
-  -
-    name: "Gem / Right Snoopy"
-    short_name: "gem_rsnoopy"
 mirrors:
   lr:
     -

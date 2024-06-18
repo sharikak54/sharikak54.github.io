@@ -36,14 +36,14 @@ other_algs:
 # RELATED CASES
 parents:
   -
-    name: "Right Baron / Right Baron"
-    short_name: "rbaron_rbaron"
+    name: "Left Bunny / Left Bunny"
+    short_name: "lbunny_lbunny"
   -
     name: "Left Scottie / Right Bird"
     short_name: "lscottie_rbird"
   -
-    name: "Moth / Plane"
-    short_name: "moth_plane"
+    name: "Tie / Tree"
+    short_name: "tie_tree"
 mirrors:
   top_bot:
     -

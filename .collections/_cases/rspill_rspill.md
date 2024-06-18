@@ -19,6 +19,8 @@ default_alg:
   description: Preserve full kite on bottom in DL, swap isolated edge on top with isolated corner on bottom to make scottie/bird.
 other_algs:
   -
+    alg: "1,0/-4,-1/-2,-2/2,-1/-3,0/0,1"
+  -
     alg: "6,-1/-5,1/-4,-1/3,0/4,1/-1,0"
   -
     alg: "6,-1/-2,1/-1,-4/0,-3/1,4/-1,0"
@@ -32,8 +34,8 @@ parents:
     name: "Left Whale / Left Tent"
     short_name: "lwhale_ltent"
   -
-    name: "Left Baron / Right Dish"
-    short_name: "lbaron_rdish"
+    name: "Right Bunny / Left Thumb"
+    short_name: "rbunny_lthumb"
 mirrors:
   lr:
     -

@@ -11,7 +11,7 @@ bot_lr: Right
 
 optimal: 4
 
-recognition: Bad tent/tent; aligning tents next to slice breaks squareshape.
+recognition: Bad tents; aligning tents next to slice breaks squareshape.
 
 # ALGORITHMS
 default_alg:
@@ -19,6 +19,14 @@ default_alg:
   description: Keep top tent on left with edge next to slice, send gem from bottom to form scottie/shell.
 other_algs:
   -
+    alg: "1,0/2,-1/1,-2/-3,0/-1,0"
+  -
+    alg: "3,-1/-2,1/-3,0/2,-1/0,1"
+  -
+    alg: "3,-1/-2,1/-1,2/0,-3/0,1"
+    alg: "3,-1/-2,1/-3,0/2,-1/0,1"
+  -
+    alg: "3,-1/-2,1/-1,2/0,-3/0,1"
     alg: "3,-1/-2,1/-3,0/2,-1/0,1"
   -
     alg: "3,-1/-2,1/-1,2/0,-3/0,1"
@@ -29,8 +37,14 @@ parents:
     name: "Left Scottie / Shell"
     short_name: "lscottie_shell"
   -
-    name: "Gem / Left Snoopy"
-    short_name: "gem_lsnoopy"
+    name: "Gem / Left Axe"
+    short_name: "gem_laxe"
+  -
+    name: "Gem / Left Axe"
+    short_name: "gem_laxe"
+  -
+    name: "Gem / Left Axe"
+    short_name: "gem_laxe"
 mirrors:
   lr:
     -

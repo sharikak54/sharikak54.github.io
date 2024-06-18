@@ -16,7 +16,7 @@ recognition: Bad kite/pinwheel - aligning blocks to slice breaks squareshape.
 # ALGORITHMS
 default_alg:
   alg: "1,0/-1,5/-2,1/3,0/-1,0"
-  description: Pair edge on top with tent on bottom to form snoopy/gem.
+  description: Pair edge on top with tent on bottom to form axe/gem.
 color_mirror_algs:
   -
     alg: "samecase"
@@ -24,8 +24,8 @@ color_mirror_algs:
 # RELATED CASES
 parents:
   -
-    name: "Gem / Right Snoopy"
-    short_name: "gem_rsnoopy"
+    name: "Gem / Right Axe"
+    short_name: "gem_raxe"
   -
     name: "Right Scottie / Shell"
     short_name: "rscottie_shell"
@@ -33,8 +33,8 @@ parents:
     name: "Left Whale / Right Tent"
     short_name: "lwhale_rtent"
   -
-    name: "Plane / Moth"
-    short_name: "plane_moth"
+    name: "Tree / Tie"
+    short_name: "tree_tie"
 mirrors:
   top_bot:
     -

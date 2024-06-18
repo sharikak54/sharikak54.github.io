@@ -16,7 +16,7 @@ recognition: Mirrored scotties; tents can't connect to form kites.
 # ALGORITHMS
 default_alg:
   alg: "1,0/3,0/0,3/2,-1/-3,0/0,1"
-  description: Create a D-color shell on bottom (as part of a plane) by pairing isolated D-color corner on top with D-color tent on bottom.
+  description: Create a D-color shell on bottom (as part of a tree) by pairing isolated D-color corner on top with D-color tent on bottom.
 color_mirror_algs:
   -
     alg: "0,-1/1,4/2,-1/-2,1/3,0/-1,0"
@@ -29,8 +29,8 @@ other_algs:
 # RELATED CASES
 parents:
   -
-    name: "Left Kite / Plane"
-    short_name: "lkite_plane"
+    name: "Left Kite / Tree"
+    short_name: "lkite_tree"
   -
     name: "Left Bird / Hazard"
     short_name: "lbird_hazard"
@@ -38,11 +38,11 @@ parents:
     name: "Left Bird / Shell"
     short_name: "lbird_shell"
   -
-    name: "Left Zero / Plane"
-    short_name: "lzero_plane"
+    name: "Left Cut / Tree"
+    short_name: "lcut_tree"
   -
-    name: "Moth / Moth"
-    short_name: "moth_moth"
+    name: "Tie / Tie"
+    short_name: "tie_tie"
 mirrors:
   lr:
     -

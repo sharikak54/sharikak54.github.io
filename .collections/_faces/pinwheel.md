@@ -2,6 +2,7 @@
 title: "Face: Pinwheel"
 name: Pinwheel
 short_name: pinwheel
+nickname: N
 type: 2E2C
 has_lr: true
 ---

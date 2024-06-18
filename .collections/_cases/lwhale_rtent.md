@@ -17,12 +17,19 @@ recognition: Good whale/tent; splitting sandwiched tent on top and tent on botto
 default_alg:
   alg: "0,-1/4,1/-4,-1/0,1"
   description: Split sandwiched tent on top and tent on bottom, holding both tents in front.
+color_mirror_algs:
+  -
+    alg: "0,-1/1,4/-4,-1/0,1"
+  -
+    alg: "6,5/4,1/2,5/0,1"
+    alg: "6,5/4,1/2,5/0,1"
+    alg: "6,5/4,1/2,5/0,1"
 
 # RELATED CASES
 parents:
   -
-    name: "Right Dish / Right Dish"
-    short_name: "rdish_rdish"
+    name: "Left Thumb / Left Thumb"
+    short_name: "lthumb_lthumb"
 mirrors:
   top_bot:
     -

@@ -13,28 +13,23 @@ recognition:
 
 # ALGORITHMS
 default_alg:
-  alg: "0,-1/-2,1/3,0/2,5/0,1"
-  description: Preserve shell on bottom, send tent from top to form good spill/snoopy.
-color_mirror_algs:
-  -
-    alg: "0,-1/-2,1/3,0/-4,-1/0,1"
-  -
-    alg: "-5,0/2,-1/-3,0/4,1/-1,0"
+  alg: "0,-1/-2,1/3,0/-4,-1/0,1"
+  description: Preserve shell on bottom, send tent from top to form good spill/axe.
 other_algs:
   -
-    alg: "-5,0/2,-1/-3,0/-2,-5/-1,0"
+    alg: "-5,0/2,-1/-3,0/4,1/-1,0"
 
 # RELATED CASES
 parents:
   -
-    name: "Right Spill / Right Snoopy"
-    short_name: "rspill_rsnoopy"
+    name: "Right Spill / Right Axe"
+    short_name: "rspill_raxe"
   -
-    name: "Left Spill / Left Snoopy"
-    short_name: "lspill_lsnoopy"
+    name: "Left Spill / Left Axe"
+    short_name: "lspill_laxe"
   -
-    name: "Same Moth / Moth"
-    short_name: "moth_moth_same"
+    name: "Same Tie / Tie"
+    short_name: "tie_tie_same"
 mirrors:
   top_bot:
     -

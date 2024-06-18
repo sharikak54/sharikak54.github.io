@@ -11,7 +11,7 @@ bot_lr: Right
 
 optimal: 1
 
-recognition: Good kite/kite; it's a 1-slicer :)
+recognition: Good kites; it's a 1-slicer :)
 
 # ALGORITHMS
 default_alg:

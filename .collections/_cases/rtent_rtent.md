@@ -11,29 +11,30 @@ bot_lr: Right
 
 optimal: 2
 
-recognition: Good tent/tent; aligning tents next to slice preserves squareshape
+recognition: Good tents; aligning tents next to slice preserves squareshape
 
 # ALGORITHMS
 default_alg:
   alg: "1,0/-3,0/-1,0"
   description: CO case; preserve blocks.
-color_mirror_algs:
+other_algs:
   -
-    alg: "1,0/3,6/-1,0"
+    alg: "0,-1/-2,1/-1,0"
   -
-    alg: "-2,-3/6,-3/-1,0"
-  -
-    alg: "6,5/-5,4/-1,0"
+    alg: "-2,-3/0,3/-1,0"
   -
     alg: "so"
   -
     alg: "many"
   -
     alg: "others"
-other_algs:
+    alg: "-2,-3/0,3/-1,0"
   -
-    alg: "0,-1/-2,1/-1,0"
+    alg: "so"
   -
+    alg: "many"
+  -
+    alg: "others"
     alg: "-2,-3/0,3/-1,0"
   -
     alg: "so"

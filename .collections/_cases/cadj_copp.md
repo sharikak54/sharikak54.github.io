@@ -22,17 +22,17 @@ color_mirror_algs:
 # RELATED CASES
 parents:
   -
-    name: "Right Kite / Moth"
-    short_name: "rkite_moth"
+    name: "Right Kite / Tie"
+    short_name: "rkite_tie"
   -
-    name: "Right Zero / Moth"
-    short_name: "rzero_moth"
+    name: "Right Cut / Tie"
+    short_name: "rcut_tie"
   -
     name: "Gem / Left Spill"
     short_name: "gem_lspill"
   -
-    name: "Left Spill / Angel"
-    short_name: "lspill_angel"
+    name: "Left Spill / Squid"
+    short_name: "lspill_squid"
 mirrors:
   top_bot:
     -
